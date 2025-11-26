@@ -5,11 +5,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     const hamburger = document.getElementById('hamburger');
     const navMenu = document.getElementById('nav-menu');
-
+    
     if (hamburger && navMenu) {
         hamburger.addEventListener('click', function() {
             navMenu.classList.toggle('active');
-
+            
             // Animate hamburger icon
             const spans = hamburger.querySelectorAll('span');
             if (navMenu.classList.contains('active')) {
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.addEventListener('click', function(event) {
             const isClickInsideNav = navMenu.contains(event.target);
             const isClickOnHamburger = hamburger.contains(event.target);
-
+            
             if (!isClickInsideNav && !isClickOnHamburger && navMenu.classList.contains('active')) {
                 navMenu.classList.remove('active');
                 const spans = hamburger.querySelectorAll('span');
@@ -82,12 +82,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 function setActiveNavLink() {
     const currentPage = window.location.pathname.split('/').pop() || 'index.html';
     const navLinks = document.querySelectorAll('.nav-menu a');
-
+    
     navLinks.forEach(link => {
         link.classList.remove('active');
         const linkPage = link.getAttribute('href');
-
-        if (linkPage === currentPage ||
+        
+        if (linkPage === currentPage || 
             (currentPage === '' && linkPage === 'index.html') ||
             (currentPage === '/' && linkPage === 'index.html')) {
             link.classList.add('active');
@@ -139,13 +139,13 @@ const nav = document.querySelector('nav');
 if (nav) {
     window.addEventListener('scroll', function() {
         const currentScroll = window.pageYOffset;
-
+        
         if (currentScroll > 100) {
             nav.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.15)';
         } else {
             nav.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)';
         }
-
+        
         lastScroll = currentScroll;
     });
 }
@@ -159,7 +159,7 @@ function createScrollToTop() {
     scrollBtn.innerHTML = '<i class="fas fa-arrow-up"></i>';
     scrollBtn.className = 'scroll-to-top';
     scrollBtn.setAttribute('aria-label', 'Scroll to top');
-
+    
     const styles = {
         position: 'fixed',
         bottom: '2rem',
@@ -181,9 +181,9 @@ function createScrollToTop() {
         alignItems: 'center',
         justifyContent: 'center'
     };
-
+    
     Object.assign(scrollBtn.style, styles);
-
+    
     window.addEventListener('scroll', function() {
         if (window.pageYOffset > 300) {
             scrollBtn.style.opacity = '1';
@@ -193,24 +193,24 @@ function createScrollToTop() {
             scrollBtn.style.visibility = 'hidden';
         }
     });
-
+    
     scrollBtn.addEventListener('click', function() {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
         });
     });
-
+    
     scrollBtn.addEventListener('mouseenter', function() {
         this.style.transform = 'translateY(-5px)';
         this.style.boxShadow = '0 6px 20px rgba(0, 0, 0, 0.2)';
     });
-
+    
     scrollBtn.addEventListener('mouseleave', function() {
         this.style.transform = 'translateY(0)';
         this.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.15)';
     });
-
+    
     document.body.appendChild(scrollBtn);
 }
 
@@ -225,7 +225,7 @@ function animateCounter(element, target, duration = 2000) {
     const start = 0;
     const increment = target / (duration / 16);
     let current = start;
-
+    
     const timer = setInterval(() => {
         current += increment;
         if (current >= target) {
@@ -265,14 +265,14 @@ if (certStats) {
 function createCertificateSearch() {
     const section = document.querySelector('#certifications');
     if (!section) return;
-
+    
     const searchContainer = document.createElement('div');
     searchContainer.className = 'search-container';
     searchContainer.style.cssText = `
         margin-bottom: 2rem;
         text-align: center;
     `;
-
+    
     const searchInput = document.createElement('input');
     searchInput.type = 'text';
     searchInput.placeholder = 'Search certifications...';
@@ -287,32 +287,32 @@ function createCertificateSearch() {
         transition: all 0.3s ease;
         outline: none;
     `;
-
+    
     searchInput.addEventListener('focus', function() {
         this.style.borderColor = '#2563eb';
         this.style.boxShadow = '0 0 0 3px rgba(37, 99, 235, 0.1)';
     });
-
+    
     searchInput.addEventListener('blur', function() {
         this.style.borderColor = '#e5e7eb';
         this.style.boxShadow = 'none';
     });
-
+    
     searchInput.addEventListener('input', function(e) {
         const searchTerm = e.target.value.toLowerCase();
         const certItems = document.querySelectorAll('.cert-item');
-
+        
         certItems.forEach(item => {
             const title = item.querySelector('h4').textContent.toLowerCase();
             const issuer = item.querySelector('.cert-issuer').textContent.toLowerCase();
-
+            
             if (title.includes(searchTerm) || issuer.includes(searchTerm)) {
                 item.style.display = 'flex';
             } else {
                 item.style.display = 'none';
             }
         });
-
+        
         // Hide categories with no visible items
         const categories = document.querySelectorAll('.cert-category');
         categories.forEach(category => {
@@ -324,7 +324,7 @@ function createCertificateSearch() {
             }
         });
     });
-
+    
     searchContainer.appendChild(searchInput);
     const titleElement = document.querySelector('.page-subtitle');
     if (titleElement) {
