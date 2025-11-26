@@ -18,4 +18,19 @@ The portfolio is organized into the following pages:
 
 -   HTML5
 -   CSS3
+-   JavaScript
 -   GitHub Pages
+
+## Fixes and Updates
+
+-   **Version**: 1.1.0
+-   **Date**: 2025-11-26
+
+### Summary of Changes:
+
+-   **Standardized Footer**: Added a consistent footer across all pages with updated copyright information (© 2025) and social media links.
+-   **Corrected Links**: Fixed broken `mailto` links and inconsistent social media URLs.
+-   **Navigation Menu**: Standardized the navigation menu across all pages for a more intuitive user experience.
+-   **Icon Consistency**: Resolved Font Awesome icon inconsistencies by updating all pages to use the same version.
+-   **Code Formatting**: Formatted the entire codebase using Prettier for improved readability and consistency.
+-   **Placeholder Content**: Replaced placeholder icons and links with actual content.
