@@ -1,6 +1,10 @@
-# Darshil Shah's Portfolio
+# Darshil Shah's Professional Portfolio
 
-This repository contains the source code for my personal portfolio website, built with HTML and CSS and hosted on GitHub Pages.
+Welcome to the repository for my personal portfolio website. This project showcases my skills, experience, and professional background as a Healthcare QA Leader. The website is built with clean, modern web technologies and is hosted on GitHub Pages.
+
+## Website Goal
+
+The primary goal of this portfolio is to provide a comprehensive and easily accessible overview of my qualifications, including my work experience, technical skills, and professional certifications. It serves as a central hub for anyone interested in my work and professional journey.
 
 ## Website Structure
 
@@ -14,23 +18,17 @@ The portfolio is organized into the following pages:
 -   **Education**: My educational background and degrees.
 -   **Contact Info**: My contact details and links to my professional profiles.
 
-## Technologies Used
+## Features and Technologies
 
--   HTML5
--   CSS3
--   JavaScript
--   GitHub Pages
+This website is built with a focus on a clean user experience and modern web standards. Key features and technologies include:
 
-## Fixes and Updates
+-   **HTML5**: The foundation of the website's structure.
+-   **CSS3**: For styling and a professional, responsive design.
+-   **JavaScript**: To power interactive features, including:
+    -   A responsive hamburger menu for mobile navigation.
+    -   A scroll-to-top button for easy navigation.
+    -   Scroll-triggered animations for a dynamic user experience.
+-   **Font Awesome**: For high-quality icons used throughout the site.
+-   **GitHub Pages**: For reliable and easy hosting.
 
--   **Version**: 1.1.0
--   **Date**: 2025-11-26
-
-### Summary of Changes:
-
--   **Standardized Footer**: Added a consistent footer across all pages with updated copyright information (© 2025) and social media links.
--   **Corrected Links**: Fixed broken `mailto` links and inconsistent social media URLs.
--   **Navigation Menu**: Standardized the navigation menu across all pages for a more intuitive user experience.
--   **Icon Consistency**: Resolved Font Awesome icon inconsistencies by updating all pages to use the same version.
--   **Code Formatting**: Formatted the entire codebase using Prettier for improved readability and consistency.
--   **Placeholder Content**: Replaced placeholder icons and links with actual content.
+This combination of technologies ensures a fast, accessible, and visually appealing portfolio that effectively showcases my professional story.
