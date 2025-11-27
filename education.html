@@ -1,83 +1,262 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Education background of Darshil Shah - MBA in Information Technology and Bachelor of Engineering">
+    <meta name="keywords" content="education, MBA, Bachelor of Engineering, Information Technology, Darshil Shah">
+    <meta name="author" content="Darshil Shah">
     <title>Education - Darshil Shah's Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    />
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
     <header>
-      <h1>Darshil Shah</h1>
-      <p>MBA, B.S.</p>
+        <div class="header-content">
+            <h1>Darshil Shah</h1>
+            <p class="credentials">MBA, B.S.</p>
+        </div>
     </header>
 
     <nav>
-      <div id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <ul id="nav-menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="experience.html">Experience</a></li>
-        <li><a href="projects.html">Projects Undertaken</a></li>
-        <li><a href="tools.html">Tools and Technologies</a></li>
-        <li><a href="certifications.html">Noteworthy Certifications</a></li>
-        <li><a href="education.html">Education</a></li>
-        <li><a href="contact.html">Contact Info</a></li>
-      </ul>
+        <div class="nav-container">
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects Undertaken</a></li>
+                <li><a href="tools.html">Tools and Technologies</a></li>
+                <li><a href="certifications.html">Noteworthy Certifications</a></li>
+                <li><a href="education.html" class="active">Education</a></li>
+                <li><a href="contact.html">Contact Info</a></li>
+            </ul>
+        </div>
     </nav>
 
     <main>
-      <section id="education">
-        <h2>Education</h2>
-        <article>
-          <h3>Sikkim Manipal University - Distance Education</h3>
-          <p>
-            Masters' in Business Administration, Information Technology · (March
-            2013 - March 2015)
-          </p>
-        </article>
-        <article>
-          <h3>Sardar Patel University (SPU), Vallabh Vidyanagar</h3>
-          <p>
-            Bachelor of Engineering - BE, Information Technology · (August 2007
-            - August 2011)
-          </p>
-        </article>
-      </section>
+        <section id="education">
+            <div class="container">
+                <h2 class="page-title">Education</h2>
+                <p class="page-subtitle">
+                    Academic foundation combining business strategy with technical expertise
+                </p>
+
+                <div class="education-timeline">
+                    <!-- MBA -->
+                    <article class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="education-content">
+                            <div class="education-header">
+                                <div class="education-title-section">
+                                    <h3>Master of Business Administration (MBA)</h3>
+                                    <p class="education-specialization">Specialization: Information Technology</p>
+                                </div>
+                                <div class="education-date">
+                                    <i class="far fa-calendar-alt"></i>
+                                    <span>March 2013 - March 2015</span>
+                                </div>
+                            </div>
+                            <div class="education-institution">
+                                <i class="fas fa-university"></i>
+                                <span>Sikkim Manipal University - Distance Education</span>
+                            </div>
+                            <div class="education-description">
+                                <p>
+                                    Advanced graduate program combining business management principles with 
+                                    information technology specialization. Focused on strategic management, 
+                                    technology leadership, and business analytics.
+                                </p>
+                            </div>
+                            <div class="education-highlights">
+                                <h4>Key Focus Areas:</h4>
+                                <ul class="highlights-list">
+                                    <li><i class="fas fa-check-circle"></i> Strategic IT Management</li>
+                                    <li><i class="fas fa-check-circle"></i> Business Process Optimization</li>
+                                    <li><i class="fas fa-check-circle"></i> Project Management</li>
+                                    <li><i class="fas fa-check-circle"></i> Technology Leadership</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Bachelor's Degree -->
+                    <article class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="education-content">
+                            <div class="education-header">
+                                <div class="education-title-section">
+                                    <h3>Bachelor of Engineering (B.E.)</h3>
+                                    <p class="education-specialization">Major: Information Technology</p>
+                                </div>
+                                <div class="education-date">
+                                    <i class="far fa-calendar-alt"></i>
+                                    <span>August 2007 - August 2011</span>
+                                </div>
+                            </div>
+                            <div class="education-institution">
+                                <i class="fas fa-university"></i>
+                                <span>Sardar Patel University (SPU), Vallabh Vidyanagar</span>
+                            </div>
+                            <div class="education-description">
+                                <p>
+                                    Comprehensive undergraduate engineering program with specialization in 
+                                    Information Technology. Built strong foundation in software development, 
+                                    systems analysis, and computer science fundamentals.
+                                </p>
+                            </div>
+                            <div class="education-highlights">
+                                <h4>Key Focus Areas:</h4>
+                                <ul class="highlights-list">
+                                    <li><i class="fas fa-check-circle"></i> Software Engineering</li>
+                                    <li><i class="fas fa-check-circle"></i> Database Management Systems</li>
+                                    <li><i class="fas fa-check-circle"></i> Computer Networks</li>
+                                    <li><i class="fas fa-check-circle"></i> Programming & Algorithms</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Education Summary Stats -->
+                <div class="education-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">2</h3>
+                            <p class="stat-label">Advanced Degrees</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">15+</h3>
+                            <p class="stat-label">Professional Certifications</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">10+</h3>
+                            <p class="stat-label">Years of Experience</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-book-reader"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">Lifelong</h3>
+                            <p class="stat-label">Continuous Learning</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills Gained Section -->
+                <div class="skills-gained-section">
+                    <h3 class="section-title">
+                        <i class="fas fa-lightbulb"></i>
+                        Skills & Competencies Developed
+                    </h3>
+                    <div class="skills-categories">
+                        <div class="skill-category">
+                            <h4><i class="fas fa-business-time"></i> Business & Management</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Strategic Planning</span>
+                                <span class="skill-tag">Project Management</span>
+                                <span class="skill-tag">Business Analysis</span>
+                                <span class="skill-tag">Leadership</span>
+                                <span class="skill-tag">Process Optimization</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h4><i class="fas fa-laptop-code"></i> Technical Foundation</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Software Engineering</span>
+                                <span class="skill-tag">Database Systems</span>
+                                <span class="skill-tag">System Architecture</span>
+                                <span class="skill-tag">Quality Assurance</span>
+                                <span class="skill-tag">Network Technologies</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h4><i class="fas fa-chart-line"></i> Analytical Skills</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Data Analysis</span>
+                                <span class="skill-tag">Problem Solving</span>
+                                <span class="skill-tag">Critical Thinking</span>
+                                <span class="skill-tag">Research Methods</span>
+                                <span class="skill-tag">Performance Metrics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Continuous Learning -->
+                <div class="continuous-learning-section">
+                    <h3 class="section-title">
+                        <i class="fas fa-rocket"></i>
+                        Commitment to Continuous Learning
+                    </h3>
+                    <div class="learning-content">
+                        <p>
+                            Beyond formal education, I maintain an active commitment to professional development 
+                            through ongoing certifications, specialized training, and staying current with emerging 
+                            technologies in AI, cloud computing, and healthcare technology.
+                        </p>
+                        <div class="learning-cta">
+                            <a href="certifications.html" class="btn btn-primary">
+                                <i class="fas fa-certificate"></i>
+                                View Professional Certifications
+                            </a>
+                            <a href="tools.html" class="btn btn-secondary">
+                                <i class="fas fa-tools"></i>
+                                Explore Technical Skills
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
     <footer>
-      <div class="footer-content">
-        <p>&copy; 2025 Darshil Shah. All rights reserved.</p>
-        <div class="footer-links">
-          <a
-            href="https://github.com/darshil0"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub"
-          >
-            <i class="fab fa-github"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/darshil-qa-lead"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="LinkedIn"
-          >
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="mailto:darshils99@gmail.com" aria-label="Email">
-            <i class="fas fa-envelope"></i>
-          </a>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Darshil Shah. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/darshil0" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/darshil-qa-lead" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:darshils99@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
     </footer>
+
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
