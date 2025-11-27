@@ -1,73 +1,514 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects undertaken by Darshil Shah - Healthcare QA initiatives, AI/ML implementations, and digital health solutions">
+    <meta name="keywords" content="healthcare projects, QA projects, AI/ML, digital health, Kaiser Permanente, Darshil Shah">
+    <meta name="author" content="Darshil Shah">
     <title>Projects - Darshil Shah's Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    />
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
     <header>
-      <h1>Darshil Shah</h1>
-      <p>MBA, B.S.</p>
+        <div class="header-content">
+            <h1>Darshil Shah</h1>
+            <p class="credentials">MBA, B.S.</p>
+        </div>
     </header>
 
     <nav>
-      <div id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <ul id="nav-menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="experience.html">Experience</a></li>
-        <li><a href="projects.html">Projects Undertaken</a></li>
-        <li><a href="tools.html">Tools and Technologies</a></li>
-        <li><a href="certifications.html">Noteworthy Certifications</a></li>
-        <li><a href="education.html">Education</a></li>
-        <li><a href="contact.html">Contact Info</a></li>
-      </ul>
+        <div class="nav-container">
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html" class="active">Projects Undertaken</a></li>
+                <li><a href="tools.html">Tools and Technologies</a></li>
+                <li><a href="certifications.html">Noteworthy Certifications</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html">Contact Info</a></li>
+            </ul>
+        </div>
     </nav>
 
     <main>
-      <section id="projects">
-        <h2>Projects Undertaken</h2>
-        <p>
-          This section is currently under construction. Please check back later
-          for updates on my projects.
-        </p>
-      </section>
+        <section id="projects">
+            <div class="container">
+                <h2 class="page-title">Projects Undertaken</h2>
+                <p class="page-subtitle">
+                    Healthcare technology initiatives driving measurable impact in patient safety, 
+                    quality assurance, and digital innovation
+                </p>
+
+                <!-- Project Stats -->
+                <div class="project-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>15+</h3>
+                        <p>Product Releases Led</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-percent"></i>
+                        </div>
+                        <h3>40%</h3>
+                        <p>Cost Savings Achieved</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>100%</h3>
+                        <p>Mobile App Quality</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>30%</h3>
+                        <p>Reduced Wait Times</p>
+                    </div>
+                </div>
+
+                <!-- Featured Projects -->
+                <div class="projects-grid">
+                    
+                    <!-- Project 1: Kaiser Permanente Mobile App -->
+                    <article class="project-card featured">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="project-badge">Featured</div>
+                        </div>
+                        <h3 class="project-title">Kaiser Permanente Mobile Healthcare Platform</h3>
+                        <p class="project-client">
+                            <i class="fas fa-building"></i>
+                            Kaiser Permanente via Accenture
+                        </p>
+                        <p class="project-description">
+                            Led comprehensive QA efforts for Kaiser Permanente's native mobile healthcare 
+                            application, transforming quality metrics and user experience for millions of members.
+                        </p>
+                        
+                        <div class="project-impact">
+                            <h4><i class="fas fa-trophy"></i> Key Achievements</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Increased mobile app quality from 40% to 100%</li>
+                                <li><i class="fas fa-check-circle"></i> Expanded test coverage by 25%</li>
+                                <li><i class="fas fa-check-circle"></i> Led 15+ product releases successfully</li>
+                                <li><i class="fas fa-check-circle"></i> Reduced defect leakage to under 5%</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <h4><i class="fas fa-tools"></i> Technologies Used</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Appium</span>
+                                <span class="tech-tag">Selenium</span>
+                                <span class="tech-tag">Perfecto</span>
+                                <span class="tech-tag">Jira</span>
+                                <span class="tech-tag">qTest</span>
+                                <span class="tech-tag">HP ALM</span>
+                                <span class="tech-tag">API Testing</span>
+                            </div>
+                        </div>
+
+                        <div class="project-role">
+                            <strong>Role:</strong> Quality Assurance Lead
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Get Care Now Program -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Get Care Now - Patient Access Optimization</h3>
+                        <p class="project-client">
+                            <i class="fas fa-building"></i>
+                            Kaiser Permanente via Accenture
+                        </p>
+                        <p class="project-description">
+                            Spearheaded critical workflow validations to improve patient access and reduce 
+                            wait times for urgent care services across Kaiser Permanente's digital platform.
+                        </p>
+                        
+                        <div class="project-impact">
+                            <h4><i class="fas fa-trophy"></i> Key Achievements</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Reduced wait times by 30%</li>
+                                <li><i class="fas fa-check-circle"></i> Validated critical patient workflows</li>
+                                <li><i class="fas fa-check-circle"></i> Improved patient safety outcomes</li>
+                                <li><i class="fas fa-check-circle"></i> Enhanced user experience significantly</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <h4><i class="fas fa-tools"></i> Technologies Used</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Functional Testing</span>
+                                <span class="tech-tag">Regression Testing</span>
+                                <span class="tech-tag">E2E Testing</span>
+                                <span class="tech-tag">HIPAA Compliance</span>
+                            </div>
+                        </div>
+
+                        <div class="project-role">
+                            <strong>Role:</strong> QA Lead - Critical Workflows
+                        </div>
+                    </article>
+
+                    <!-- Project 3: AI-Powered Test Automation -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                        </div>
+                        <h3 class="project-title">AI-Powered Testing Innovation Initiative</h3>
+                        <p class="project-client">
+                            <i class="fas fa-building"></i>
+                            Kaiser Permanente via Accenture
+                        </p>
+                        <p class="project-description">
+                            Pioneered the integration of ChatGPT and AI tools for automated bug reporting, 
+                            test strategy development, and efficiency improvements in QA processes.
+                        </p>
+                        
+                        <div class="project-impact">
+                            <h4><i class="fas fa-trophy"></i> Key Achievements</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Saved 8+ hours weekly through automation</li>
+                                <li><i class="fas fa-check-circle"></i> Automated test case generation</li>
+                                <li><i class="fas fa-check-circle"></i> Enhanced defect analysis efficiency</li>
+                                <li><i class="fas fa-check-circle"></i> Improved stakeholder communication</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <h4><i class="fas fa-tools"></i> Technologies Used</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">ChatGPT</span>
+                                <span class="tech-tag">MS Copilot</span>
+                                <span class="tech-tag">AI/ML</span>
+                                <span class="tech-tag">Prompt Engineering</span>
+                            </div>
+                        </div>
+
+                        <div class="project-role">
+                            <strong>Role:</strong> AI Innovation Lead
+                        </div>
+                    </article>
+
+                    <!-- Project 4: Automation Framework Implementation -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Agile Automation Framework Development</h3>
+                        <p class="project-client">
+                            <i class="fas fa-building"></i>
+                            Kaiser Permanente via Accenture
+                        </p>
+                        <p class="project-description">
+                            Designed and implemented comprehensive automation framework reducing manual 
+                            testing effort while accelerating release cycles and improving quality metrics.
+                        </p>
+                        
+                        <div class="project-impact">
+                            <h4><i class="fas fa-trophy"></i> Key Achievements</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Reduced manual testing effort by 60%</li>
+                                <li><i class="fas fa-check-circle"></i> Enhanced efficiency by 30%</li>
+                                <li><i class="fas fa-check-circle"></i> Accelerated release cycles</li>
+                                <li><i class="fas fa-check-circle"></i> Improved defect resolution by 20%</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <h4><i class="fas fa-tools"></i> Technologies Used</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Appium</span>
+                                <span class="tech-tag">Selenium</span>
+                                <span class="tech-tag">TestNG</span>
+                                <span class="tech-tag">Perfecto Cloud</span>
+                                <span class="tech-tag">Jenkins</span>
+                            </div>
+                        </div>
+
+                        <div class="project-role">
+                            <strong>Role:</strong> Automation Architect
+                        </div>
+                    </article>
+
+                    <!-- Project 5: Prime Therapeutics Pharmacy Claims -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-pills"></i>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Pharmacy Claims Data Validation Platform</h3>
+                        <p class="project-client">
+                            <i class="fas fa-building"></i>
+                            Prime Therapeutics via Infosys
+                        </p>
+                        <p class="project-description">
+                            Automated complex pharmacy claims validation processes, improving data accuracy 
+                            and testing efficiency for critical healthcare benefit management systems.
+                        </p>
+                        
+                        <div class="project-impact">
+                            <h4><i class="fas fa-trophy"></i> Key Achievements</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Boosted testing efficiency by 40%</li>
+                                <li><i class="fas fa-check-circle"></i> Validated complex pharmacy claims data</li>
+                                <li><i class="fas fa-check-circle"></i> Streamlined critical workflows</li>
+                                <li><i class="fas fa-check-circle"></i> Improved data accuracy</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <h4><i class="fas fa-tools"></i> Technologies Used</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Selenium WebDriver</span>
+                                <span class="tech-tag">TestNG</span>
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">HP ALM</span>
+                                <span class="tech-tag">IBMi RX6</span>
+                                <span class="tech-tag">SQL</span>
+                            </div>
+                        </div>
+
+                        <div class="project-role">
+                            <strong>Role:</strong> Software Development Engineer in Test
+                        </div>
+                    </article>
+
+                    <!-- Project 6: Azure Microservices Testing -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Azure Microservices & Java Upgrade Testing</h3>
+                        <p class="project-client">
+                            <i class="fas fa-building"></i>
+                            Kaiser Permanente via Accenture
+                        </p>
+                        <p class="project-description">
+                            Led end-to-end testing for Azure-based microservices architecture including Java 
+                            upgrade validation, Kubernetes deployment testing, and API integration.
+                        </p>
+                        
+                        <div class="project-impact">
+                            <h4><i class="fas fa-trophy"></i> Key Achievements</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Improved product quality from 50% to 90%</li>
+                                <li><i class="fas fa-check-circle"></i> Validated 300+ test cases</li>
+                                <li><i class="fas fa-check-circle"></i> End-to-end system validation</li>
+                                <li><i class="fas fa-check-circle"></i> Successful Java migration</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <h4><i class="fas fa-tools"></i> Technologies Used</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Azure</span>
+                                <span class="tech-tag">Kubernetes</span>
+                                <span class="tech-tag">Postman</span>
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Microservices</span>
+                                <span class="tech-tag">API Testing</span>
+                            </div>
+                        </div>
+
+                        <div class="project-role">
+                            <strong>Role:</strong> Sr. QA Automation Engineer
+                        </div>
+                    </article>
+
+                    <!-- Project 7: ADA Accessibility Compliance -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-universal-access"></i>
+                            </div>
+                        </div>
+                        <h3 class="project-title">ADA Accessibility Compliance Initiative</h3>
+                        <p class="project-client">
+                            <i class="fas fa-building"></i>
+                            Kaiser Permanente via Accenture
+                        </p>
+                        <p class="project-description">
+                            Implemented comprehensive ADA accessibility testing framework ensuring healthcare 
+                            applications meet compliance standards and serve all patients effectively.
+                        </p>
+                        
+                        <div class="project-impact">
+                            <h4><i class="fas fa-trophy"></i> Key Achievements</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Full ADA compliance validation</li>
+                                <li><i class="fas fa-check-circle"></i> Cross-platform accessibility testing</li>
+                                <li><i class="fas fa-check-circle"></i> Enhanced user inclusivity</li>
+                                <li><i class="fas fa-check-circle"></i> Standards-based implementation</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <h4><i class="fas fa-tools"></i> Technologies Used</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">ADA Testing</span>
+                                <span class="tech-tag">WCAG Standards</span>
+                                <span class="tech-tag">Accessibility Tools</span>
+                                <span class="tech-tag">Perfecto</span>
+                            </div>
+                        </div>
+
+                        <div class="project-role">
+                            <strong>Role:</strong> Accessibility Testing Lead
+                        </div>
+                    </article>
+
+                    <!-- Project 8: Sony Entertainment Web Platform -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-film"></i>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Sony Entertainment Web Platform Automation</h3>
+                        <p class="project-client">
+                            <i class="fas fa-building"></i>
+                            Sony Pictures Entertainment via TCS
+                        </p>
+                        <p class="project-description">
+                            Developed automated testing solutions for Sony's entertainment web platform using 
+                            Robot Framework, streamlining testing workflows and ServiceNow integration.
+                        </p>
+                        
+                        <div class="project-impact">
+                            <h4><i class="fas fa-trophy"></i> Key Achievements</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Automated test case development</li>
+                                <li><i class="fas fa-check-circle"></i> ServiceNow module automation</li>
+                                <li><i class="fas fa-check-circle"></i> Streamlined testing workflows</li>
+                                <li><i class="fas fa-check-circle"></i> Improved testing accuracy</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <h4><i class="fas fa-tools"></i> Technologies Used</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Robot Framework</span>
+                                <span class="tech-tag">Selenium2Library</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">ServiceNow</span>
+                                <span class="tech-tag">Jira</span>
+                            </div>
+                        </div>
+
+                        <div class="project-role">
+                            <strong>Role:</strong> Platform Automation Engineer
+                        </div>
+                    </article>
+
+                </div>
+
+                <!-- Project Categories -->
+                <div class="project-categories-section">
+                    <h3 class="section-title">
+                        <i class="fas fa-layer-group"></i>
+                        Project Categories
+                    </h3>
+                    <div class="categories-grid">
+                        <div class="category-card">
+                            <i class="fas fa-hospital"></i>
+                            <h4>Healthcare Technology</h4>
+                            <p>Patient-facing applications, healthcare workflows, digital health solutions</p>
+                        </div>
+                        <div class="category-card">
+                            <i class="fas fa-robot"></i>
+                            <h4>AI/ML Integration</h4>
+                            <p>AI-powered testing, automation, ChatGPT integration, prompt engineering</p>
+                        </div>
+                        <div class="category-card">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h4>Mobile Applications</h4>
+                            <p>Native iOS/Android apps, cross-platform testing, mobile automation</p>
+                        </div>
+                        <div class="category-card">
+                            <i class="fas fa-cloud"></i>
+                            <h4>Cloud & Microservices</h4>
+                            <p>Azure, AWS, Kubernetes, microservices architecture validation</p>
+                        </div>
+                        <div class="category-card">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Compliance & Security</h4>
+                            <p>HIPAA compliance, ADA accessibility, security testing, regulatory standards</p>
+                        </div>
+                        <div class="category-card">
+                            <i class="fas fa-cogs"></i>
+                            <h4>Test Automation</h4>
+                            <p>Framework development, CI/CD integration, automated testing pipelines</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA Section -->
+                <div class="projects-cta">
+                    <h3>Interested in Learning More?</h3>
+                    <p>
+                        These projects represent a fraction of my work in healthcare technology and quality 
+                        assurance. I'd be happy to discuss my experience and how it can benefit your organization.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="contact.html" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </a>
+                        <a href="experience.html" class="btn btn-secondary">
+                            <i class="fas fa-briefcase"></i> View Full Experience
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
+
     <footer>
-      <div class="footer-content">
-        <p>&copy; 2025 Darshil Shah. All rights reserved.</p>
-        <div class="footer-links">
-          <a
-            href="https://github.com/darshil0"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub"
-          >
-            <i class="fab fa-github"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/darshil-qa-lead"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="LinkedIn"
-          >
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="mailto:darshils99@gmail.com" aria-label="Email">
-            <i class="fas fa-envelope"></i>
-          </a>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Darshil Shah. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/darshil0" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/darshil-qa-lead" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:darshils99@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
     </footer>
+
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
