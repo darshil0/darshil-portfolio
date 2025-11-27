@@ -574,6 +574,22 @@ footer {
 }
 
 /* ====================================
+   FOCUS STYLES
+   ==================================== */
+a:focus,
+button:focus,
+.hamburger:focus,
+.filter-btn:focus,
+.btn:focus,
+.social-button:focus,
+.footer-links a:focus,
+input:focus,
+textarea:focus {
+  outline: 3px solid var(--secondary-color);
+  outline-offset: 2px;
+}
+
+/* ====================================
    RESPONSIVE STYLES
    ==================================== */
 @media (max-width: 1024px) {
@@ -590,20 +606,6 @@ footer {
   .contact-layout {
     grid-template-columns: 1fr;
   }
-}
-
-/* FOCUS STYLES */
-a:focus,
-button:focus,
-.hamburger:focus,
-.filter-btn:focus,
-.btn:focus,
-.social-button:focus,
-.footer-links a:focus,
-input:focus,
-textarea:focus {
-  outline: 3px solid var(--secondary-color);
-  outline-offset: 2px;
 }
 
 @media (max-width: 768px) {
@@ -798,18 +800,4 @@ textarea:focus {
     box-shadow: none;
     border: 1px solid #ddd;
   }
-}
-
-/* FOCUS STYLES */
-a:focus,
-button:focus,
-.hamburger:focus,
-.filter-btn:focus,
-.btn:focus,
-.social-button:focus,
-.footer-links a:focus,
-input:focus,
-textarea:focus {
-  outline: 3px solid var(--secondary-color);
-  outline-offset: 2px;
 }
