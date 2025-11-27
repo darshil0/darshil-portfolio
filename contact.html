@@ -8,7 +8,7 @@
     <meta name="author" content="Darshil Shah">
     <title>Contact - Darshil Shah's Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
     <header>
@@ -20,7 +20,7 @@
 
     <nav>
         <div class="nav-container">
-            <div class="hamburger" id="hamburger">
+            <div class="hamburger" id="hamburger" tabindex="0" role="button" aria-label="Toggle navigation menu">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -38,11 +38,11 @@
     </nav>
 
     <main>
-        <section id="contact">
+        <section id="contact" aria-labelledby="contact-heading">
             <div class="container">
-                <h2 class="page-title">Get In Touch</h2>
+                <h2 id="contact-heading" class="page-title">Get In Touch</h2>
                 <p class="page-subtitle">
-                    I'm always interested in hearing about new opportunities, collaborations, or just connecting 
+                    I'm always interested in hearing about new opportunities, collaborations, or just connecting
                     with fellow professionals. Feel free to reach out!
                 </p>
 
@@ -51,14 +51,14 @@
                     <div class="contact-info-section">
                         <h3>Contact Information</h3>
                         <p class="contact-intro">
-                            Feel free to reach out through any of the following channels. I typically respond 
+                            Feel free to reach out through any of the following channels. I typically respond
                             within 24-48 hours.
                         </p>
 
                         <div class="contact-methods">
                             <div class="contact-method-card">
                                 <div class="method-icon">
-                                    <i class="fas fa-envelope"></i>
+                                    <i class="fas fa-envelope" aria-hidden="true"></i>
                                 </div>
                                 <div class="method-details">
                                     <h4>Email</h4>
@@ -69,7 +69,7 @@
 
                             <div class="contact-method-card">
                                 <div class="method-icon">
-                                    <i class="fab fa-linkedin"></i>
+                                    <i class="fab fa-linkedin" aria-hidden="true"></i>
                                 </div>
                                 <div class="method-details">
                                     <h4>LinkedIn</h4>
@@ -82,7 +82,7 @@
 
                             <div class="contact-method-card">
                                 <div class="method-icon">
-                                    <i class="fab fa-github"></i>
+                                    <i class="fab fa-github" aria-hidden="true"></i>
                                 </div>
                                 <div class="method-details">
                                     <h4>GitHub</h4>
@@ -95,7 +95,7 @@
 
                             <div class="contact-method-card">
                                 <div class="method-icon">
-                                    <i class="fas fa-phone"></i>
+                                    <i class="fas fa-phone" aria-hidden="true"></i>
                                 </div>
                                 <div class="method-details">
                                     <h4>Phone</h4>
@@ -109,14 +109,14 @@
                         <div class="social-connect">
                             <h4>Connect on Social Media</h4>
                             <div class="social-links-large">
-                                <a href="https://www.linkedin.com/in/darshil-qa-lead" target="_blank" rel="noopener noreferrer" 
+                                <a href="https://www.linkedin.com/in/darshil-qa-lead" target="_blank" rel="noopener noreferrer"
                                    class="social-button linkedin" aria-label="LinkedIn">
-                                    <i class="fab fa-linkedin"></i>
+                                    <i class="fab fa-linkedin" aria-hidden="true"></i>
                                     <span>LinkedIn</span>
                                 </a>
-                                <a href="https://github.com/darshil0" target="_blank" rel="noopener noreferrer" 
+                                <a href="https://github.com/darshil0" target="_blank" rel="noopener noreferrer"
                                    class="social-button github" aria-label="GitHub">
-                                    <i class="fab fa-github"></i>
+                                    <i class="fab fa-github" aria-hidden="true"></i>
                                     <span>GitHub</span>
                                 </a>
                             </div>
@@ -127,7 +127,7 @@
                     <div class="contact-form-section">
                         <h3>Send Me a Message</h3>
                         <p class="form-intro">
-                            Have a question or want to work together? Fill out the form below and I'll get 
+                            Have a question or want to work together? Fill out the form below and I'll get
                             back to you as soon as possible.
                         </p>
 
@@ -137,14 +137,14 @@
                                 <div class="form-row">
                                     <div class="form-group">
                                         <label for="name">
-                                            <i class="fas fa-user"></i>
+                                            <i class="fas fa-user" aria-hidden="true"></i>
                                             Full Name *
                                         </label>
-                                        <input 
-                                            type="text" 
-                                            id="name" 
-                                            name="name" 
-                                            required 
+                                        <input
+                                            type="text"
+                                            id="name"
+                                            name="name"
+                                            required
                                             placeholder="John Doe"
                                             aria-required="true"
                                             aria-describedby="name-help"
@@ -154,14 +154,14 @@
 
                                     <div class="form-group">
                                         <label for="email">
-                                            <i class="fas fa-envelope"></i>
+                                            <i class="fas fa-envelope" aria-hidden="true"></i>
                                             Email Address *
                                         </label>
-                                        <input 
-                                            type="email" 
-                                            id="email" 
-                                            name="email" 
-                                            required 
+                                        <input
+                                            type="email"
+                                            id="email"
+                                            name="email"
+                                            required
                                             placeholder="john@example.com"
                                             aria-required="true"
                                             aria-describedby="email-help"
@@ -175,14 +175,14 @@
                                 <legend>Message Details</legend>
                                 <div class="form-group">
                                     <label for="subject">
-                                        <i class="fas fa-tag"></i>
+                                        <i class="fas fa-tag" aria-hidden="true"></i>
                                         Subject *
                                     </label>
-                                    <input 
-                                        type="text" 
-                                        id="subject" 
-                                        name="subject" 
-                                        required 
+                                    <input
+                                        type="text"
+                                        id="subject"
+                                        name="subject"
+                                        required
                                         placeholder="What is this regarding?"
                                         aria-required="true"
                                     >
@@ -190,14 +190,14 @@
 
                                 <div class="form-group">
                                     <label for="message">
-                                        <i class="fas fa-comment-dots"></i>
+                                        <i class="fas fa-comment-dots" aria-hidden="true"></i>
                                         Message *
                                     </label>
-                                    <textarea 
-                                        id="message" 
-                                        name="message" 
-                                        rows="6" 
-                                        required 
+                                    <textarea
+                                        id="message"
+                                        name="message"
+                                        rows="6"
+                                        required
                                         placeholder="Tell me more about your inquiry..."
                                         aria-required="true"
                                     ></textarea>
@@ -205,7 +205,7 @@
                             </fieldset>
 
                             <button type="submit" class="btn btn-primary btn-submit" aria-describedby="form-note">
-                                <i class="fas fa-paper-plane"></i>
+                                <i class="fas fa-paper-plane" aria-hidden="true"></i>
                                 Send Message
                             </button>
 
@@ -215,12 +215,12 @@
                         </form>
 
                         <div id="form-success" class="form-message success" style="display: none;">
-                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-check-circle" aria-hidden="true"></i>
                             <p>Thank you for your message! I'll get back to you soon.</p>
                         </div>
 
                         <div id="form-error" class="form-message error" style="display: none;">
-                            <i class="fas fa-exclamation-circle"></i>
+                            <i class="fas fa-exclamation-circle" aria-hidden="true"></i>
                             <p>Oops! Something went wrong. Please try again or contact me directly via email.</p>
                         </div>
                     </div>
@@ -230,16 +230,16 @@
                 <div class="availability-section">
                     <div class="availability-card">
                         <div class="availability-icon">
-                            <i class="fas fa-briefcase"></i>
+                            <i class="fas fa-briefcase" aria-hidden="true"></i>
                         </div>
                         <div class="availability-content">
                             <h3>Current Availability</h3>
                             <p class="availability-status open">
-                                <i class="fas fa-check-circle"></i>
+                                <i class="fas fa-check-circle" aria-hidden="true"></i>
                                 Open to new opportunities
                             </p>
                             <p>
-                                I'm currently available for QA Lead, AI Consultant, and PM roles in healthcare 
+                                I'm currently available for QA Lead, AI Consultant, and PM roles in healthcare
                                 technology, focusing on AI/ML, digital health, and compliance.
                             </p>
                         </div>
@@ -247,16 +247,16 @@
 
                     <div class="availability-card">
                         <div class="availability-icon">
-                            <i class="fas fa-calendar-alt"></i>
+                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
                         </div>
                         <div class="availability-content">
                             <h3>Response Time</h3>
                             <p class="availability-status">
-                                <i class="fas fa-clock"></i>
+                                <i class="fas fa-clock" aria-hidden="true"></i>
                                 Usually within 24-48 hours
                             </p>
                             <p>
-                                I strive to respond to all inquiries promptly. For urgent matters, please 
+                                I strive to respond to all inquiries promptly. For urgent matters, please
                                 indicate so in your message subject line.
                             </p>
                         </div>
@@ -264,16 +264,16 @@
 
                     <div class="availability-card">
                         <div class="availability-icon">
-                            <i class="fas fa-handshake"></i>
+                            <i class="fas fa-handshake" aria-hidden="true"></i>
                         </div>
                         <div class="availability-content">
                             <h3>Collaboration</h3>
                             <p class="availability-status">
-                                <i class="fas fa-users"></i>
+                                <i class="fas fa-users" aria-hidden="true"></i>
                                 Always open to connect
                             </p>
                             <p>
-                                Interested in collaborating on healthcare innovation projects, speaking opportunities, 
+                                Interested in collaborating on healthcare innovation projects, speaking opportunities,
                                 or networking with fellow professionals in QA and AI.
                             </p>
                         </div>
@@ -285,36 +285,36 @@
                     <h2 class="section-title">Frequently Asked Questions</h2>
                     <div class="faq-grid">
                         <div class="faq-item">
-                            <h4><i class="fas fa-question-circle"></i> What services do you offer?</h4>
+                            <h4><i class="fas fa-question-circle" aria-hidden="true"></i> What services do you offer?</h4>
                             <p>
-                                I specialize in QA leadership for healthcare technology, AI/ML implementation, 
-                                digital health solutions, and compliance management. I'm open to QA Lead, 
+                                I specialize in QA leadership for healthcare technology, AI/ML implementation,
+                                digital health solutions, and compliance management. I'm open to QA Lead,
                                 AI Consultant, and PM roles.
                             </p>
                         </div>
 
                         <div class="faq-item">
-                            <h4><i class="fas fa-question-circle"></i> What is your typical response time?</h4>
+                            <h4><i class="fas fa-question-circle" aria-hidden="true"></i> What is your typical response time?</h4>
                             <p>
-                                I typically respond to all inquiries within 24-48 hours. For urgent matters, 
+                                I typically respond to all inquiries within 24-48 hours. For urgent matters,
                                 please mark your email as high priority or mention urgency in the subject line.
                             </p>
                         </div>
 
                         <div class="faq-item">
-                            <h4><i class="fas fa-question-circle"></i> Do you work remotely?</h4>
+                            <h4><i class="fas fa-question-circle" aria-hidden="true"></i> Do you work remotely?</h4>
                             <p>
-                                Yes, I'm experienced in remote work with 10+ years of global QA experience. 
-                                I've successfully led distributed teams across different time zones and am also 
+                                Yes, I'm experienced in remote work with 10+ years of global QA experience.
+                                I've successfully led distributed teams across different time zones and am also
                                 open to hybrid or on-site arrangements.
                             </p>
                         </div>
 
                         <div class="faq-item">
-                            <h4><i class="fas fa-question-circle"></i> How can we collaborate?</h4>
+                            <h4><i class="fas fa-question-circle" aria-hidden="true"></i> How can we collaborate?</h4>
                             <p>
-                                I'm open to full-time positions, consulting engagements, project-based work, 
-                                and advisory roles in healthcare technology. Let's discuss what works best 
+                                I'm open to full-time positions, consulting engagements, project-based work,
+                                and advisory roles in healthcare technology. Let's discuss what works best
                                 for your organization's needs.
                             </p>
                         </div>
@@ -330,19 +330,19 @@
                 <p>&copy; 2025 Darshil Shah. All rights reserved.</p>
                 <div class="footer-links">
                     <a href="https://github.com/darshil0" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
+                        <i class="fab fa-github" aria-hidden="true"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/darshil-qa-lead" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
                     </a>
                     <a href="mailto:darshils99@gmail.com" aria-label="Email">
-                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>

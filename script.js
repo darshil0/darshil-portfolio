@@ -495,7 +495,42 @@ function logPerformance() {
     }
 }
 logPerformance();
+// ====================================
+// CERTIFICATION FILTER
+// ====================================
+function initCertificationFilter() {
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const certCards = document.querySelectorAll('.cert-card');
+    const certItems = document.querySelectorAll('.cert-item');
 
+    if (filterBtns.length > 0 && (certCards.length > 0 || certItems.length > 0)) {
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', function () {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+
+                const category = this.getAttribute('data-category');
+
+                certCards.forEach(card => {
+                    if (category === 'all' || card.getAttribute('data-category') === category) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+
+                certItems.forEach(item => {
+                    if (category === 'all' || item.getAttribute('data-category') === category) {
+                        item.style.display = 'flex';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    }
+}
+document.addEventListener('DOMContentLoaded', initCertificationFilter);
 // ====================================
 // CONSOLE MESSAGE
 // ====================================
