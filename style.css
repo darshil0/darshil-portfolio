@@ -1,21 +1,14 @@
-/* ====================================
-   ROOT VARIABLES
-   ==================================== */
 :root {
   --primary-color: #2563eb;
   --secondary-color: #7c3aed;
   --accent-color: #059669;
-
   --dark-gray: #1f2937;
   --medium-gray: #6b7280;
   --light-gray: #f3f4f6;
   --white: #ffffff;
-
   --border-color: #e5e7eb;
-
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.15);
-
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
   --transition: all 0.3s ease;
 }
 
@@ -31,7 +24,6 @@
 .highlights-list {
   list-style: none;
   padding: 0;
-  margin: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 0.75rem;
@@ -96,19 +88,23 @@
 
 .skill-tag {
   padding: 0.5rem 1rem;
-  background: var(--light-gray);
-  border: 1px solid var(--border-color);
+  background-color: var(--light-gray);
   color: var(--dark-gray);
   border-radius: 2rem;
   font-size: 0.875rem;
   font-weight: 500;
+  border: 1px solid var(--border-color);
 }
 
 /* ====================================
    CONTINUOUS LEARNING SECTION
    ==================================== */
 .continuous-learning-section {
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
   color: var(--white);
   padding: 3rem;
   border-radius: 1rem;
@@ -158,8 +154,8 @@
   font-size: 1.5rem;
   color: var(--dark-gray);
   margin-bottom: 1.5rem;
-  border-bottom: 3px solid var(--primary-color);
   padding-bottom: 0.75rem;
+  border-bottom: 3px solid var(--primary-color);
 }
 
 .cert-item {
@@ -167,6 +163,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.25rem;
+  border-radius: 0.5rem;
   transition: var(--transition);
 }
 
@@ -175,32 +172,32 @@
 }
 
 .cert-item:hover {
-  background: var(--light-gray);
+  background-color: var(--light-gray);
   transform: translateX(5px);
 }
 
 .cert-item h4 {
   margin: 0;
-  font-size: 1.125rem;
   font-weight: 600;
+  font-size: 1.125rem;
   color: var(--dark-gray);
   flex: 3;
 }
 
 .cert-issuer {
-  flex: 2;
-  text-align: right;
   margin: 0;
-  font-size: 0.95rem;
   color: var(--medium-gray);
   font-style: italic;
+  flex: 2;
+  text-align: right;
+  font-size: 0.95rem;
 }
 
 /* ====================================
-   FOOTER
+   FOOTER STYLES
    ==================================== */
 footer {
-  background: linear-gradient(135deg, var(--dark-gray), #1f2937);
+  background: linear-gradient(135deg, var(--dark-gray) 0%, #1f2937 100%);
   color: var(--white);
   padding: 2rem 1rem;
   margin-top: 4rem;
@@ -208,12 +205,12 @@ footer {
 }
 
 .footer-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .footer-content p {
@@ -227,26 +224,26 @@ footer {
 }
 
 .footer-links a {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.1);
   color: var(--white);
   font-size: 1.5rem;
   transition: var(--transition);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-links a:hover {
-  background: var(--white);
   color: var(--primary-color);
+  background-color: var(--white);
   transform: translateY(-3px);
 }
 
 /* ====================================
-   FOCUS
+   RESPONSIVE STYLES
    ==================================== */
 @media (max-width: 1024px) {
   .hero-content-home {
@@ -272,9 +269,6 @@ footer {
   .contact-layout {
     grid-template-columns: 1fr;
   }
-}
-
-@media (max-width: 768px) {
   .form-row {
     grid-template-columns: 1fr;
   }
@@ -286,35 +280,103 @@ footer {
   }
   .footer-content {
     flex-direction: column;
-    text-align: center;
     gap: 1rem;
+    text-align: center;
+  }
+  .page-title {
+    font-size: 2rem;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+  .btn {
+    width: 100%;
+    justify-content: center;
   }
 }
 
 @media (max-width: 480px) {
+  .header-content h1 {
+    font-size: 1.75rem;
+  }
+  .hero-greeting {
+    font-size: 1.5rem;
+  }
+  .page-title {
+    font-size: 1.75rem;
+  }
   .section-title {
     font-size: 1.25rem;
+  }
+  .stat-number {
+    font-size: 2rem;
+  }
+  .profile-placeholder {
+    width: 150px;
+    height: 150px;
+  }
+  .profile-placeholder i {
+    font-size: 3rem;
   }
 }
 
 /* ====================================
-   PRINT
+   UTILITY CLASSES
+   ==================================== */
+.text-center {
+  text-align: center;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+.mb-2 {
+  margin-bottom: 1rem;
+}
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+.mt-1 {
+  margin-top: 0.5rem;
+}
+.mt-2 {
+  margin-top: 1rem;
+}
+.mt-3 {
+  margin-top: 1.5rem;
+}
+.mt-4 {
+  margin-top: 2rem;
+}
+
+/* ====================================
+   PRINT STYLES
    ==================================== */
 @media print {
   nav,
   footer,
   .btn,
   .hamburger {
-    display: none !important;
+    display: none;
   }
   body {
-    background: var(--white);
+    background-color: white;
   }
   .experience-card,
   .project-card,
   .education-card {
     page-break-inside: avoid;
-    border: 1px solid #ddd;
     box-shadow: none;
+    border: 1px solid #ddd;
   }
 }

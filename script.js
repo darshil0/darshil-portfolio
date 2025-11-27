@@ -130,11 +130,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // CERTIFICATION FILTER
   // ====================================
   initCertificationFilter();
-
-  // ====================================
-  // NAVBAR SCROLL EFFECT
-  // ====================================
-  initNavbarScroll();
 });
 
 // ====================================
@@ -192,28 +187,27 @@ function initScrollAnimations() {
   }
 }
 
-function initNavbarScroll() {
-  const nav = document.querySelector("nav");
-  let lastScroll = 0;
+const nav = document.querySelector("nav");
+if (nav) {
+  // FIX: Declare lastScroll to prevent ReferenceError
+  let lastScroll = 0; 
 
-  if (nav) {
-    window.addEventListener(
-      "scroll",
-      throttle(function () {
-        const currentScroll = window.pageYOffset;
+  window.addEventListener(
+    "scroll",
+    throttle(function () {
+      const currentScroll = window.pageYOffset;
 
-        if (currentScroll > 100) {
-          nav.style.boxShadow = "0 4px 12px rgba(0, 0, 0, 0.15)";
-          nav.classList.add("scrolled");
-        } else {
-          nav.style.boxShadow = "0 4px 6px -1px rgba(0, 0, 0, 0.1)";
-          nav.classList.remove("scrolled");
-        }
+      if (currentScroll > 100) {
+        nav.style.boxShadow = "0 4px 12px rgba(0, 0, 0, 0.15)";
+        nav.classList.add("scrolled");
+      } else {
+        nav.style.boxShadow = "0 4px 6px -1px rgba(0, 0, 0, 0.1)";
+        nav.classList.remove("scrolled");
+      }
 
-        lastScroll = currentScroll;
-      }, 100),
-    );
-  }
+      lastScroll = currentScroll;
+    }, 100),
+  );
 }
 
 function createScrollToTop() {
