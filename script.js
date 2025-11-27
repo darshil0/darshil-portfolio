@@ -135,6 +135,11 @@ document.addEventListener("DOMContentLoaded", function () {
   // CERTIFICATION FILTER
   // ====================================
   initCertificationFilter();
+
+  // ====================================
+  // NAVBAR SCROLL EFFECT
+  // ====================================
+  initNavbarScroll();
 });
 
 // ====================================
@@ -192,24 +197,28 @@ function initScrollAnimations() {
   }
 }
 
-const nav = document.querySelector("nav");
-if (nav) {
-  window.addEventListener(
-    "scroll",
-    throttle(function () {
-      const currentScroll = window.pageYOffset;
+function initNavbarScroll() {
+  const nav = document.querySelector("nav");
+  let lastScroll = 0;
 
-      if (currentScroll > 100) {
-        nav.style.boxShadow = "0 4px 12px rgba(0, 0, 0, 0.15)";
-        nav.classList.add("scrolled");
-      } else {
-        nav.style.boxShadow = "0 4px 6px -1px rgba(0, 0, 0, 0.1)";
-        nav.classList.remove("scrolled");
-      }
+  if (nav) {
+    window.addEventListener(
+      "scroll",
+      throttle(function () {
+        const currentScroll = window.pageYOffset;
 
-      lastScroll = currentScroll;
-    }, 100),
-  );
+        if (currentScroll > 100) {
+          nav.style.boxShadow = "0 4px 12px rgba(0, 0, 0, 0.15)";
+          nav.classList.add("scrolled");
+        } else {
+          nav.style.boxShadow = "0 4px 6px -1px rgba(0, 0, 0, 0.1)";
+          nav.classList.remove("scrolled");
+        }
+
+        lastScroll = currentScroll;
+      }, 100),
+    );
+  }
 }
 
 function createScrollToTop() {
