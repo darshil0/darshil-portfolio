@@ -194,7 +194,7 @@ function initScrollAnimations() {
 
 const nav = document.querySelector("nav");
 if (nav) {
-  // Fix: Declaring lastScroll to avoid ReferenceError
+  // FIX: Declare lastScroll to prevent ReferenceError
   let lastScroll = 0; 
 
   window.addEventListener(
