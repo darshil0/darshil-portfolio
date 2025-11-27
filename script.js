@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const navMenu = document.getElementById('nav-menu');
 
     if (hamburger && navMenu) {
+        // Toggle mobile menu
         hamburger.addEventListener('click', function (e) {
             e.stopPropagation();
             navMenu.classList.toggle('active');
@@ -51,6 +52,25 @@ document.addEventListener('DOMContentLoaded', function () {
                 spans[2].style.transform = 'none';
             });
         });
+
+        // Keyboard navigation for accessibility
+        hamburger.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                hamburger.click();
+            }
+        });
+
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+                const spans = hamburger.querySelectorAll('span');
+                spans[0].style.transform = 'none';
+                spans[1].style.opacity = '1';
+                spans[2].style.transform = 'none';
+            }
+        });
     }
 });
 
@@ -93,7 +113,6 @@ function setActiveNavLink() {
         }
     });
 }
-
 document.addEventListener('DOMContentLoaded', setActiveNavLink);
 
 // ====================================
@@ -128,7 +147,6 @@ function initScrollAnimations() {
         fadeInObserver.observe(el);
     });
 }
-
 document.addEventListener('DOMContentLoaded', initScrollAnimations);
 
 // ====================================
@@ -136,7 +154,6 @@ document.addEventListener('DOMContentLoaded', initScrollAnimations);
 // ====================================
 let lastScroll = 0;
 const nav = document.querySelector('nav');
-
 if (nav) {
     window.addEventListener('scroll', throttle(function () {
         const currentScroll = window.pageYOffset;
@@ -183,7 +200,6 @@ function createScrollToTop() {
         alignItems: 'center',
         justifyContent: 'center'
     };
-
     Object.assign(scrollBtn.style, styles);
 
     window.addEventListener('scroll', throttle(function () {
@@ -215,7 +231,6 @@ function createScrollToTop() {
 
     document.body.appendChild(scrollBtn);
 }
-
 document.addEventListener('DOMContentLoaded', createScrollToTop);
 
 // ====================================
@@ -264,7 +279,6 @@ function initCounterAnimations() {
         if (section) statsObserver.observe(section);
     });
 }
-
 document.addEventListener('DOMContentLoaded', initCounterAnimations);
 
 // ====================================
@@ -272,7 +286,6 @@ document.addEventListener('DOMContentLoaded', initCounterAnimations);
 // ====================================
 function initContactForm() {
     const contactForm = document.getElementById('contactForm');
-
     if (contactForm) {
         contactForm.addEventListener('submit', function (e) {
             e.preventDefault();
@@ -322,7 +335,6 @@ function initContactForm() {
         });
     }
 }
-
 document.addEventListener('DOMContentLoaded', initContactForm);
 
 // ====================================
@@ -466,40 +478,7 @@ function initLazyLoading() {
 
     images.forEach(img => imageObserver.observe(img));
 }
-
 document.addEventListener('DOMContentLoaded', initLazyLoading);
-
-// ====================================
-// KEYBOARD NAVIGATION ACCESSIBILITY
-// ====================================
-function initKeyboardNavigation() {
-    const navMenu = document.getElementById('nav-menu');
-    const hamburger = document.getElementById('hamburger');
-
-    if (hamburger) {
-        hamburger.addEventListener('keydown', function (e) {
-            if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                hamburger.click();
-            }
-        });
-    }
-
-    document.addEventListener('keydown', function (e) {
-        if (e.key === 'Escape' && navMenu && navMenu.classList.contains('active')) {
-            navMenu.classList.remove('active');
-            if (hamburger) {
-                hamburger.classList.remove('active');
-                const spans = hamburger.querySelectorAll('span');
-                spans[0].style.transform = 'none';
-                spans[1].style.opacity = '1';
-                spans[2].style.transform = 'none';
-            }
-        }
-    });
-}
-
-document.addEventListener('DOMContentLoaded', initKeyboardNavigation);
 
 // ====================================
 // PERFORMANCE MONITORING
@@ -515,7 +494,6 @@ function logPerformance() {
         });
     }
 }
-
 logPerformance();
 
 // ====================================
