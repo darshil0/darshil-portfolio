@@ -8,7 +8,7 @@
     <meta name="author" content="Darshil Shah">
     <title>Education - Darshil Shah's Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
     <header>
@@ -20,7 +20,7 @@
 
     <nav>
         <div class="nav-container">
-            <div class="hamburger" id="hamburger">
+            <div class="hamburger" id="hamburger" tabindex="0" role="button" aria-label="Toggle navigation menu">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -38,87 +38,87 @@
     </nav>
 
     <main>
-        <section id="education">
+        <section id="education" aria-labelledby="education-heading">
             <div class="container">
-                <h2 class="page-title">Education</h2>
+                <h2 id="education-heading" class="page-title">Education</h2>
                 <p class="page-subtitle">
                     Academic foundation combining business strategy with technical expertise
                 </p>
 
                 <div class="education-timeline">
                     <!-- MBA -->
-                    <article class="education-card">
+                    <article class="education-card" role="article" aria-labelledby="mba-degree">
                         <div class="education-icon">
-                            <i class="fas fa-graduation-cap"></i>
+                            <i class="fas fa-graduation-cap" aria-hidden="true"></i>
                         </div>
                         <div class="education-content">
                             <div class="education-header">
                                 <div class="education-title-section">
-                                    <h3>Master of Business Administration (MBA)</h3>
+                                    <h3 id="mba-degree">Master of Business Administration (MBA)</h3>
                                     <p class="education-specialization">Specialization: Information Technology</p>
                                 </div>
                                 <div class="education-date">
-                                    <i class="far fa-calendar-alt"></i>
-                                    <span>March 2013 - March 2015</span>
+                                    <i class="far fa-calendar-alt" aria-hidden="true"></i>
+                                    <time datetime="2013-03">March 2013</time> - <time datetime="2015-03">March 2015</time>
                                 </div>
                             </div>
                             <div class="education-institution">
-                                <i class="fas fa-university"></i>
+                                <i class="fas fa-university" aria-hidden="true"></i>
                                 <span>Sikkim Manipal University - Distance Education</span>
                             </div>
                             <div class="education-description">
                                 <p>
-                                    Advanced graduate program combining business management principles with 
-                                    information technology specialization. Focused on strategic management, 
+                                    Advanced graduate program combining business management principles with
+                                    information technology specialization. Focused on strategic management,
                                     technology leadership, and business analytics.
                                 </p>
                             </div>
                             <div class="education-highlights">
                                 <h4>Key Focus Areas:</h4>
                                 <ul class="highlights-list">
-                                    <li><i class="fas fa-check-circle"></i> Strategic IT Management</li>
-                                    <li><i class="fas fa-check-circle"></i> Business Process Optimization</li>
-                                    <li><i class="fas fa-check-circle"></i> Project Management</li>
-                                    <li><i class="fas fa-check-circle"></i> Technology Leadership</li>
+                                    <li><i class="fas fa-check-circle" aria-hidden="true"></i> Strategic IT Management</li>
+                                    <li><i class="fas fa-check-circle" aria-hidden="true"></i> Business Process Optimization</li>
+                                    <li><i class="fas fa-check-circle" aria-hidden="true"></i> Project Management</li>
+                                    <li><i class="fas fa-check-circle" aria-hidden="true"></i> Technology Leadership</li>
                                 </ul>
                             </div>
                         </div>
                     </article>
 
                     <!-- Bachelor's Degree -->
-                    <article class="education-card">
+                    <article class="education-card" role="article" aria-labelledby="be-degree">
                         <div class="education-icon">
-                            <i class="fas fa-graduation-cap"></i>
+                            <i class="fas fa-graduation-cap" aria-hidden="true"></i>
                         </div>
                         <div class="education-content">
                             <div class="education-header">
                                 <div class="education-title-section">
-                                    <h3>Bachelor of Engineering (B.E.)</h3>
+                                    <h3 id="be-degree">Bachelor of Engineering (B.E.)</h3>
                                     <p class="education-specialization">Major: Information Technology</p>
                                 </div>
                                 <div class="education-date">
-                                    <i class="far fa-calendar-alt"></i>
-                                    <span>August 2007 - August 2011</span>
+                                    <i class="far fa-calendar-alt" aria-hidden="true"></i>
+                                    <time datetime="2007-08">August 2007</time> - <time datetime="2011-08">August 2011</time>
                                 </div>
                             </div>
                             <div class="education-institution">
-                                <i class="fas fa-university"></i>
+                                <i class="fas fa-university" aria-hidden="true"></i>
                                 <span>Sardar Patel University (SPU), Vallabh Vidyanagar</span>
                             </div>
                             <div class="education-description">
                                 <p>
-                                    Comprehensive undergraduate engineering program with specialization in 
-                                    Information Technology. Built strong foundation in software development, 
+                                    Comprehensive undergraduate engineering program with specialization in
+                                    Information Technology. Built strong foundation in software development,
                                     systems analysis, and computer science fundamentals.
                                 </p>
                             </div>
                             <div class="education-highlights">
                                 <h4>Key Focus Areas:</h4>
                                 <ul class="highlights-list">
-                                    <li><i class="fas fa-check-circle"></i> Software Engineering</li>
-                                    <li><i class="fas fa-check-circle"></i> Database Management Systems</li>
-                                    <li><i class="fas fa-check-circle"></i> Computer Networks</li>
-                                    <li><i class="fas fa-check-circle"></i> Programming & Algorithms</li>
+                                    <li><i class="fas fa-check-circle" aria-hidden="true"></i> Software Engineering</li>
+                                    <li><i class="fas fa-check-circle" aria-hidden="true"></i> Database Management Systems</li>
+                                    <li><i class="fas fa-check-circle" aria-hidden="true"></i> Computer Networks</li>
+                                    <li><i class="fas fa-check-circle" aria-hidden="true"></i> Programming & Algorithms</li>
                                 </ul>
                             </div>
                         </div>
@@ -129,7 +129,7 @@
                 <div class="education-stats">
                     <div class="stat-card">
                         <div class="stat-icon">
-                            <i class="fas fa-award"></i>
+                            <i class="fas fa-award" aria-hidden="true"></i>
                         </div>
                         <div class="stat-content">
                             <h3 class="stat-number">2</h3>
@@ -139,7 +139,7 @@
 
                     <div class="stat-card">
                         <div class="stat-icon">
-                            <i class="fas fa-certificate"></i>
+                            <i class="fas fa-certificate" aria-hidden="true"></i>
                         </div>
                         <div class="stat-content">
                             <h3 class="stat-number">15+</h3>
@@ -149,7 +149,7 @@
 
                     <div class="stat-card">
                         <div class="stat-icon">
-                            <i class="fas fa-brain"></i>
+                            <i class="fas fa-brain" aria-hidden="true"></i>
                         </div>
                         <div class="stat-content">
                             <h3 class="stat-number">10+</h3>
@@ -159,7 +159,7 @@
 
                     <div class="stat-card">
                         <div class="stat-icon">
-                            <i class="fas fa-book-reader"></i>
+                            <i class="fas fa-book-reader" aria-hidden="true"></i>
                         </div>
                         <div class="stat-content">
                             <h3 class="stat-number">Lifelong</h3>
@@ -171,12 +171,12 @@
                 <!-- Skills Gained Section -->
                 <div class="skills-gained-section">
                     <h3 class="section-title">
-                        <i class="fas fa-lightbulb"></i>
+                        <i class="fas fa-lightbulb" aria-hidden="true"></i>
                         Skills & Competencies Developed
                     </h3>
                     <div class="skills-categories">
                         <div class="skill-category">
-                            <h4><i class="fas fa-business-time"></i> Business & Management</h4>
+                            <h4><i class="fas fa-business-time" aria-hidden="true"></i> Business & Management</h4>
                             <div class="skill-tags">
                                 <span class="skill-tag">Strategic Planning</span>
                                 <span class="skill-tag">Project Management</span>
@@ -187,7 +187,7 @@
                         </div>
 
                         <div class="skill-category">
-                            <h4><i class="fas fa-laptop-code"></i> Technical Foundation</h4>
+                            <h4><i class="fas fa-laptop-code" aria-hidden="true"></i> Technical Foundation</h4>
                             <div class="skill-tags">
                                 <span class="skill-tag">Software Engineering</span>
                                 <span class="skill-tag">Database Systems</span>
@@ -198,7 +198,7 @@
                         </div>
 
                         <div class="skill-category">
-                            <h4><i class="fas fa-chart-line"></i> Analytical Skills</h4>
+                            <h4><i class="fas fa-chart-line" aria-hidden="true"></i> Analytical Skills</h4>
                             <div class="skill-tags">
                                 <span class="skill-tag">Data Analysis</span>
                                 <span class="skill-tag">Problem Solving</span>
@@ -213,22 +213,22 @@
                 <!-- Continuous Learning -->
                 <div class="continuous-learning-section">
                     <h3 class="section-title">
-                        <i class="fas fa-rocket"></i>
+                        <i class="fas fa-rocket" aria-hidden="true"></i>
                         Commitment to Continuous Learning
                     </h3>
                     <div class="learning-content">
                         <p>
-                            Beyond formal education, I maintain an active commitment to professional development 
-                            through ongoing certifications, specialized training, and staying current with emerging 
+                            Beyond formal education, I maintain an active commitment to professional development
+                            through ongoing certifications, specialized training, and staying current with emerging
                             technologies in AI, cloud computing, and healthcare technology.
                         </p>
                         <div class="learning-cta">
                             <a href="certifications.html" class="btn btn-primary">
-                                <i class="fas fa-certificate"></i>
+                                <i class="fas fa-certificate" aria-hidden="true"></i>
                                 View Professional Certifications
                             </a>
                             <a href="tools.html" class="btn btn-secondary">
-                                <i class="fas fa-tools"></i>
+                                <i class="fas fa-tools" aria-hidden="true"></i>
                                 Explore Technical Skills
                             </a>
                         </div>
@@ -244,19 +244,19 @@
                 <p>&copy; 2025 Darshil Shah. All rights reserved.</p>
                 <div class="footer-links">
                     <a href="https://github.com/darshil0" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
+                        <i class="fab fa-github" aria-hidden="true"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/darshil-qa-lead" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
                     </a>
                     <a href="mailto:darshils99@gmail.com" aria-label="Email">
-                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
