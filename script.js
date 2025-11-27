@@ -122,11 +122,6 @@ document.addEventListener("DOMContentLoaded", function () {
   initCounterAnimations();
 
   // ====================================
-  // CONTACT FORM HANDLING
-  // ====================================
-  initContactForm();
-
-  // ====================================
   // LAZY LOADING IMAGES
   // ====================================
   initLazyLoading();
@@ -322,60 +317,6 @@ function initCounterAnimations() {
 
     statSections.forEach((section) => {
       statsObserver.observe(section);
-    });
-  }
-}
-
-function initContactForm() {
-  const contactForm = document.getElementById("contactForm");
-  if (contactForm) {
-    contactForm.addEventListener("submit", function (e) {
-      e.preventDefault();
-
-      const formData = new FormData(contactForm);
-      const data = Object.fromEntries(formData);
-
-      const successMsg = document.getElementById("form-success");
-      const errorMsg = document.getElementById("form-error");
-
-      if (data.name && data.email && data.subject && data.message) {
-        contactForm.style.display = "none";
-        if (successMsg) {
-          successMsg.style.display = "block";
-        }
-
-        setTimeout(() => {
-          contactForm.reset();
-          contactForm.style.display = "block";
-          if (successMsg) {
-            successMsg.style.display = "none";
-          }
-        }, 5000);
-      } else {
-        if (errorMsg) {
-          errorMsg.style.display = "block";
-          setTimeout(() => {
-            errorMsg.style.display = "none";
-          }, 5000);
-        }
-      }
-    });
-
-    const inputs = contactForm.querySelectorAll(
-      "input[required], textarea[required]",
-    );
-    inputs.forEach((input) => {
-      input.addEventListener("blur", function () {
-        if (this.value.trim() === "") {
-          this.style.borderColor = "#ef4444";
-        } else {
-          this.style.borderColor = "#10b981";
-        }
-      });
-
-      input.addEventListener("focus", function () {
-        this.style.borderColor = "#2563eb";
-      });
     });
   }
 }
