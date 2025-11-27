@@ -33,6 +33,19 @@ This website is built with a focus on a clean user experience and modern web sta
 
 This combination of technologies ensures a fast, accessible, and visually appealing portfolio that effectively showcases my professional story.
 
+## Repository Structure
+
+- **`index.html`**: Main landing page.
+- **`experience.html`**: Detailed work history.
+- **`projects.html`**: Project showcase.
+- **`tools.html`**: Tools and technologies list.
+- **`certifications.html`**: Professional certifications.
+- **`education.html`**: Educational background.
+- **`contact.html`**: Contact details.
+- **`style.css`**: Stylesheet for the website.
+- **`script.js`**: JavaScript for interactive features.
+- **`README.md`**: This file, providing an overview and instructions.
+
 ## Getting Started
 
 1. Clone this repository.
@@ -49,7 +62,5 @@ This combination of technologies ensures a fast, accessible, and visually appeal
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-
 
 Feel free to reach out with questions or suggestions. Thank you for visiting my portfolio!
