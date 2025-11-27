@@ -50,6 +50,6 @@ This combination of technologies ensures a fast, accessible, and visually appeal
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
+
 
 Feel free to reach out with questions or suggestions. Thank you for visiting my portfolio!
