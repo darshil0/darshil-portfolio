@@ -1,286 +1,477 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Darshil Shah's Professional Certifications - AI, Cloud, Project Management">
-    <meta name="keywords" content="certifications, AI, cloud computing, project management, Darshil Shah">
-    <meta name="author" content="Darshil Shah">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Darshil Shah's Professional Certifications - AI, Cloud, Project Management"
+    />
+    <meta
+      name="keywords"
+      content="certifications, AI, cloud computing, project management, Darshil Shah"
+    />
+    <meta name="author" content="Darshil Shah" />
     <title>Certifications - Darshil Shah's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <div class="header-content">
-            <h1>Darshil Shah</h1>
-            <p class="credentials">MBA, B.S.</p>
-        </div>
+      <div class="header-content">
+        <h1>Darshil Shah</h1>
+        <p class="credentials">MBA, B.S.</p>
+      </div>
     </header>
 
     <nav>
-        <div class="nav-container">
-            <ul class="nav-menu" id="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="experience.html">Experience</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="tools.html">Tools & Tech</a></li>
-                <li><a href="certifications.html" class="active">Certifications</a></li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div class="hamburger" id="hamburger" tabindex="0" role="button" aria-label="Toggle navigation menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+      <div class="nav-container">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="tools.html">Tools & Tech</a></li>
+          <li>
+            <a href="certifications.html" class="active">Certifications</a>
+          </li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div
+          class="hamburger"
+          id="hamburger"
+          tabindex="0"
+          role="button"
+          aria-label="Toggle navigation menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+      </div>
     </nav>
 
     <main>
-        <section id="certifications" aria-labelledby="certifications-heading">
-            <div class="container">
-                <h2 id="certifications-heading" class="page-title">Professional Certifications</h2>
-                <p class="page-subtitle">
-                    A comprehensive collection of my professional certifications across AI/ML, Cloud Computing,
-                    Project Management, and Digital Technologies - demonstrating continuous learning and expertise.
+      <section id="certifications" aria-labelledby="certifications-heading">
+        <div class="container">
+          <h2 id="certifications-heading" class="page-title">
+            Professional Certifications
+          </h2>
+          <p class="page-subtitle">
+            A comprehensive collection of my professional certifications across
+            AI/ML, Cloud Computing, Project Management, and Digital Technologies
+            - demonstrating continuous learning and expertise.
+          </p>
+
+          <!-- Certification Categories -->
+          <div
+            class="cert-filters"
+            role="group"
+            aria-label="Certification Filters"
+          >
+            <button
+              class="filter-btn active"
+              data-category="all"
+              aria-label="Show all certifications"
+            >
+              All Certifications
+            </button>
+            <button
+              class="filter-btn"
+              data-category="ai-ml"
+              aria-label="Show AI & Machine Learning certifications"
+            >
+              AI & Machine Learning
+            </button>
+            <button
+              class="filter-btn"
+              data-category="cloud"
+              aria-label="Show Cloud Computing certifications"
+            >
+              Cloud Computing
+            </button>
+            <button
+              class="filter-btn"
+              data-category="project-mgmt"
+              aria-label="Show Project Management certifications"
+            >
+              Project Management
+            </button>
+            <button
+              class="filter-btn"
+              data-category="other"
+              aria-label="Show other certifications"
+            >
+              Other
+            </button>
+          </div>
+
+          <!-- Recent Certifications Highlight -->
+          <section
+            class="recent-certs-section"
+            aria-labelledby="recent-certs-heading"
+          >
+            <h3 id="recent-certs-heading">
+              <i class="fas fa-star" aria-hidden="true"></i> Recent
+              Certifications (2025)
+            </h3>
+            <div class="cert-grid">
+              <article
+                class="cert-card"
+                data-category="ai-ml"
+                role="article"
+                aria-labelledby="cert-title-1"
+              >
+                <div class="cert-badge">
+                  <i class="fas fa-robot" aria-hidden="true"></i>
+                </div>
+                <h4 id="cert-title-1">
+                  Introduction to Model Context Protocol
+                </h4>
+                <p class="cert-issuer">
+                  <i class="fas fa-certificate" aria-hidden="true"></i>
+                  Anthropic
                 </p>
+                <p class="cert-date">Issued: October 2025</p>
+                <p class="cert-id">Credential: mxqs5z47hjbv</p>
+              </article>
 
-                <!-- Certification Categories -->
-                <div class="cert-filters" role="group" aria-label="Certification Filters">
-                    <button class="filter-btn active" data-category="all" aria-label="Show all certifications">All Certifications</button>
-                    <button class="filter-btn" data-category="ai-ml" aria-label="Show AI & Machine Learning certifications">AI & Machine Learning</button>
-                    <button class="filter-btn" data-category="cloud" aria-label="Show Cloud Computing certifications">Cloud Computing</button>
-                    <button class="filter-btn" data-category="project-mgmt" aria-label="Show Project Management certifications">Project Management</button>
-                    <button class="filter-btn" data-category="other" aria-label="Show other certifications">Other</button>
+              <article
+                class="cert-card"
+                data-category="ai-ml"
+                role="article"
+                aria-labelledby="cert-title-2"
+              >
+                <div class="cert-badge">
+                  <i class="fas fa-brain" aria-hidden="true"></i>
                 </div>
+                <h4 id="cert-title-2">AI Fluency Framework & Foundations</h4>
+                <p class="cert-issuer">
+                  <i class="fas fa-certificate" aria-hidden="true"></i>
+                  Anthropic
+                </p>
+                <p class="cert-date">Issued: August 2025</p>
+                <p class="cert-id">Credential: q4cv8y6gou8j</p>
+              </article>
 
-                <!-- Recent Certifications Highlight -->
-                <section class="recent-certs-section" aria-labelledby="recent-certs-heading">
-                    <h3 id="recent-certs-heading"><i class="fas fa-star" aria-hidden="true"></i> Recent Certifications (2025)</h3>
-                    <div class="cert-grid">
-                        <article class="cert-card" data-category="ai-ml" role="article" aria-labelledby="cert-title-1">
-                            <div class="cert-badge">
-                                <i class="fas fa-robot" aria-hidden="true"></i>
-                            </div>
-                            <h4 id="cert-title-1">Introduction to Model Context Protocol</h4>
-                            <p class="cert-issuer"><i class="fas fa-certificate" aria-hidden="true"></i> Anthropic</p>
-                            <p class="cert-date">Issued: October 2025</p>
-                            <p class="cert-id">Credential: mxqs5z47hjbv</p>
-                        </article>
-
-                        <article class="cert-card" data-category="ai-ml" role="article" aria-labelledby="cert-title-2">
-                            <div class="cert-badge">
-                                <i class="fas fa-brain" aria-hidden="true"></i>
-                            </div>
-                            <h4 id="cert-title-2">AI Fluency Framework & Foundations</h4>
-                            <p class="cert-issuer"><i class="fas fa-certificate" aria-hidden="true"></i> Anthropic</p>
-                            <p class="cert-date">Issued: August 2025</p>
-                            <p class="cert-id">Credential: q4cv8y6gou8j</p>
-                        </article>
-
-                        <article class="cert-card" data-category="project-mgmt" role="article" aria-labelledby="cert-title-3">
-                            <div class="cert-badge">
-                                <i class="fas fa-project-diagram" aria-hidden="true"></i>
-                            </div>
-                            <h4 id="cert-title-3">Registered Scrum Basics™</h4>
-                            <p class="cert-issuer"><i class="fas fa-certificate" aria-hidden="true"></i> Scrum Inc.</p>
-                            <p class="cert-date">Issued: August 2025</p>
-                            <p class="cert-id">Credential: RSB-9683199</p>
-                        </article>
-
-                        <article class="cert-card" data-category="ai-ml" role="article" aria-labelledby="cert-title-4">
-                            <div class="cert-badge">
-                                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
-                            </div>
-                            <h4 id="cert-title-4">AI for Beginners</h4>
-                            <p class="cert-issuer"><i class="fas fa-laptop-code" aria-hidden="true"></i> HP LIFE</p>
-                            <p class="cert-date">Issued: July 2025</p>
-                        </article>
-
-                        <article class="cert-card" data-category="project-mgmt" role="article" aria-labelledby="cert-title-5">
-                            <div class="cert-badge">
-                                <i class="fas fa-tasks" aria-hidden="true"></i>
-                            </div>
-                            <h4 id="cert-title-5">Agile Project Management</h4>
-                            <p class="cert-issuer"><i class="fas fa-laptop-code" aria-hidden="true"></i> HP LIFE</p>
-                            <p class="cert-date">Issued: July 2025</p>
-                        </article>
-
-                        <article class="cert-card" data-category="ai-ml" role="article" aria-labelledby="cert-title-6">
-                            <div class="cert-badge">
-                                <i class="fas fa-comments" aria-hidden="true"></i>
-                            </div>
-                            <h4 id="cert-title-6">ChatGPT for Everyone</h4>
-                            <p class="cert-issuer"><i class="fas fa-book-reader" aria-hidden="true"></i> Learn Prompting</p>
-                            <p class="cert-date">Issued: July 2025 (Expires: July 2026)</p>
-                            <p class="cert-id">Credential: WFHDJZ9SN1</p>
-                        </article>
-
-                        <article class="cert-card" data-category="ai-ml" role="article" aria-labelledby="cert-title-7">
-                            <div class="cert-badge">
-                                <i class="fas fa-code" aria-hidden="true"></i>
-                            </div>
-                            <h4 id="cert-title-7">ChatGPT Prompt Engineering for Developers</h4>
-                            <p class="cert-issuer"><i class="fab fa-python" aria-hidden="true"></i> Coursera</p>
-                            <p class="cert-date">Issued: July 2025</p>
-                        </article>
-
-                        <article class="cert-card" data-category="ai-ml" role="article" aria-labelledby="cert-title-8">
-                            <div class="cert-badge">
-                                <i class="fas fa-user-robot" aria-hidden="true"></i>
-                            </div>
-                            <h4 id="cert-title-8">AI Agent Architect - From Learner to Builder</h4>
-                            <p class="cert-issuer"><i class="fab fa-ibm" aria-hidden="true"></i> IBM</p>
-                            <p class="cert-date">Issued: July 2025</p>
-                        </article>
-                    </div>
-                </section>
-
-                <!-- AI & Machine Learning Certifications -->
-                <section class="cert-category-section" aria-labelledby="ai-certs-heading">
-                    <h3 id="ai-certs-heading"><i class="fas fa-brain" aria-hidden="true"></i> AI & Machine Learning Certifications</h3>
-                    <div class="cert-list">
-                        <!-- ... your cert-item blocks here ... -->
-                    </div>
-                </section>
-
-                <!-- Cloud Computing Certifications -->
-                <section class="cert-category-section" aria-labelledby="cloud-certs-heading">
-                    <h3 id="cloud-certs-heading"><i class="fas fa-cloud" aria-hidden="true"></i> Cloud Computing Certifications</h3>
-                    <div class="cert-list">
-                        <!-- ... your cert-item blocks here ... -->
-                    </div>
-                </section>
-
-                <!-- Project Management Certifications -->
-                <section class="cert-category-section" aria-labelledby="pm-certs-heading">
-                    <h3 id="pm-certs-heading"><i class="fas fa-tasks" aria-hidden="true"></i> Project Management Certifications</h3>
-                    <div class="cert-list">
-                        <!-- ... your cert-item blocks here ... -->
-                    </div>
-                </section>
-
-                <!-- Other Professional Certifications -->
-                <section class="cert-category-section" aria-labelledby="other-certs-heading">
-                    <h3 id="other-certs-heading"><i class="fas fa-award" aria-hidden="true"></i> Other Professional Certifications</h3>
-                    <div class="cert-list">
-                        <!-- ... your cert-item blocks here ... -->
-                        <article class="cert-item" data-category="other" role="article" aria-labelledby="cert-title-other-1">
-                            <div class="cert-icon"><i class="fas fa-digital-tachograph" aria-hidden="true"></i></div>
-                            <div class="cert-details">
-                                <h4 id="cert-title-other-1">Digital Skills: Digital Skills for Work and Life</h4>
-                                <p><strong>Issuer:</strong> Accenture | <strong>Date:</strong> May 2025</p>
-                            </div>
-                        </article>
-                    </div>
-                </section>
-
-                <!-- Technical Certifications (Programming & Testing) -->
-                <section class="cert-category-section" aria-labelledby="tech-certs-heading">
-                    <h3 id="tech-certs-heading"><i class="fas fa-code" aria-hidden="true"></i> Technical Certifications</h3>
-                    <div class="cert-list">
-                        <!-- ... your cert-item blocks here ... -->
-                    </div>
-                </section>
-
-                <!-- Prompt Engineering Certifications -->
-                <section class="cert-category-section" aria-labelledby="prompt-certs-heading">
-                    <h3 id="prompt-certs-heading"><i class="fas fa-terminal" aria-hidden="true"></i> Prompt Engineering Certifications</h3>
-                    <div class="cert-list">
-                        <!-- ... your cert-item blocks here ... -->
-                    </div>
-                </section>
-
-                <!-- Microsoft Copilot Certifications -->
-                <section class="cert-category-section" aria-labelledby="copilot-certs-heading">
-                    <h3 id="copilot-certs-heading"><i class="fab fa-microsoft" aria-hidden="true"></i> Microsoft 365 Copilot Certifications</h3>
-                    <div class="cert-list">
-                        <!-- ... your cert-item blocks here ... -->
-                    </div>
-                </section>
-
-                <!-- Certification Statistics -->
-                <div class="cert-stats">
-                    <h3>Certification Summary</h3>
-                    <div class="stats-grid">
-                        <div class="stat-card">
-                            <div class="stat-icon">
-                                <i class="fas fa-certificate" aria-hidden="true"></i>
-                            </div>
-                            <div class="stat-content">
-                                <h4>150+</h4>
-                                <p>Total Certifications</p>
-                            </div>
-                        </div>
-
-                        <div class="stat-card">
-                            <div class="stat-icon">
-                                <i class="fas fa-robot" aria-hidden="true"></i>
-                            </div>
-                            <div class="stat-content">
-                                <h4>80+</h4>
-                                <p>AI & ML Certifications</p>
-                            </div>
-                        </div>
-
-                        <div class="stat-card">
-                            <div class="stat-icon">
-                                <i class="fas fa-cloud" aria-hidden="true"></i>
-                            </div>
-                            <div class="stat-content">
-                                <h4>20+</h4>
-                                <p>Cloud Platform Certifications</p>
-                            </div>
-                        </div>
-
-                        <div class="stat-card">
-                            <div class="stat-icon">
-                                <i class="fas fa-tasks" aria-hidden="true"></i>
-                            </div>
-                            <div class="stat-content">
-                                <h4>25+</h4>
-                                <p>Project Management Certifications</p>
-                            </div>
-                        </div>
-                    </div>
+              <article
+                class="cert-card"
+                data-category="project-mgmt"
+                role="article"
+                aria-labelledby="cert-title-3"
+              >
+                <div class="cert-badge">
+                  <i class="fas fa-project-diagram" aria-hidden="true"></i>
                 </div>
+                <h4 id="cert-title-3">Registered Scrum Basics™</h4>
+                <p class="cert-issuer">
+                  <i class="fas fa-certificate" aria-hidden="true"></i> Scrum
+                  Inc.
+                </p>
+                <p class="cert-date">Issued: August 2025</p>
+                <p class="cert-id">Credential: RSB-9683199</p>
+              </article>
 
-                <!-- Call to Action -->
-                <div class="cert-cta">
-                    <h3>Want to Learn More?</h3>
-                    <p>
-                        These certifications represent my commitment to continuous learning and staying at the
-                        forefront of technology. I'm always eager to apply this knowledge to real-world challenges.
-                    </p>
-                    <a href="contact.html" class="btn btn-primary">
-                        <i class="fas fa-envelope" aria-hidden="true"></i>
-                        Get In Touch
-                    </a>
+              <article
+                class="cert-card"
+                data-category="ai-ml"
+                role="article"
+                aria-labelledby="cert-title-4"
+              >
+                <div class="cert-badge">
+                  <i class="fas fa-graduation-cap" aria-hidden="true"></i>
                 </div>
+                <h4 id="cert-title-4">AI for Beginners</h4>
+                <p class="cert-issuer">
+                  <i class="fas fa-laptop-code" aria-hidden="true"></i> HP LIFE
+                </p>
+                <p class="cert-date">Issued: July 2025</p>
+              </article>
+
+              <article
+                class="cert-card"
+                data-category="project-mgmt"
+                role="article"
+                aria-labelledby="cert-title-5"
+              >
+                <div class="cert-badge">
+                  <i class="fas fa-tasks" aria-hidden="true"></i>
+                </div>
+                <h4 id="cert-title-5">Agile Project Management</h4>
+                <p class="cert-issuer">
+                  <i class="fas fa-laptop-code" aria-hidden="true"></i> HP LIFE
+                </p>
+                <p class="cert-date">Issued: July 2025</p>
+              </article>
+
+              <article
+                class="cert-card"
+                data-category="ai-ml"
+                role="article"
+                aria-labelledby="cert-title-6"
+              >
+                <div class="cert-badge">
+                  <i class="fas fa-comments" aria-hidden="true"></i>
+                </div>
+                <h4 id="cert-title-6">ChatGPT for Everyone</h4>
+                <p class="cert-issuer">
+                  <i class="fas fa-book-reader" aria-hidden="true"></i> Learn
+                  Prompting
+                </p>
+                <p class="cert-date">Issued: July 2025 (Expires: July 2026)</p>
+                <p class="cert-id">Credential: WFHDJZ9SN1</p>
+              </article>
+
+              <article
+                class="cert-card"
+                data-category="ai-ml"
+                role="article"
+                aria-labelledby="cert-title-7"
+              >
+                <div class="cert-badge">
+                  <i class="fas fa-code" aria-hidden="true"></i>
+                </div>
+                <h4 id="cert-title-7">
+                  ChatGPT Prompt Engineering for Developers
+                </h4>
+                <p class="cert-issuer">
+                  <i class="fab fa-python" aria-hidden="true"></i> Coursera
+                </p>
+                <p class="cert-date">Issued: July 2025</p>
+              </article>
+
+              <article
+                class="cert-card"
+                data-category="ai-ml"
+                role="article"
+                aria-labelledby="cert-title-8"
+              >
+                <div class="cert-badge">
+                  <i class="fas fa-user-robot" aria-hidden="true"></i>
+                </div>
+                <h4 id="cert-title-8">
+                  AI Agent Architect - From Learner to Builder
+                </h4>
+                <p class="cert-issuer">
+                  <i class="fab fa-ibm" aria-hidden="true"></i> IBM
+                </p>
+                <p class="cert-date">Issued: July 2025</p>
+              </article>
             </div>
-        </section>
+          </section>
+
+          <!-- AI & Machine Learning Certifications -->
+          <section
+            class="cert-category-section"
+            aria-labelledby="ai-certs-heading"
+          >
+            <h3 id="ai-certs-heading">
+              <i class="fas fa-brain" aria-hidden="true"></i> AI & Machine
+              Learning Certifications
+            </h3>
+            <div class="cert-list">
+              <!-- ... your cert-item blocks here ... -->
+            </div>
+          </section>
+
+          <!-- Cloud Computing Certifications -->
+          <section
+            class="cert-category-section"
+            aria-labelledby="cloud-certs-heading"
+          >
+            <h3 id="cloud-certs-heading">
+              <i class="fas fa-cloud" aria-hidden="true"></i> Cloud Computing
+              Certifications
+            </h3>
+            <div class="cert-list">
+              <!-- ... your cert-item blocks here ... -->
+            </div>
+          </section>
+
+          <!-- Project Management Certifications -->
+          <section
+            class="cert-category-section"
+            aria-labelledby="pm-certs-heading"
+          >
+            <h3 id="pm-certs-heading">
+              <i class="fas fa-tasks" aria-hidden="true"></i> Project Management
+              Certifications
+            </h3>
+            <div class="cert-list">
+              <!-- ... your cert-item blocks here ... -->
+            </div>
+          </section>
+
+          <!-- Other Professional Certifications -->
+          <section
+            class="cert-category-section"
+            aria-labelledby="other-certs-heading"
+          >
+            <h3 id="other-certs-heading">
+              <i class="fas fa-award" aria-hidden="true"></i> Other Professional
+              Certifications
+            </h3>
+            <div class="cert-list">
+              <!-- ... your cert-item blocks here ... -->
+              <article
+                class="cert-item"
+                data-category="other"
+                role="article"
+                aria-labelledby="cert-title-other-1"
+              >
+                <div class="cert-icon">
+                  <i class="fas fa-digital-tachograph" aria-hidden="true"></i>
+                </div>
+                <div class="cert-details">
+                  <h4 id="cert-title-other-1">
+                    Digital Skills: Digital Skills for Work and Life
+                  </h4>
+                  <p>
+                    <strong>Issuer:</strong> Accenture |
+                    <strong>Date:</strong> May 2025
+                  </p>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <!-- Technical Certifications (Programming & Testing) -->
+          <section
+            class="cert-category-section"
+            aria-labelledby="tech-certs-heading"
+          >
+            <h3 id="tech-certs-heading">
+              <i class="fas fa-code" aria-hidden="true"></i> Technical
+              Certifications
+            </h3>
+            <div class="cert-list">
+              <!-- ... your cert-item blocks here ... -->
+            </div>
+          </section>
+
+          <!-- Prompt Engineering Certifications -->
+          <section
+            class="cert-category-section"
+            aria-labelledby="prompt-certs-heading"
+          >
+            <h3 id="prompt-certs-heading">
+              <i class="fas fa-terminal" aria-hidden="true"></i> Prompt
+              Engineering Certifications
+            </h3>
+            <div class="cert-list">
+              <!-- ... your cert-item blocks here ... -->
+            </div>
+          </section>
+
+          <!-- Microsoft Copilot Certifications -->
+          <section
+            class="cert-category-section"
+            aria-labelledby="copilot-certs-heading"
+          >
+            <h3 id="copilot-certs-heading">
+              <i class="fab fa-microsoft" aria-hidden="true"></i> Microsoft 365
+              Copilot Certifications
+            </h3>
+            <div class="cert-list">
+              <!-- ... your cert-item blocks here ... -->
+            </div>
+          </section>
+
+          <!-- Certification Statistics -->
+          <div class="cert-stats">
+            <h3>Certification Summary</h3>
+            <div class="stats-grid">
+              <div class="stat-card">
+                <div class="stat-icon">
+                  <i class="fas fa-certificate" aria-hidden="true"></i>
+                </div>
+                <div class="stat-content">
+                  <h4>150+</h4>
+                  <p>Total Certifications</p>
+                </div>
+              </div>
+
+              <div class="stat-card">
+                <div class="stat-icon">
+                  <i class="fas fa-robot" aria-hidden="true"></i>
+                </div>
+                <div class="stat-content">
+                  <h4>80+</h4>
+                  <p>AI & ML Certifications</p>
+                </div>
+              </div>
+
+              <div class="stat-card">
+                <div class="stat-icon">
+                  <i class="fas fa-cloud" aria-hidden="true"></i>
+                </div>
+                <div class="stat-content">
+                  <h4>20+</h4>
+                  <p>Cloud Platform Certifications</p>
+                </div>
+              </div>
+
+              <div class="stat-card">
+                <div class="stat-icon">
+                  <i class="fas fa-tasks" aria-hidden="true"></i>
+                </div>
+                <div class="stat-content">
+                  <h4>25+</h4>
+                  <p>Project Management Certifications</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Call to Action -->
+          <div class="cert-cta">
+            <h3>Want to Learn More?</h3>
+            <p>
+              These certifications represent my commitment to continuous
+              learning and staying at the forefront of technology. I'm always
+              eager to apply this knowledge to real-world challenges.
+            </p>
+            <a href="contact.html" class="btn btn-primary">
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              Get In Touch
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2025 Darshil Shah. All rights reserved.</p>
-                <div class="footer-links">
-                    <a href="https://github.com/darshil0" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                        <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/darshil-qa-lead" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                    <a href="mailto:darshils99@gmail.com" aria-label="Email">
-                        <i class="fas fa-envelope" aria-hidden="true"></i>
-                    </a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2025 Darshil Shah. All rights reserved.</p>
+          <div class="footer-links">
+            <a
+              href="https://github.com/darshil0"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/darshil-qa-lead"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="mailto:darshils99@gmail.com" aria-label="Email">
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+            </a>
+          </div>
         </div>
+      </div>
     </footer>
 
     <script src="script.js" defer></script>
-</body>
+  </body>
 </html>

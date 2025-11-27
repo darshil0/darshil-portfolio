@@ -100,7 +100,11 @@
    CONTINUOUS LEARNING SECTION
    ==================================== */
 .continuous-learning-section {
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
   color: var(--white);
   padding: 3rem;
   border-radius: 1rem;
@@ -183,7 +187,11 @@
 .method-icon {
   width: 50px;
   height: 50px;
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
   border-radius: 0.75rem;
   display: flex;
   align-items: center;
@@ -380,7 +388,11 @@
 .availability-icon {
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
   border-radius: 1rem;
   display: flex;
   align-items: center;
@@ -580,6 +592,20 @@ footer {
   }
 }
 
+/* FOCUS STYLES */
+a:focus,
+button:focus,
+.hamburger:focus,
+.filter-btn:focus,
+.btn:focus,
+.social-button:focus,
+.footer-links a:focus,
+input:focus,
+textarea:focus {
+  outline: 3px solid var(--secondary-color);
+  outline-offset: 2px;
+}
+
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
@@ -720,23 +746,46 @@ footer {
   text-align: center;
 }
 
-.mb-0 { margin-bottom: 0; }
-.mb-1 { margin-bottom: 0.5rem; }
-.mb-2 { margin-bottom: 1rem; }
-.mb-3 { margin-bottom: 1.5rem; }
-.mb-4 { margin-bottom: 2rem; }
+.mb-0 {
+  margin-bottom: 0;
+}
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+.mb-2 {
+  margin-bottom: 1rem;
+}
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+.mb-4 {
+  margin-bottom: 2rem;
+}
 
-.mt-0 { margin-top: 0; }
-.mt-1 { margin-top: 0.5rem; }
-.mt-2 { margin-top: 1rem; }
-.mt-3 { margin-top: 1.5rem; }
-.mt-4 { margin-top: 2rem; }
+.mt-0 {
+  margin-top: 0;
+}
+.mt-1 {
+  margin-top: 0.5rem;
+}
+.mt-2 {
+  margin-top: 1rem;
+}
+.mt-3 {
+  margin-top: 1.5rem;
+}
+.mt-4 {
+  margin-top: 2rem;
+}
 
 /* ====================================
    PRINT STYLES
    ==================================== */
 @media print {
-  nav, footer, .btn, .hamburger {
+  nav,
+  footer,
+  .btn,
+  .hamburger {
     display: none;
   }
   body {
