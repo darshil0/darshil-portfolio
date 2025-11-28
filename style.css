@@ -8,8 +8,40 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
-    color: #333;
+    background: #f0f8ff; /* AliceBlue */
+    color: #000080; /* Navy */
+}
+
+/* Education Page */
+.education-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.education-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    color: #000; /* Black for maximum contrast */
+}
+
+.education-card h3,
+.education-card p {
+    color: #000; /* Ensure text inside the card is black */
+}
+
+.education-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.education-header i {
+    font-size: 2rem;
+    margin-right: 15px;
+    color: #000080; /* Navy */
 }
 
 .container {
@@ -21,15 +53,15 @@ body {
 
 /* Header and Navigation */
 header {
-    background: #333;
-    color: #fff;
+    background: #000080; /* Navy */
+    color: #f0f8ff; /* AliceBlue */
     padding: 1rem 0;
     text-align: center;
 }
 
 nav {
-    background: #444;
-    color: #fff;
+    background: #4682B4; /* SteelBlue */
+    color: #f0f8ff; /* AliceBlue */
     padding: 0.5rem 0;
 }
 
@@ -50,7 +82,7 @@ nav .nav-container {
 }
 
 .nav-menu a {
-    color: #fff;
+    color: #f0f8ff; /* AliceBlue */
     text-decoration: none;
     font-weight: bold;
 }
@@ -80,14 +112,14 @@ main {
     padding: 20px 40px;
     position: relative;
     background: #fff;
-    border-left: 3px solid #333;
+    border-left: 3px solid #4682B4; /* SteelBlue */
     margin-bottom: 20px;
 }
 
 .timeline-dot {
     height: 15px;
     width: 15px;
-    background: #333;
+    background: #4682B4; /* SteelBlue */
     border-radius: 50%;
     position: absolute;
     left: -9px;
@@ -97,28 +129,28 @@ main {
 /* Buttons */
 .btn {
     display: inline-block;
-    background: #333;
-    color: #fff;
+    background: #4682B4; /* SteelBlue */
+    color: #f0f8ff; /* AliceBlue */
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .btn:hover {
-    background: #555;
+    background: #000080; /* Navy */
 }
 
 /* Footer */
 footer {
-    background: #333;
-    color: #fff;
+    background: #000080; /* Navy */
+    color: #f0f8ff; /* AliceBlue */
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
 }
 
 .footer-links a {
-    color: #fff;
+    color: #f0f8ff; /* AliceBlue */
     margin: 0 10px;
     font-size: 1.5rem;
 }
@@ -181,7 +213,7 @@ footer {
 .cert-badge {
     font-size: 2.5rem;
     margin-bottom: 15px;
-    color: #333;
+    color: #000080; /* Navy */
 }
 
 .cert-card h4 {
@@ -207,11 +239,61 @@ footer {
 
 .tech-tags span {
     display: inline-block;
-    background: #eee;
+    background: #B0C4DE; /* LightSteelBlue */
     padding: 5px 10px;
     border-radius: 5px;
     margin-right: 5px;
     margin-bottom: 5px;
+}
+
+/* Certification Filters */
+.cert-filters {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.filter-btn {
+    background: none;
+    border: 2px solid #4682B4; /* SteelBlue */
+    color: #4682B4; /* SteelBlue */
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+    background: #4682B4; /* SteelBlue */
+    color: #f0f8ff; /* AliceBlue */
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    background: url('images/hero-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
 }
 
 /* Project Stats */
@@ -233,7 +315,7 @@ footer {
 .stat-icon {
     font-size: 2.5rem;
     margin-bottom: 15px;
-    color: #333;
+    color: #000080; /* Navy */
 }
 
 /* Tools Page */
@@ -255,4 +337,25 @@ footer {
     font-size: 2.5rem;
     margin-bottom: 15px;
     display: block;
+}
+
+/* Contact Page */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.contact-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-card i {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #000080; /* Navy */
 }
