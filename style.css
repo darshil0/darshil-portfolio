@@ -332,6 +332,11 @@ footer {
     color: #007bff;
 }
 
+.authority-link {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Experience Page */
 .tech-tags {
     margin-top: 15px;
