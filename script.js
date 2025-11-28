@@ -192,7 +192,6 @@ function initScrollAnimations() {
   }
 }
 
-// FIX: Declare lastScroll before using it
 const nav = document.querySelector("nav");
 if (nav) {
   let lastScroll = 0;
