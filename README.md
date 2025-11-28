@@ -6,6 +6,15 @@ Welcome to the repository for my personal portfolio website. This project showca
 
 ## Changelog
 
+**Version 1.2.0 - November 28, 2025**
+- **Comprehensive UI Overhaul:** Completely rewrote the website's CSS to introduce a modern, professional, and responsive design. This includes a new color scheme, improved typography, consistent card-based layouts, and interactive hover effects.
+- **Content Update:** Integrated new content across multiple pages, including updated "Key Achievements," a new "Technical Expertise" section, a new "AI Evaluation QA Framework" project, and a list of "Issuing Authorities" for certifications.
+- **Bug Fixes:**
+  - **Functional Hamburger Menu:** Implemented the necessary JavaScript to make the mobile navigation menu fully functional.
+  - **Icon Corrections:** Fixed multiple broken Font Awesome icons across the projects and certifications pages.
+  - **Footer Standardization:** Removed underlines from social media icons in the footer and ensured a consistent look and feel across all pages.
+- **Code Quality Improvements:** Removed dead CSS and cleaned up the codebase for better maintainability.
+
 **Version 1.1.0 - November 27, 2025**
 - **Fixed Stylesheet Loading:** Resolved a critical issue where styles were not being applied across the entire website. This was fixed by renaming `styles.css` to `style.css` and updating all HTML files to reflect the change.
 - **JavaScript Correction:** Removed an unused `lastScroll` variable from `script.js` to prevent potential runtime errors and improve code clarity.
