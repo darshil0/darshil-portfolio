@@ -356,7 +356,6 @@ Healthcare QA Leader | AI/ML Enthusiast | Digital Health Expert
 - 📧 **Email:** [darshils99@gmail.com](mailto:darshils99@gmail.com)
 - 💼 **LinkedIn:** [linkedin.com/in/darshil-qa-lead](https://www.linkedin.com/in/darshil-qa-lead)
 - 🐙 **GitHub:** [github.com/darshil0](https://github.com/darshil0)
-- 🐦 **X (Twitter):** [@darshil_s_shah](https://x.com/darshil_s_shah)
 - 📍 **Location:** Irving, Texas, United States
 - 📱 **Phone:** 469-987-6574
 
