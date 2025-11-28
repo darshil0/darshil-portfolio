@@ -192,10 +192,10 @@ function initScrollAnimations() {
   }
 }
 
+// FIX: Declare lastScroll before using it
 const nav = document.querySelector("nav");
 if (nav) {
-  // FIX: Declare lastScroll to prevent ReferenceError
-  let lastScroll = 0; 
+  let lastScroll = 0;
 
   window.addEventListener(
     "scroll",
