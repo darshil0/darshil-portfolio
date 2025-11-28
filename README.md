@@ -1,6 +1,16 @@
 # Darshil Shah's Professional Portfolio
 
+**Version 1.1.0**
+
 Welcome to the repository for my personal portfolio website. This project showcases my skills, experience, and professional background as a Healthcare QA Leader. The website is built with clean, modern web technologies and is hosted on GitHub Pages.
+
+## Changelog
+
+**Version 1.1.0 - November 27, 2025**
+- **Fixed Stylesheet Loading:** Resolved a critical issue where styles were not being applied across the entire website. This was fixed by renaming `styles.css` to `style.css` and updating all HTML files to reflect the change.
+- **JavaScript Correction:** Removed an unused `lastScroll` variable from `script.js` to prevent potential runtime errors and improve code clarity.
+- **Code Formatting:** Standardized the formatting of all HTML, CSS, and JavaScript files using Prettier to ensure a consistent and clean codebase.
+- **General Code Cleanup:** Addressed various minor issues to improve the overall quality and maintainability of the project.
 
 ## Website Goal
 
