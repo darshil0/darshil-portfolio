@@ -53,6 +53,156 @@ body {
 }
 
 /* ====================================
+   TOOLS PAGE STYLES (NEW)
+   ==================================== */
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.tool-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  background: var(--white);
+  border-radius: 1rem;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+  text-align: center;
+}
+
+.tool-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+}
+
+.tool-card i {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+
+.tool-card:hover i {
+  transform: scale(1.1);
+  color: var(--secondary-color);
+}
+
+.tool-card span {
+  font-weight: 600;
+  color: var(--dark-gray);
+  font-size: 1.125rem;
+}
+
+/* ====================================
+   CERTIFICATION PAGE STYLES (NEW)
+   ==================================== */
+.cert-filters {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.filter-btn {
+  padding: 0.75rem 1.5rem;
+  border: 2px solid var(--border-color);
+  background: var(--white);
+  color: var(--dark-gray);
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.filter-btn:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.filter-btn.active {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: var(--white);
+  border-color: transparent;
+}
+
+.recent-certs-section {
+  margin-top: 3rem;
+}
+
+.recent-certs-section h3 {
+  font-size: 1.75rem;
+  color: var(--dark-gray);
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.cert-card {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.cert-badge {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.cert-badge i {
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+.cert-card h4 {
+  font-size: 1.25rem;
+  color: var(--dark-gray);
+  margin-bottom: 1rem;
+}
+
+.cert-issuer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--medium-gray);
+  margin-bottom: 0.5rem;
+}
+
+.cert-issuer i {
+  color: var(--primary-color);
+}
+
+.cert-date {
+  color: var(--medium-gray);
+  font-size: 0.875rem;
+}
+
+/* ====================================
    EDUCATION HIGHLIGHTS
    ==================================== */
 .education-highlights h4 {
@@ -514,7 +664,7 @@ body {
 }
 
 /* ====================================
-   CERTIFICATION PAGE STYLES
+   CERTIFICATION PAGE STATS
    ==================================== */
 .cert-stats {
   display: grid;
@@ -765,6 +915,12 @@ textarea:focus {
     width: 100%;
     justify-content: center;
   }
+  .tools-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .cert-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 480px) {
@@ -789,6 +945,12 @@ textarea:focus {
   }
   .profile-placeholder i {
     font-size: 3rem;
+  }
+  .tool-card {
+    padding: 1.5rem;
+  }
+  .tool-card i {
+    font-size: 2rem;
   }
 }
 
