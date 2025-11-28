@@ -192,11 +192,8 @@ function initScrollAnimations() {
   }
 }
 
-// FIX: Declare lastScroll before using it
 const nav = document.querySelector("nav");
 if (nav) {
-  let lastScroll = 0;
-
   window.addEventListener(
     "scroll",
     throttle(function () {
@@ -209,8 +206,6 @@ if (nav) {
         nav.style.boxShadow = "0 4px 6px -1px rgba(0, 0, 0, 0.1)";
         nav.classList.remove("scrolled");
       }
-
-      lastScroll = currentScroll;
     }, 100),
   );
 }
