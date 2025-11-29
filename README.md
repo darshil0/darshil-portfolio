@@ -13,14 +13,15 @@ A modern, responsive portfolio website showcasing professional experience, proje
 ## 📋 Table of Contents
 
 - [Overview](#overview)
-- [Features](#features)
+- [Key Features](#key-features)
 - [Pages](#pages)
-- [Technologies Used](#technologies-used)
-- [Recent Updates](#recent-updates)
-- [Installation](#installation)
+- [Technical Stack](#technical-stack)
+- [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
+- [Recent Updates](#recent-updates)
 - [Changelog](#changelog)
 - [Contributing](#contributing)
+- [Future Roadmap](#future-roadmap)
 - [License](#license)
 - [Contact](#contact)
 
@@ -28,151 +29,102 @@ A modern, responsive portfolio website showcasing professional experience, proje
 
 ## 🎯 Overview
 
-This portfolio website represents my professional journey as a Healthcare QA Leader with 10+ years of experience in AI/ML, digital health, and compliance. The site showcases measurable achievements including 40% cost savings and safer patient outcomes.
+This portfolio represents a decade of professional excellence in Healthcare QA Leadership, combining deep expertise in AI/ML, digital health innovation, and compliance-driven quality assurance. The site demonstrates measurable impact across patient care, operational efficiency, and team leadership.
 
-### Key Highlights
+### Professional Highlights
 
-- 🏆 **40% Cost Reduction** in patient care costs through shift-left strategies
-- ⏱️ **30% Faster** patient wait times via enhanced QA strategies
-- 📈 **25% Increase** in test coverage across healthcare applications
-- ⭐ **100% Quality** delivery with zero defects (client recognized)
-- 👥 **15+ Engineers** led across global teams
+- 🏆 Achieved 40% reduction in patient care costs through strategic shift-left testing approaches
+- ⏱️ Reduced patient wait times by 30% via enhanced QA methodologies
+- 📈 Expanded test coverage by 25% across critical healthcare applications
+- ⭐ Delivered 100% quality with zero defects, earning formal client recognition
+- 👥 Led and mentored 15+ engineers across distributed global teams
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-### Design & User Experience
-- ✅ **Fully Responsive** - Optimized for desktop, tablet, and mobile devices
-- ✅ **Modern UI/UX** - Clean, professional design with smooth animations
-- ✅ **Accessible** - WCAG 2.1 compliant with proper ARIA labels
-- ✅ **Fast Loading** - Optimized assets and efficient CSS
-- ✅ **SEO Optimized** - Proper meta tags and semantic HTML
-- ✅ **Favicon & Branding** - Custom favicon for brand identity
+### Design Philosophy
+- **Fully Responsive** - Seamless experience across desktop, tablet, and mobile devices
+- **Modern Aesthetics** - Clean, professional interface with intuitive navigation
+- **Accessibility First** - WCAG 2.1 Level AA compliant with comprehensive ARIA support
+- **Performance Optimized** - Fast loading times through efficient asset management
+- **SEO Enhanced** - Structured data and semantic HTML for better discoverability
+- **Brand Consistency** - Custom favicon and cohesive visual identity
 
-### Functionality
-- ✅ **Mobile Navigation** - Smooth hamburger menu with slide-in animation
-- ✅ **Interactive Cards** - Hover effects and smooth transitions
-- ✅ **Certification Filtering** - Dynamic filtering by category (AI/ML, Cloud, PM)
-- ✅ **Timeline View** - Professional experience displayed chronologically
-- ✅ **Social Integration** - Direct links to GitHub, LinkedIn, X/Twitter, and Email
+### Interactive Elements
+- **Mobile-First Navigation** - Smooth hamburger menu with slide-in animations
+- **Dynamic Cards** - Engaging hover effects and fluid transitions
+- **Smart Filtering** - Category-based certification filtering (AI/ML, Cloud, PM)
+- **Timeline Visualization** - Chronological professional journey with clear milestones
+- **Social Integration** - Direct connections to GitHub, LinkedIn, X/Twitter, and Email
 
-### Technical Features
-- ✅ **Semantic HTML5** - Proper structure and accessibility
-- ✅ **CSS3 Animations** - Smooth transitions and effects
-- ✅ **Vanilla JavaScript** - No dependencies, fast performance
-- ✅ **GitHub Pages Ready** - Easy deployment and hosting
+### Technical Excellence
+- **Semantic HTML5** - Proper document structure for accessibility and SEO
+- **Modern CSS3** - Advanced animations and responsive layouts
+- **Vanilla JavaScript** - Zero dependencies for optimal performance
+- **GitHub Pages Compatible** - Simplified deployment and hosting workflow
 
 ---
 
 ## 📄 Pages
 
-### 1. **Home** (`index.html`)
-Hero section with key achievements, quick stats, top skills, languages, honors & awards, areas of expertise, recent highlights, and call-to-action.
+### Home (`index.html`)
+Dynamic hero section featuring key achievements, quick statistics, technical skills, spoken languages, professional honors, areas of expertise, recent highlights, and clear calls-to-action.
 
-### 2. **Experience** (`experience.html`)
-Detailed professional timeline spanning 2011-2024, including roles at Accenture, Infosys, TCS, and freelance work. Features downloadable resume button.
+### Experience (`experience.html`)
+Comprehensive professional timeline spanning 2011-2024, documenting roles at Accenture, Infosys, TCS, and freelance engagements. Includes downloadable resume functionality.
 
-### 3. **Projects** (`projects.html`)
-Showcase of major projects including:
+### Projects (`projects.html`)
+Detailed showcase of signature projects:
 - Kaiser Permanente Mobile Healthcare Platform
 - AI Evaluation QA Framework
-With detailed achievements and technologies used.
 
-### 4. **Tools & Tech** (`tools.html`)
-Comprehensive technical expertise organized into 6 categories:
+Each project highlights measurable achievements and technology stack.
+
+### Tools & Tech (`tools.html`)
+Organized technical expertise across six domains:
 - QA & Automation
 - Cloud & DevOps
 - AI & Machine Learning
 - Programming & Databases
-- Healthcare Domain
+- Healthcare Domain Knowledge
 - Project Management
 
-### 5. **Certifications** (`certifications.html`)
-15+ professional certifications with filtering by category. Includes issuing authorities section with direct links to credential profiles.
+### Certifications (`certifications.html`)
+Portfolio of 15+ professional certifications with interactive category filtering. Features issuing authorities section with direct credential verification links.
 
-### 6. **Education** (`education.html`)
-Academic background including MBA in Information Technology and Bachelor of Engineering.
+### Education (`education.html`)
+Academic credentials including MBA in Information Technology and Bachelor of Engineering in Computer Science.
 
-### 7. **Contact** (`contact.html`)
-Multiple ways to connect via email, LinkedIn, phone, and GitHub.
-
----
-
-## 🛠️ Technologies Used
-
-### Frontend
-- **HTML5** - Semantic markup and structure
-- **CSS3** - Modern styling with Flexbox and Grid
-- **JavaScript (ES6+)** - Interactive features and animations
-- **Font Awesome 6.4.0** - Icon library
-- **Google Fonts** - Montserrat font family
-
-### Tools & Platforms
-- **GitHub Pages** - Hosting and deployment
-- **Git** - Version control
-- **VS Code** - Development environment
+### Contact (`contact.html`)
+Multiple communication channels including email, LinkedIn, phone, and GitHub with clear accessibility labels.
 
 ---
 
-## 🆕 Recent Updates
+## 🛠️ Technical Stack
 
-### Version 2.2.0 (November 29, 2025)
+### Frontend Technologies
+- **HTML5** - Semantic markup and modern document structure
+- **CSS3** - Flexbox and Grid layouts with custom animations
+- **JavaScript (ES6+)** - Interactive features and DOM manipulation
+- **Font Awesome 6.4.0** - Comprehensive icon library
+- **Google Fonts (Montserrat)** - Professional typography
 
-#### Branding & UX Enhancements
-
-##### **Favicon Integration**
-- ✅ Added a custom `favicon.ico` to the `images` directory
-- ✅ Linked the favicon in all 7 HTML pages for consistent brand identity
-- ✅ Updated `README.md` to reflect the new feature
-
-### Version 2.1.0 (November 29, 2025)
-
-#### Quality & Accessibility Improvements
-
-##### **Semantic HTML Enhancements**
-- ✅ Replaced all `<b>` tags with `<strong>` tags for proper semantic meaning
-- ✅ Improved accessibility for screen readers
-- ✅ Better SEO optimization through semantic structure
-
-##### **Footer Consistency & Social Media Integration**
-- ✅ Added X/Twitter social link to all 7 pages
-- ✅ Updated X handle to correct URL: `https://x.com/soulsurfer300`
-- ✅ Fixed icon display issue (changed from `fa-x-twitter` to `fab fa-twitter` for Font Awesome 6.4.0 compatibility)
-- ✅ Ensured all external links have `target="_blank"` and `rel="noopener noreferrer"` for security
-- ✅ Consistent footer structure across all pages
-
-##### **Accessibility Fixes**
-- ✅ Fixed `aria-hidden="false"` to `aria-hidden="true"` on decorative icons
-- ✅ Proper ARIA labels on all social media links
-- ✅ Enhanced keyboard navigation support
-- ✅ Improved screen reader compatibility
-
-##### **Code Quality**
-- ✅ Validated HTML5 compliance
-- ✅ Removed duplicate attributes
-- ✅ Consistent code formatting
-- ✅ Better maintainability
-
-#### Files Modified
-- `index.html` - Semantic HTML fixes, footer enhancement
-- `contact.html` - Footer enhancement
-- `certifications.html` - Footer enhancement
-- `projects.html` - Accessibility fix, footer enhancement
-- `education.html` - Footer enhancement
-- `experience.html` - Footer enhancement
-- `tools.html` - Footer enhancement
+### Development Tools
+- **GitHub Pages** - Static site hosting and continuous deployment
+- **Git** - Distributed version control system
+- **VS Code** - Integrated development environment
 
 ---
 
-## 💻 Installation
+## 🚀 Getting Started
 
 ### Prerequisites
-- Web browser (Chrome, Firefox, Safari, Edge)
-- Text editor (VS Code, Sublime Text, etc.)
-- Git (for cloning)
+- Modern web browser (Chrome, Firefox, Safari, or Edge)
+- Text editor or IDE for modifications
+- Git for version control
 
-### Local Setup
+### Local Development
 
 1. **Clone the repository**
    ```bash
@@ -180,37 +132,46 @@ Multiple ways to connect via email, LinkedIn, phone, and GitHub.
    cd darshil-portfolio
    ```
 
-2. **Open in browser**
-   - Simply open `index.html` in your web browser
-   - Or use a local server:
+2. **Launch locally**
+   
+   Option A: Direct browser access
+   ```bash
+   # Simply open index.html in your browser
+   ```
+   
+   Option B: Local server (recommended)
    ```bash
    # Using Python 3
    python -m http.server 8000
    
-   # Using Node.js (with http-server)
+   # Using Node.js http-server
    npx http-server
    ```
 
-3. **Access locally**
-   - Open `http://localhost:8000` in your browser
+3. **View in browser**
+   ```
+   Navigate to http://localhost:8000
+   ```
 
-### Deployment to GitHub Pages
+### GitHub Pages Deployment
 
-1. **Push to GitHub**
+1. **Push changes to GitHub**
    ```bash
    git add .
-   git commit -m "Update portfolio"
+   git commit -m "Update portfolio content"
    git push origin main
    ```
 
-2. **Enable GitHub Pages**
-   - Go to repository Settings
+2. **Configure GitHub Pages**
+   - Access repository Settings
    - Navigate to Pages section
-   - Select `main` branch as source
-   - Save and wait for deployment
+   - Select `main` branch as deployment source
+   - Save configuration and await automatic deployment
 
-3. **Access your site**
-   - Visit `https://yourusername.github.io/darshil-portfolio/`
+3. **Access live site**
+   ```
+   https://yourusername.github.io/darshil-portfolio/
+   ```
 
 ---
 
@@ -219,23 +180,48 @@ Multiple ways to connect via email, LinkedIn, phone, and GitHub.
 ```
 darshil-portfolio/
 │
-├── index.html              # Home page
-├── experience.html         # Professional experience timeline
+├── index.html              # Landing page with hero and highlights
+├── experience.html         # Professional timeline
 ├── projects.html           # Project showcase
-├── tools.html             # Technical expertise
-├── certifications.html    # Professional certifications
+├── tools.html             # Technical skills and expertise
+├── certifications.html    # Professional credentials
 ├── education.html         # Academic background
 ├── contact.html           # Contact information
 │
-├── style.css              # Main stylesheet
-├── script.js              # JavaScript functionality
+├── style.css              # Global stylesheet
+├── script.js              # Interactive functionality
 │
-├── README.md              # This file
+├── README.md              # Documentation (this file)
 ├── LICENSE                # MIT License
 │
-└── images/                # Images and assets
-    └── hero-background.jpg
+└── images/                # Visual assets
+    ├── hero-background.jpg
+    └── favicon.ico
 ```
+
+---
+
+## 🆕 Recent Updates
+
+### Version 2.2.0 (November 29, 2025)
+
+#### Brand Identity Enhancement
+- Added custom `favicon.ico` for improved brand recognition
+- Integrated favicon across all seven pages for consistent identity
+- Updated documentation to reflect branding improvements
+
+### Version 2.1.0 (November 29, 2025)
+
+#### Accessibility & Standards Compliance
+- Replaced all `<b>` tags with semantic `<strong>` tags for better screen reader support
+- Enhanced SEO through improved semantic HTML structure
+- Added X/Twitter social media integration across all pages
+- Corrected X handle URL to `https://x.com/soulsurfer300`
+- Fixed Font Awesome icon compatibility (updated to `fab fa-twitter`)
+- Implemented security best practices with `target="_blank"` and `rel="noopener noreferrer"` on external links
+- Corrected ARIA attributes (`aria-hidden="true"` on decorative elements)
+- Standardized footer structure across entire site
+- Validated HTML5 compliance and removed duplicate attributes
 
 ---
 
@@ -244,111 +230,152 @@ darshil-portfolio/
 ### [2.2.0] - 2025-11-29
 
 #### Added
-- Added `favicon.ico` to the `images` directory.
-- Linked favicon in `index.html`, `experience.html`, `projects.html`, `tools.html`, `certifications.html`, `education.html`, and `contact.html`.
+- Custom favicon integration in images directory
+- Favicon links across all HTML pages for brand consistency
 
 #### Changed
-- Updated `README.md` to reflect the favicon addition and version bump.
+- Updated README.md with favicon documentation and version information
+
+---
 
 ### [2.1.0] - 2025-11-29
 
 #### Added
-- X/Twitter social link to all 7 page footers
-- Proper security attributes (`target="_blank"` and `rel="noopener noreferrer"`) on all external links
-- Comprehensive accessibility labels for social media links
+- X/Twitter social links in all page footers
+- Security attributes for external link safety
+- Comprehensive ARIA labels for social media accessibility
 
 #### Changed
-- Updated X/Twitter handle to `https://x.com/soulsurfer300`
-- Replaced `<b>` tags with `<strong>` tags for semantic HTML (6 instances in index.html)
-- Changed icon class from `fa-x-twitter` to `fab fa-twitter` for Font Awesome 6.4.0 compatibility
+- Updated X/Twitter handle to correct URL
+- Converted bold tags to strong tags for semantic HTML (6 instances)
+- Updated icon library class for Font Awesome compatibility
 
 #### Fixed
-- Accessibility issue: Changed `aria-hidden="false"` to `aria-hidden="true"` on decorative icons
-- Footer consistency across all pages
-- Icon display issue in footer
-- Semantic HTML compliance
+- Corrected ARIA hidden attributes on decorative icons
+- Standardized footer implementation across pages
+- Resolved icon display issues
+- Enhanced semantic HTML compliance
+
+---
 
 ### [2.0.1] - 2025-11-28
 
 #### Fixed
-- Removed Twitter/X icon from the footer across all pages
-- Corrected styling of the GitHub icon in the footer for consistency
-- Updated the email button text on the contact page to prevent overflow
+- Removed Twitter/X icon from footer navigation
+- Corrected GitHub icon styling for visual consistency
+- Adjusted contact page email button text to prevent overflow
+
+---
 
 ### [2.0.0] - 2025-11-28
 
 #### Added
-- Comprehensive tools page with 6 expertise categories
-- Duration badges on experience timeline
-- Page subtitles for better context
-- Skill group styling for organized presentation
-- Enhanced card layouts across all pages
-- Better mobile navigation with smooth animations
+- Comprehensive tools page with six expertise categories
+- Duration badges on experience timeline for context
+- Page subtitles for improved navigation clarity
+- Organized skill groups with enhanced styling
+- Improved card layouts across entire site
+- Smooth mobile navigation animations
 
 #### Changed
-- Complete redesign of tools.html page
-- Enhanced education card structure and layout
-- Improved experience timeline visual hierarchy
-- Updated CSS with new component styles
-- Better responsive breakpoints for all devices
+- Complete tools.html redesign with better organization
+- Enhanced education card structure and visual hierarchy
+- Improved experience timeline with clearer milestones
+- Updated CSS component library
+- Refined responsive breakpoints for all device sizes
 - Enhanced button styling with multiple variants
 
 #### Fixed
-- Footer consistency across all pages
-- X/Twitter link standardization
+- Standardized footer across all pages
+- Consistent X/Twitter link implementation
 - Removed duplicate ARIA attributes
-- Fixed icon inconsistencies
-- Semantic HTML improvements
-- Mobile menu z-index and positioning
-- Card hover effects and transitions
-- Typography hierarchy and spacing
+- Corrected icon inconsistencies throughout site
+- Improved semantic HTML structure
+- Fixed mobile menu z-index and positioning issues
+- Enhanced card hover effects and transitions
+- Refined typography hierarchy and spacing
+
+---
 
 ### [1.0.0] - 2025-10-01
 
 #### Initial Release
-- Basic portfolio structure
-- 7 main pages (Home, Experience, Projects, Tools, Certifications, Education, Contact)
-- Responsive design
-- Basic CSS styling
-- JavaScript navigation menu
+- Seven-page portfolio structure
+- Responsive design foundation
+- Core CSS styling framework
+- JavaScript navigation implementation
+- Basic interactive elements
 
 ---
 
 ## 🤝 Contributing
 
-While this is a personal portfolio, suggestions and bug reports are welcome!
+While this is a personal portfolio, suggestions and bug reports are appreciated.
 
-### How to Contribute
+### Contribution Process
 
-1. **Fork the repository**
-2. **Create a feature branch**
+1. Fork the repository
+2. Create a feature branch
    ```bash
-   git checkout -b feature/your-feature-name
+   git checkout -b feature/improvement-description
    ```
-3. **Make your changes**
-4. **Commit your changes**
+3. Implement your changes
+4. Commit with clear messages
    ```bash
-   git commit -m "Add: your feature description"
+   git commit -m "Add: detailed change description"
    ```
-5. **Push to the branch**
+5. Push to your fork
    ```bash
-   git push origin feature/your-feature-name
+   git push origin feature/improvement-description
    ```
-6. **Open a Pull Request**
+6. Submit a pull request with detailed description
 
-### Reporting Issues
+### Issue Reporting
 
-Found a bug? Have a suggestion? Please open an issue with:
-- Clear description of the problem/suggestion
+Found a bug or have a suggestion? Please open an issue including:
+- Clear problem description or enhancement proposal
 - Steps to reproduce (for bugs)
-- Screenshots (if applicable)
-- Browser and device information
+- Screenshots or recordings (if applicable)
+- Browser, device, and OS information
+
+---
+
+## 🎯 Future Roadmap
+
+### Planned Enhancements
+- Blog section for technical articles and insights
+- Dark mode toggle for user preference
+- Client testimonials section with recommendations
+- Interactive skills visualization chart
+- Detailed case studies for major projects
+- Multi-language support for global audience
+- Analytics integration for visitor insights
+- Backend integration for contact form
+
+### Under Consideration
+- Animation library integration (AOS or GSAP)
+- Progressive Web App capabilities
+- Advanced lazy loading for performance
+- Enhanced SEO implementation
+- Expanded social media integration
+
+---
+
+## 📊 Project Statistics
+
+- **Total Pages:** 7
+- **Codebase:** ~3,500+ lines (HTML/CSS/JS)
+- **Last Updated:** November 29, 2025
+- **Current Version:** 2.2.0
+- **Browser Support:** Latest versions of Chrome, Firefox, Safari, Edge
+- **Mobile Support:** iOS and Android platforms
+- **Accessibility:** WCAG 2.1 Level AA Compliant
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for complete details.
 
 ---
 
@@ -357,60 +384,29 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Darshil Shah**  
 Healthcare QA Leader | AI/ML Enthusiast | Digital Health Expert
 
-- 📧 **Email:** [darshils99@gmail.com](mailto:darshils99@gmail.com)
-- 💼 **LinkedIn:** [linkedin.com/in/darshil-qa-lead](https://www.linkedin.com/in/darshil-qa-lead)
-- 🐙 **GitHub:** [github.com/darshil0](https://github.com/darshil0)
-- 🐦 **X (Twitter):** [x.com/soulsurfer300](https://x.com/soulsurfer300)
-- 📍 **Location:** Irving, Texas, United States
-- 📱 **Phone:** 469-987-6574
+- 📧 Email: [darshils99@gmail.com](mailto:darshils99@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/darshil-qa-lead](https://www.linkedin.com/in/darshil-qa-lead)
+- 🐙 GitHub: [github.com/darshil0](https://github.com/darshil0)
+- 🐦 X (Twitter): [x.com/soulsurfer300](https://x.com/soulsurfer300)
+- 📍 Location: Irving, Texas, United States
+- 📱 Phone: 469-987-6574
 
 ---
 
 ## 🙏 Acknowledgments
 
-- **Font Awesome** - For the comprehensive icon library
-- **Google Fonts** - For the Montserrat font family
-- **GitHub Pages** - For free hosting and deployment
-- **Anthropic (Claude AI)** - For assistance with code optimization and quality improvements
+Special thanks to the open-source community and tools that made this portfolio possible:
 
----
-
-## 🎯 Future Enhancements
-
-### Planned Features
-- [ ] Blog section for technical articles
-- [ ] Dark mode toggle
-- [ ] Testimonials section
-- [ ] Interactive skills chart
-- [ ] Case studies for major projects
-- [ ] Multi-language support
-- [ ] Analytics integration
-- [ ] Contact form backend integration
-
-### Under Consideration
-- [ ] Animation library integration (AOS, GSAP)
-- [ ] Progressive Web App (PWA) features
-- [ ] Performance optimization with lazy loading
-- [ ] Advanced SEO techniques
-- [ ] Social media integration
-
----
-
-## 📊 Project Stats
-
-- **Total Pages:** 7
-- **Lines of Code:** ~3,500+ (HTML/CSS/JS)
-- **Last Updated:** November 29, 2025
-- **Version:** 2.2.0
-- **Browser Support:** Chrome, Firefox, Safari, Edge (latest versions)
-- **Mobile Support:** iOS, Android
-- **Accessibility Score:** WCAG 2.1 Level AA Compliant
+- **Font Awesome** for the comprehensive icon library
+- **Google Fonts** for the professional Montserrat typeface
+- **GitHub Pages** for reliable hosting and deployment
+- **Anthropic (Claude AI)** for code optimization and quality improvements
 
 ---
 
 <div align="center">
 
-**⭐ Star this repository if you found it helpful!**
+**⭐ Star this repository if you find it helpful!**
 
 Made with ❤️ by [Darshil Shah](https://github.com/darshil0)
 
