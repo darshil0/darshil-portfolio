@@ -1,6 +1,6 @@
 # Darshil Shah - Professional Portfolio
 
-[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
+[![Version](https://img.shields.io/badge/version-2.0.1-blue.svg)](https://github.com/darshil0/darshil-portfolio)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
@@ -246,6 +246,13 @@ darshil-portfolio/
 ---
 
 ## 📝 Changelog
+
+### [2.0.1] - 2025-11-28
+
+#### Fixed
+- Removed Twitter/X icon from the footer across all pages.
+- Corrected styling of the GitHub icon in the footer for consistency.
+- Updated the email button text on the contact page to prevent overflow.
 
 ### [2.0.0] - 2025-11-28
 
