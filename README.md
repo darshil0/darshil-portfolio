@@ -1,6 +1,6 @@
 # Darshil Shah - Professional Portfolio
 
-[![Version](https://img.shields.io/badge/version-2.1.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
+[![Version](https://img.shields.io/badge/version-2.2.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
@@ -48,6 +48,7 @@ This portfolio website represents my professional journey as a Healthcare QA Lea
 - ✅ **Accessible** - WCAG 2.1 compliant with proper ARIA labels
 - ✅ **Fast Loading** - Optimized assets and efficient CSS
 - ✅ **SEO Optimized** - Proper meta tags and semantic HTML
+- ✅ **Favicon & Branding** - Custom favicon for brand identity
 
 ### Functionality
 - ✅ **Mobile Navigation** - Smooth hamburger menu with slide-in animation
@@ -70,7 +71,7 @@ This portfolio website represents my professional journey as a Healthcare QA Lea
 Hero section with key achievements, quick stats, top skills, languages, honors & awards, areas of expertise, recent highlights, and call-to-action.
 
 ### 2. **Experience** (`experience.html`)
-Detailed professional timeline spanning 2011-2025, including roles at Accenture, Infosys, TCS, and freelance work. Features downloadable resume button.
+Detailed professional timeline spanning 2011-2024, including roles at Accenture, Infosys, TCS, and freelance work. Features downloadable resume button.
 
 ### 3. **Projects** (`projects.html`)
 Showcase of major projects including:
@@ -116,7 +117,16 @@ Multiple ways to connect via email, LinkedIn, phone, and GitHub.
 
 ## 🆕 Recent Updates
 
-### Version 2.1.0 (November 29, 2025)
+### Version 2.2.0 (November 29, 2024)
+
+#### Branding & UX Enhancements
+
+##### **Favicon Integration**
+- ✅ Added a custom `favicon.ico` to the `images` directory
+- ✅ Linked the favicon in all 7 HTML pages for consistent brand identity
+- ✅ Updated `README.md` to reflect the new feature
+
+### Version 2.1.0 (November 29, 2024)
 
 #### Quality & Accessibility Improvements
 
@@ -231,7 +241,16 @@ darshil-portfolio/
 
 ## 📝 Changelog
 
-### [2.1.0] - 2025-11-29
+### [2.2.0] - 2024-11-29
+
+#### Added
+- Added `favicon.ico` to the `images` directory.
+- Linked favicon in `index.html`, `experience.html`, `projects.html`, `tools.html`, `certifications.html`, `education.html`, and `contact.html`.
+
+#### Changed
+- Updated `README.md` to reflect the favicon addition and version bump.
+
+### [2.1.0] - 2024-11-29
 
 #### Added
 - X/Twitter social link to all 7 page footers
@@ -249,14 +268,14 @@ darshil-portfolio/
 - Icon display issue in footer
 - Semantic HTML compliance
 
-### [2.0.1] - 2025-11-28
+### [2.0.1] - 2024-11-28
 
 #### Fixed
 - Removed Twitter/X icon from the footer across all pages
 - Corrected styling of the GitHub icon in the footer for consistency
 - Updated the email button text on the contact page to prevent overflow
 
-### [2.0.0] - 2025-11-28
+### [2.0.0] - 2024-11-28
 
 #### Added
 - Comprehensive tools page with 6 expertise categories
@@ -284,7 +303,7 @@ darshil-portfolio/
 - Card hover effects and transitions
 - Typography hierarchy and spacing
 
-### [1.0.0] - 2025-10-01
+### [1.0.0] - 2024-10-01
 
 #### Initial Release
 - Basic portfolio structure
@@ -381,8 +400,8 @@ Healthcare QA Leader | AI/ML Enthusiast | Digital Health Expert
 
 - **Total Pages:** 7
 - **Lines of Code:** ~3,500+ (HTML/CSS/JS)
-- **Last Updated:** November 29, 2025
-- **Version:** 2.1.0
+- **Last Updated:** November 29, 2024
+- **Version:** 2.2.0
 - **Browser Support:** Chrome, Firefox, Safari, Edge (latest versions)
 - **Mobile Support:** iOS, Android
 - **Accessibility Score:** WCAG 2.1 Level AA Compliant
