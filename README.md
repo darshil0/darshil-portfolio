@@ -117,7 +117,7 @@ Multiple ways to connect via email, LinkedIn, phone, and GitHub.
 
 ## 🆕 Recent Updates
 
-### Version 2.2.0 (November 29, 2024)
+### Version 2.2.0 (November 29, 2025)
 
 #### Branding & UX Enhancements
 
@@ -126,7 +126,7 @@ Multiple ways to connect via email, LinkedIn, phone, and GitHub.
 - ✅ Linked the favicon in all 7 HTML pages for consistent brand identity
 - ✅ Updated `README.md` to reflect the new feature
 
-### Version 2.1.0 (November 29, 2024)
+### Version 2.1.0 (November 29, 2025)
 
 #### Quality & Accessibility Improvements
 
@@ -241,7 +241,7 @@ darshil-portfolio/
 
 ## 📝 Changelog
 
-### [2.2.0] - 2024-11-29
+### [2.2.0] - 2025-11-29
 
 #### Added
 - Added `favicon.ico` to the `images` directory.
@@ -250,7 +250,7 @@ darshil-portfolio/
 #### Changed
 - Updated `README.md` to reflect the favicon addition and version bump.
 
-### [2.1.0] - 2024-11-29
+### [2.1.0] - 2025-11-29
 
 #### Added
 - X/Twitter social link to all 7 page footers
@@ -268,14 +268,14 @@ darshil-portfolio/
 - Icon display issue in footer
 - Semantic HTML compliance
 
-### [2.0.1] - 2024-11-28
+### [2.0.1] - 2025-11-28
 
 #### Fixed
 - Removed Twitter/X icon from the footer across all pages
 - Corrected styling of the GitHub icon in the footer for consistency
 - Updated the email button text on the contact page to prevent overflow
 
-### [2.0.0] - 2024-11-28
+### [2.0.0] - 2025-11-28
 
 #### Added
 - Comprehensive tools page with 6 expertise categories
@@ -400,7 +400,7 @@ Healthcare QA Leader | AI/ML Enthusiast | Digital Health Expert
 
 - **Total Pages:** 7
 - **Lines of Code:** ~3,500+ (HTML/CSS/JS)
-- **Last Updated:** November 29, 2024
+- **Last Updated:** November 29, 2025
 - **Version:** 2.2.0
 - **Browser Support:** Chrome, Firefox, Safari, Edge (latest versions)
 - **Mobile Support:** iOS, Android
