@@ -400,7 +400,7 @@ Special thanks to the open-source community and tools that made this portfolio p
 - **Font Awesome** for the comprehensive icon library
 - **Google Fonts** for the professional Montserrat typeface
 - **GitHub Pages** for reliable hosting and deployment
-- **Anthropic (Claude AI)** for code optimization and quality improvements
+- **Anthropic (Claude AI), Google Labs Jules** for code optimization and quality improvements
 
 ---
 
