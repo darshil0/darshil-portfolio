@@ -116,7 +116,7 @@ Multiple ways to connect via email, LinkedIn, phone, and GitHub.
 
 ## 🆕 Recent Updates
 
-### Version 2.0.0 (November 2024)
+### Version 2.0.0 (November 2025)
 
 #### Major Enhancements
 
