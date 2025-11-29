@@ -373,7 +373,7 @@ Healthcare QA Leader | AI/ML Enthusiast | Digital Health Expert
 - **Font Awesome** - For the comprehensive icon library
 - **Google Fonts** - For the Montserrat font family
 - **GitHub Pages** - For free hosting and deployment
-- **Claude AI (Anthropic)** - For assistance with code optimization and bug fixes
+- **Claude AI (Anthropic), Jules (Google Cloud Labs)** - For assistance with code optimization and bug fixes
 
 ---
 
