@@ -275,7 +275,7 @@ darshil-portfolio/
 - Card hover effects and transitions
 - Typography hierarchy and spacing
 
-### [1.0.0] - 2024-10-01
+### [1.0.0] - 2025-10-01
 
 #### Initial Release
 - Basic portfolio structure
