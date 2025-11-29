@@ -247,7 +247,7 @@ darshil-portfolio/
 
 ## 📝 Changelog
 
-### [2.0.0] - 2024-11-28
+### [2.0.0] - 2025-11-28
 
 #### Added
 - Comprehensive tools page with 6 expertise categories
