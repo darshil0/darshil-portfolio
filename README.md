@@ -116,7 +116,7 @@ Multiple ways to connect via email, LinkedIn, phone, and GitHub.
 
 ## 🆕 Recent Updates
 
-### Version 2.0.0 (November 2024)
+### Version 2.0.0 (November 2025)
 
 #### Major Enhancements
 
@@ -247,14 +247,14 @@ darshil-portfolio/
 
 ## 📝 Changelog
 
-### [2.0.1] - 2024-11-28
+### [2.0.1] - 2025-11-28
 
 #### Fixed
 - Removed Twitter/X icon from the footer across all pages.
 - Corrected styling of the GitHub icon in the footer for consistency.
 - Updated the email button text on the contact page to prevent overflow.
 
-### [2.0.0] - 2024-11-28
+### [2.0.0] - 2025-11-28
 
 #### Added
 - Comprehensive tools page with 6 expertise categories
@@ -282,7 +282,7 @@ darshil-portfolio/
 - Card hover effects and transitions
 - Typography hierarchy and spacing
 
-### [1.0.0] - 2024-10-01
+### [1.0.0] - 2025-10-01
 
 #### Initial Release
 - Basic portfolio structure
@@ -332,7 +332,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 MIT License
 
-Copyright (c) 2024 Darshil Shah
+Copyright (c) 2025 Darshil Shah
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -363,7 +363,6 @@ Healthcare QA Leader | AI/ML Enthusiast | Digital Health Expert
 - 📧 **Email:** [darshils99@gmail.com](mailto:darshils99@gmail.com)
 - 💼 **LinkedIn:** [linkedin.com/in/darshil-qa-lead](https://www.linkedin.com/in/darshil-qa-lead)
 - 🐙 **GitHub:** [github.com/darshil0](https://github.com/darshil0)
-- 🐦 **X (Twitter):** [@darshil_s_shah](https://x.com/darshil_s_shah)
 - 📍 **Location:** Irving, Texas, United States
 - 📱 **Phone:** 469-987-6574
 
