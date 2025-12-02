@@ -1130,6 +1130,16 @@ main {
   opacity: 0.9;
 }
 
+.cta-section .btn-secondary {
+  color: var(--color-white);
+  border-color: var(--color-white);
+}
+
+.cta-section .btn-secondary:hover {
+  background: var(--color-white);
+  color: var(--color-primary);
+}
+
 /* ===================================
    FOOTER
    =================================== */
@@ -1204,6 +1214,11 @@ footer {
     box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
   }
   
+  /* Ensuring mobile menu links are white */
+  .nav-menu a {
+      color: var(--color-white);
+  }
+
   /* Ensuring mobile menu links are white */
   .nav-menu a {
       color: var(--color-white);
