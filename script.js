@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
       const href = this.getAttribute("href");
-      if (href !== "#" && href !== "#top") {
+      if (href !== "#") {
         e.preventDefault();
         const target = document.querySelector(href);
         if (target) {

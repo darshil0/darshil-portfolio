@@ -1,6 +1,6 @@
 # Darshil Shah - Professional Portfolio
 
-[![Version](https://img.shields.io/badge/version-2.5.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
+[![Version](https://img.shields.io/badge/version-2.7.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
@@ -98,7 +98,17 @@ git push origin main
 
 ## Recent Updates
 
-### v2.5.0 (December 2025)
+### v2.7.0 (December 2, 2025)
+- **UI Improvement:** Fixed the UI on the certifications page by implementing a grid layout for the certification cards, improving the overall visual organization and appearance.
+
+### v2.6.0 (December 2, 2025)
+- **Code Audit & Refinements:** Conducted a comprehensive audit of all HTML, CSS, and JavaScript files to ensure code quality, consistency, and accessibility.
+- **Accessibility Enhancements:** Improved accessibility by adding ARIA labels to links and replacing missing icons with appropriate fallbacks.
+- **Improved Navigation:** Added a "Back to Top" link in the footer of all pages for easier navigation.
+- **Code Formatting:** Formatted all HTML files to improve readability and maintain consistency across the codebase.
+- **Smooth Scrolling:** Enhanced the user experience by implementing a smooth scrolling effect for the "Back to T" link.
+
+### v2.5.0 (December 1, 2025)
 - **Certifications Expansion:** Added 7 new certifications with downloadable certificates
   - AWS AI/ML Essentials (PDF)
   - Prompt Engineering For Everyone (PDF)
@@ -114,7 +124,7 @@ git push origin main
 - **X/Twitter URL:** Updated social media link to https://x.com/soulsurfer300
 - **Verified:** All certification links tested and working correctly
 
-### v2.4.0 (December 2025)
+### v2.4.0 (December 1, 2025)
 - **Major UI Overhaul:** Added 980+ lines of CSS to fix all missing component styles
 - **Light Theme Implementation:** Consistent light color scheme across all 7 pages
 - **Mobile Navigation:** Fully functional hamburger menu with smooth animations
@@ -128,7 +138,7 @@ git push origin main
 - **Enhanced Interactivity:** Hover effects, transitions, and animations on all cards
 - **Verified:** All pages tested on desktop and mobile devices
 
-### v2.3.0 (December 2025)
+### v2.3.0 (December 1, 2025)
 - Implemented new professional color scheme
 - Overhauled CSS with modern design system
 - Improved typography and spacing

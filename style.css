@@ -1519,6 +1519,58 @@ footer {
   box-shadow: 0 4px 12px var(--hover-shadow);
 }
 
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.cert-card {
+  background: var(--white);
+  border: 2px solid var(--pale-blue);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px var(--shadow-color);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--ocean-blue);
+  box-shadow: 0 8px 25px var(--hover-shadow);
+}
+
+.cert-badge {
+  font-size: 2rem;
+  color: var(--ocean-blue);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.cert-card h4 {
+  color: var(--ocean-blue);
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.cert-issuer,
+.cert-date {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.cert-view-btn {
+  margin-top: auto;
+  /* Pushes button to the bottom */
+  width: 100%;
+}
+
 /* ===================================
    EDUCATION PAGE
    =================================== */
