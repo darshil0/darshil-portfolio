@@ -2,20 +2,20 @@
 
 :root {
   /* Branding Colors */
-  --color-primary: #145DA0;      /* Deep Professional Blue (Main Brand) */
-  --color-secondary: #FF6B6B;    /* Coral/Reddish Pop (Accent/CTA) */
+  --color-primary: #0B3D91;      /* Replaced with Dark Blue (Main Brand) */
+  --color-secondary: #4ECDC4;    /* Replaced with Ocean Blue (Accent/CTA) */
   
   /* Neutral Colors */
   --color-text: #1A1A1A;         /* Near Black for high readability */
   --color-background: #F7F7F7;   /* Very Light Gray for section breaks */
-  --color-white: #ffffff;
+  --color-white: #ffffff;        /* Pure White */
   --color-black: #000000;
   --color-border: #dee2e6;
-  --color-card: #ffffff;         /* Central variable for card backgrounds */
+  --color-card: #ffffff;         /* Central variable for card backgrounds (White) */
   
-  /* Utility Colors (Simplified - Removed redundant plum/teal definitions) */
-  --color-lavender: #E4EAF2;     /* Very Light Blue shade for subtle background/tags */
-  --color-hover: #E4EAF2;        /* Consistent hover background */
+  /* Utility Colors (Simplified) */
+  --color-lavender: #E1F5FE;     /* Replaced with Soft Teal (Subtle background/tags) */
+  --color-hover: #E1F5FE;        /* Consistent hover background (Soft Teal) */
   
   /* Status Colors (Standard, high-contrast) */
   --color-success: #28a745;      /* Green for success/impact */
@@ -280,8 +280,8 @@ main {
 .profile-placeholder {
   width: 250px;
   height: 250px;
-  /* Subtle gradient for polish */
-  background: linear-gradient(135deg, var(--color-lavender) 0%, #CCD9E6 100%); 
+  /* Subtle gradient using light/dark shades of the new Teal/Blue */
+  background: linear-gradient(135deg, var(--color-lavender) 0%, #C3E7FF 100%); 
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -325,14 +325,14 @@ main {
 }
 
 .btn-primary {
-  /* Uses the accent color for primary CTA */
+  /* Uses the accent color (Ocean Blue) for primary CTA */
   background: var(--color-secondary); 
   color: var(--color-white);
 }
 
 .btn-primary:hover {
   /* Darker shade for hover, matches accent feel */
-  background: #E65A5A; 
+  background: #3FC7BE; 
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
@@ -349,7 +349,7 @@ main {
 
 .btn-outline {
   background: transparent;
-  /* Consolidated usage: used to be var(--color-teal) */
+  /* Now uses the consolidated primary color */
   color: var(--color-primary); 
   border: 2px solid var(--color-primary);
 }
@@ -366,7 +366,6 @@ main {
 }
 
 .btn-download:hover {
-  /* Removed redundant background: var(--color-success); */
   filter: brightness(0.9);
 }
 
@@ -472,12 +471,12 @@ main {
   /* Increased lift/shadow for polish */
   transform: translateY(-4px); 
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  /* Uses the new Primary Color for border highlight */
+  /* Uses the Primary Color for border highlight */
   border-color: var(--color-primary); 
 }
 
 .project-card:hover {
-  /* Specific hover for projects to use accent color for extra pop */
+  /* Specific hover for projects to use accent color (Ocean Blue) for extra pop */
   border-color: var(--color-secondary); 
 }
 
@@ -528,7 +527,6 @@ main {
 
 .education-card h3.degree {
   font-size: 1.4rem;
-  /* Consolidated usage: used to be var(--color-plum) */
   color: var(--color-primary); 
   margin-bottom: 5px;
 }
@@ -595,7 +593,7 @@ main {
   left: -9px;
   top: 28px;
   border: 3px solid var(--color-white);
-  /* Uses secondary color for the surrounding pop/border */
+  /* Uses accent color (Ocean Blue) for the surrounding pop/border */
   box-shadow: 0 0 0 3px var(--color-secondary); 
 }
 
@@ -620,7 +618,7 @@ main {
 
 .duration-badge {
   font-size: 0.9rem;
-  /* Uses accent color */
+  /* Uses accent color (Ocean Blue) */
   background: var(--color-secondary); 
   color: var(--color-white);
   padding: 5px 12px;
@@ -682,14 +680,15 @@ main {
 .tech-tags span,
 .tech-tag {
   display: inline-block;
-  background: var(--color-lavender);
+  /* Uses Soft Teal for background */
+  background: var(--color-lavender); 
   padding: 6px 12px;
   border-radius: 5px;
   font-size: 0.85rem;
   /* Uses primary color for text */
   color: var(--color-primary); 
   font-weight: 500;
-  border: 1px solid rgba(20, 93, 160, 0.2); /* Used a primary color shade */
+  border: 1px solid rgba(11, 61, 145, 0.2); /* Used a primary color shade */
 }
 
 /* ===================================
@@ -714,7 +713,7 @@ main {
 }
 
 .project-badge {
-  /* Uses accent color for high visibility */
+  /* Uses accent color (Ocean Blue) for high visibility */
   background-color: var(--color-secondary); 
   color: var(--color-white);
   padding: 5px 12px;
@@ -754,7 +753,6 @@ main {
   font-size: 1.2rem; 
   margin-bottom: 12px;
   color: var(--color-primary);
-  /* Removed redundant border-bottom: none; */
   font-weight: 600; /* Added weight for hierarchy */
   padding-bottom: 8px;
   display: flex;
@@ -832,7 +830,6 @@ main {
 
 .expertise-card h3 {
   font-size: 1.5rem;
-  /* Consolidated usage: used to be var(--color-plum) */
   color: var(--color-primary); 
   margin-bottom: 20px;
   text-align: center;
@@ -873,7 +870,6 @@ main {
 }
 
 .expertise-link {
-  /* Consolidated usage: used to be var(--color-teal) */
   color: var(--color-primary); 
   text-decoration: none;
   font-weight: 600;
@@ -935,7 +931,8 @@ main {
 }
 
 .comp-tag {
-  background: var(--color-hover);
+  /* Uses Soft Teal for background */
+  background: var(--color-hover); 
   padding: 8px 15px;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -969,7 +966,7 @@ main {
 
 .filter-btn.active,
 .filter-btn:hover {
-  /* Uses accent color for active state */
+  /* Uses accent color (Ocean Blue) for active state */
   background: var(--color-secondary); 
   color: var(--color-white);
   border-color: var(--color-secondary); /* Match border to background */
@@ -1036,7 +1033,7 @@ main {
    =================================== */
 .contact-card i {
   font-size: 3rem;
-  /* Uses accent color for visual pop on contact methods */
+  /* Uses accent color (Ocean Blue) for visual pop on contact methods */
   color: var(--color-secondary); 
   margin-bottom: 15px;
 }
@@ -1093,8 +1090,8 @@ main {
   outline: none;
   /* Accessibility: Thicker border to reinforce focus */
   border: 2px solid var(--color-primary); 
-  /* Updated box-shadow to use the new Primary Blue tint */
-  box-shadow: 0 0 0 3px rgba(20, 93, 160, 0.2); 
+  /* Updated box-shadow using the new Primary Blue tint */
+  box-shadow: 0 0 0 3px rgba(11, 61, 145, 0.2); 
 }
 
 .form-group textarea {
@@ -1111,7 +1108,6 @@ main {
    CALL TO ACTION SECTION
    =================================== */
 .cta-section {
-  /* Consolidated usage: used to be var(--color-plum) */
   background: var(--color-primary); 
   color: var(--color-white);
   padding: 60px 0;
@@ -1163,7 +1159,7 @@ footer {
 }
 
 .footer-links a:hover {
-  /* Uses accent color for social link hover */
+  /* Uses accent color (Ocean Blue) for social link hover */
   color: var(--color-secondary); 
   transform: translateY(-3px);
 }
@@ -1197,7 +1193,7 @@ footer {
     width: 70%;
     max-width: 300px;
     height: 100vh;
-    /* Consolidated usage: used to be var(--color-plum) */
+    /* Uses Primary Blue for mobile menu background */
     background-color: var(--color-primary); 
     transition: right 0.3s ease-in-out;
     padding: 80px 20px 20px;
