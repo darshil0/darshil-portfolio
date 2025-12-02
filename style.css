@@ -1,20 +1,20 @@
 @import url('https://fonts.cdnfonts.com/css/montserrat');
 
 :root {
-  --color-primary: #7B2CBF;
-  --color-secondary: #FF9F1C;
-  --color-text: #29335C;
-  --color-background: #ECF0F1;
-  --color-lavender: #C8B6E2;
-  --color-coral: #FF6B9D;
-  --color-plum: #4A1942;
-  --color-success: #10B981;
-  --color-warning: #F59E0B;
-  --color-teal: #14B8A6;
-  --color-border: #D1D5DB;
-  --color-card: #F9FAFB;
-  --color-hover: #E5E7EB;
-  --color-white: #FFFFFF;
+  --color-primary: #007bff;
+  --color-secondary: #fd7e14;
+  --color-text: #343a40;
+  --color-background: #f8f9fa;
+  --color-lavender: #e9ecef;
+  --color-coral: #dc3545;
+  --color-plum: #0056b3;
+  --color-success: #28a745;
+  --color-warning: #ffc107;
+  --color-teal: #17a2b8;
+  --color-border: #dee2e6;
+  --color-card: #ffffff;
+  --color-hover: #e9ecef;
+  --color-white: #ffffff;
   --color-black: #000000;
 }
 
@@ -43,7 +43,6 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 /* ===================================
@@ -109,7 +108,7 @@ nav .nav-container {
 }
 
 .nav-menu li {
-  padding: 0;
+  padding: 0.5rem;
 }
 
 .nav-menu a {
