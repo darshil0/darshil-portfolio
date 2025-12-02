@@ -1,6 +1,6 @@
 # Darshil Shah - Professional Portfolio
 
-[![Version](https://img.shields.io/badge/version-2.5.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
+[![Version](https://img.shields.io/badge/version-2.6.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
@@ -97,6 +97,13 @@ git push origin main
 ---
 
 ## Recent Updates
+
+### v2.6.0 (December 2025)
+- **Code Audit & Refinements:** Conducted a comprehensive audit of all HTML, CSS, and JavaScript files to ensure code quality, consistency, and accessibility.
+- **Accessibility Enhancements:** Improved accessibility by adding ARIA labels to links and replacing missing icons with appropriate fallbacks.
+- **Improved Navigation:** Added a "Back to Top" link in the footer of all pages for easier navigation.
+- **Code Formatting:** Formatted all HTML files to improve readability and maintain consistency across the codebase.
+- **Smooth Scrolling:** Enhanced the user experience by implementing a smooth scrolling effect for the "Back to Top" link.
 
 ### v2.5.0 (December 2025)
 - **Certifications Expansion:** Added 7 new certifications with downloadable certificates
