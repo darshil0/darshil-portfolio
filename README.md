@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
-A modern, responsive portfolio website showcasing a decade of professional excellence in Healthcare QA Leadership, AI/ML innovation, and Digital Health transformation.
+A modern, responsive portfolio website showcasing professional experience, projects, certifications, and technical expertise in Healthcare QA, AI/ML, and Digital Health.
 
 🔗 **Live Site:** [https://darshil0.github.io/darshil-portfolio/](https://darshil0.github.io/darshil-portfolio/)
 
@@ -13,7 +13,6 @@ A modern, responsive portfolio website showcasing a decade of professional excel
 ## 📋 Table of Contents
 
 - [Overview](#overview)
-- [Professional Highlights](#professional-highlights)
 - [Key Features](#key-features)
 - [Pages](#pages)
 - [Technical Stack](#technical-stack)
@@ -30,92 +29,100 @@ A modern, responsive portfolio website showcasing a decade of professional excel
 
 ## 🎯 Overview
 
-This portfolio represents ten years of healthcare quality assurance leadership, demonstrating expertise in AI/ML integration, digital health solutions, and compliance-driven testing methodologies. The site showcases measurable impact on patient care, operational efficiency, and team development through innovative QA strategies.
+This portfolio represents a decade of professional excellence in Healthcare QA Leadership, combining deep expertise in AI/ML, digital health innovation, and compliance-driven quality assurance. The site demonstrates measurable impact across patient care, operational efficiency, and team leadership.
 
----
+### Professional Highlights
 
-## 🏆 Professional Highlights
-
-- Reduced patient care costs by 40% through strategic shift-left testing implementation
-- Decreased patient wait times by 30% via enhanced QA methodologies and process optimization
-- Expanded test coverage by 25% across critical healthcare applications
-- Achieved 100% quality delivery with zero defects, earning formal client recognition
-- Led and mentored cross-functional teams of 15+ engineers across distributed environments
+- 🏆 Achieved 40% reduction in patient care costs through strategic shift-left testing approaches
+- ⏱️ Reduced patient wait times by 30% via enhanced QA methodologies
+- 📈 Expanded test coverage by 25% across critical healthcare applications
+- ⭐ Delivered 100% quality with zero defects, earning formal client recognition
+- 👥 Led and mentored 15+ engineers across distributed global teams
 
 ---
 
 ## ✨ Key Features
 
-### Design & User Experience
-- **Responsive Design** - Optimized experience across desktop, tablet, and mobile devices
-- **Modern Interface** - Clean, professional aesthetic with intuitive navigation patterns
-- **Accessibility Focused** - WCAG 2.1 Level AA compliant with comprehensive ARIA support
-- **Performance Optimized** - Fast loading times through efficient resource management
-- **SEO Enhanced** - Structured data and semantic HTML for improved search visibility
-- **Brand Identity** - Custom favicon and consistent visual language throughout
+### Design Philosophy
+- **Fully Responsive** - Seamless experience across desktop, tablet, and mobile devices
+- **Modern Aesthetics** - Clean, professional interface with intuitive navigation
+- **Accessibility First** - WCAG 2.1 Level AA compliant with comprehensive ARIA support
+- **Performance Optimized** - Fast loading times through efficient asset management
+- **SEO Enhanced** - Structured data and semantic HTML for better discoverability
+- **Brand Consistency** - Custom favicon and cohesive visual identity
 
-### Interactive Components
-- **Mobile Navigation** - Smooth hamburger menu with slide-in animations
+### Interactive Elements
+- **Mobile-First Navigation** - Smooth hamburger menu with slide-in animations
 - **Dynamic Cards** - Engaging hover effects and fluid transitions
-- **Smart Filtering** - Category-based certification organization across AI/ML, Cloud, and Project Management
-- **Timeline Visualization** - Clear chronological representation of career progression
-- **Social Integration** - Direct connections to GitHub, LinkedIn, X/Twitter, and email
+- **Smart Filtering** - Category-based certification filtering (AI/ML, Cloud, PM)
+- **Timeline Visualization** - Chronological professional journey with clear milestones
+- **Social Integration** - Direct connections to GitHub, LinkedIn, X/Twitter, and Email
 
-### Technical Implementation
+### Technical Excellence
 - **Semantic HTML5** - Proper document structure for accessibility and SEO
-- **Modern CSS3** - Advanced animations, flexbox, and grid layouts
-- **Vanilla JavaScript** - Zero dependencies for optimal performance and maintainability
-- **GitHub Pages Ready** - Streamlined deployment and hosting workflow
+- **Modern CSS3** - Advanced animations and responsive layouts
+- **Vanilla JavaScript** - Zero dependencies for optimal performance
+- **GitHub Pages Compatible** - Simplified deployment and hosting workflow
 
 ---
 
 ## 📄 Pages
 
 ### Home (`index.html`)
-Landing page featuring professional summary, key achievements, technical skills, spoken languages, honors and awards, areas of expertise, recent highlights, and clear calls-to-action for engagement.
+Dynamic hero section featuring key achievements, quick statistics, technical skills, spoken languages, professional honors, areas of expertise, recent highlights, and clear calls-to-action.
 
 ### Experience (`experience.html`)
-Comprehensive career timeline from 2011 to 2024, documenting progressive roles at Accenture, Infosys, TCS, and freelance consulting engagements. Includes downloadable resume functionality.
+Comprehensive professional timeline spanning 2011-2024, documenting roles at Accenture, Infosys, TCS, and freelance engagements. Includes downloadable resume functionality.
 
 ### Projects (`projects.html`)
-Detailed showcase of signature initiatives including the Kaiser Permanente Mobile Healthcare Platform and AI Evaluation QA Framework. Each project highlights measurable business impact, technical challenges, and technology stack.
+Detailed showcase of signature projects:
+- Kaiser Permanente Mobile Healthcare Platform
+- AI Evaluation QA Framework
+
+Each project highlights measurable achievements and technology stack.
 
 ### Tools & Tech (`tools.html`)
-Organized presentation of technical expertise across six core domains including QA and Automation, Cloud and DevOps, AI and Machine Learning, Programming and Databases, Healthcare Domain Knowledge, and Project Management.
+Organized technical expertise across six domains:
+- QA & Automation
+- Cloud & DevOps
+- AI & Machine Learning
+- Programming & Databases
+- Healthcare Domain Knowledge
+- Project Management
 
 ### Certifications (`certifications.html`)
-Portfolio of 15+ professional certifications with interactive category filtering. Features dedicated section for issuing authorities with direct credential verification links.
+Portfolio of 15+ professional certifications with interactive category filtering. Features issuing authorities section with direct credential verification links.
 
 ### Education (`education.html`)
-Academic credentials including MBA in Information Technology from Sikkim Manipal University and Bachelor of Engineering in Computer Science from Gujarat Technological University.
+Academic credentials including MBA in Information Technology and Bachelor of Engineering in Computer Science.
 
 ### Contact (`contact.html`)
-Multiple communication channels including email, LinkedIn, phone, and GitHub with appropriate accessibility labels and security attributes.
+Multiple communication channels including email, LinkedIn, phone, and GitHub with clear accessibility labels.
 
 ---
 
 ## 🛠️ Technical Stack
 
 ### Frontend Technologies
-- HTML5 for semantic markup and document structure
-- CSS3 for responsive layouts, animations, and visual design
-- JavaScript (ES6+) for interactive features and DOM manipulation
-- Font Awesome 6.4.0 for comprehensive icon library
-- Google Fonts (Montserrat) for professional typography
+- **HTML5** - Semantic markup and modern document structure
+- **CSS3** - Flexbox and Grid layouts with custom animations
+- **JavaScript (ES6+)** - Interactive features and DOM manipulation
+- **Font Awesome 6.4.0** - Comprehensive icon library
+- **Google Fonts (Montserrat)** - Professional typography
 
-### Development Environment
-- GitHub Pages for static site hosting and deployment
-- Git for distributed version control
-- Visual Studio Code as primary development environment
+### Development Tools
+- **GitHub Pages** - Static site hosting and continuous deployment
+- **Git** - Distributed version control system
+- **VS Code** - Integrated development environment
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Modern web browser supporting HTML5, CSS3, and ES6+
-- Text editor or IDE for code modifications
-- Git for version control operations
+- Modern web browser (Chrome, Firefox, Safari, or Edge)
+- Text editor or IDE for modifications
+- Git for version control
 
 ### Local Development
 
@@ -125,26 +132,30 @@ Multiple communication channels including email, LinkedIn, phone, and GitHub wit
    cd darshil-portfolio
    ```
 
-2. **Launch development server**
+2. **Launch locally**
    
-   Using Python:
+   Option A: Direct browser access
    ```bash
-   python -m http.server 8000
+   # Simply open index.html in your browser
    ```
    
-   Using Node.js:
+   Option B: Local server (recommended)
    ```bash
+   # Using Python 3
+   python -m http.server 8000
+
+   # Using Node.js http-server
    npx http-server
    ```
 
-3. **Access in browser**
+3. **View in browser**
    ```
-   http://localhost:8000
+   Navigate to http://localhost:8000
    ```
 
-### Deployment to GitHub Pages
+### GitHub Pages Deployment
 
-1. **Push changes**
+1. **Push changes to GitHub**
    ```bash
    git add .
    git commit -m "Update portfolio content"
@@ -152,12 +163,12 @@ Multiple communication channels including email, LinkedIn, phone, and GitHub wit
    ```
 
 2. **Configure GitHub Pages**
-   - Navigate to repository Settings
-   - Select Pages from sidebar
-   - Choose `main` branch as source
-   - Save and wait for automatic deployment
+   - Access repository Settings
+   - Navigate to Pages section
+   - Select `main` branch as deployment source
+   - Save configuration and await automatic deployment
 
-3. **Access published site**
+3. **Access live site**
    ```
    https://yourusername.github.io/darshil-portfolio/
    ```
@@ -169,21 +180,21 @@ Multiple communication channels including email, LinkedIn, phone, and GitHub wit
 ```
 darshil-portfolio/
 │
-├── index.html              # Home page with hero and highlights
-├── experience.html         # Career timeline and history
-├── projects.html           # Project showcase with case studies
+├── index.html              # Landing page with hero and highlights
+├── experience.html         # Professional timeline
+├── projects.html           # Project showcase
 ├── tools.html             # Technical skills and expertise
 ├── certifications.html    # Professional credentials
 ├── education.html         # Academic background
-├── contact.html           # Contact information and social links
+├── contact.html           # Contact information
 │
-├── style.css              # Global stylesheet and design system
+├── style.css              # Global stylesheet
 ├── script.js              # Interactive functionality
 │
-├── README.md              # Project documentation
-├── LICENSE                # MIT License file
+├── README.md              # Documentation (this file)
+├── LICENSE                # MIT License
 │
-└── images/                # Visual assets and media
+└── images/                # Visual assets
     ├── hero-background.jpg
     └── favicon.ico
 ```
@@ -192,166 +203,182 @@ darshil-portfolio/
 
 ## 🆕 Recent Updates
 
-### Version 2.3.0 (December 01, 2025)
-
-#### Added
-- Implemented modern color scheme featuring deep blue, vibrant orange, and neutral tones
-- Enhanced visual hierarchy through updated design system
-
-#### Changed
-- Updated all color variables in style.css to new professional palette
-- Aligned button hover effects and interactive elements with new color scheme
-
-#### Fixed
-- Resolved margin and padding inconsistencies by removing fixed container padding
-- Corrected navigation menu alignment with consistent padding implementation
-
 ### Version 2.2.0 (November 29, 2025)
 
 #### Brand Identity Enhancement
-- Added custom favicon.ico for improved brand recognition
-- Integrated favicon across all seven pages for consistent visual identity
-- Updated documentation with branding improvements
+- Added custom `favicon.ico` for improved brand recognition
+- Integrated favicon across all seven pages for consistent identity
+- Updated documentation to reflect branding improvements
+
+### Version 2.3.0 (December 01, 2025)
+
+#### Added
+- Implemented a new, professional color scheme inspired by modern design trends.
+
+#### Changed
+- Overhauled the entire `style.css` file with a new, professional design system, including a new color scheme, improved typography, refined spacing, and enhanced accessibility features.
+
+#### Fixed
+- Resolved margin and padding inconsistencies by removing fixed padding on the main container.
+- Corrected navigation menu alignment by adding consistent padding to menu items.
 
 ### Version 2.1.0 (November 29, 2025)
 
-#### Accessibility & Semantic Improvements
-- Replaced bold tags with semantic strong tags for enhanced screen reader support
+#### Accessibility & Standards Compliance
+- Replaced all `<b>` tags with semantic `<strong>` tags for better screen reader support
+- Enhanced SEO through improved semantic HTML structure
 - Added X/Twitter social media integration across all pages
-- Corrected X handle URL to https://x.com/soulsurfer300
-- Fixed Font Awesome icon compatibility for Twitter/X display
-- Implemented security best practices with rel="noopener noreferrer" on external links
-- Enhanced ARIA attributes for improved accessibility
-- Standardized footer structure sitewide
+- Corrected X handle URL to `https://x.com/soulsurfer300`
+- Fixed Font Awesome icon compatibility (updated to `fab fa-twitter`)
+- Implemented security best practices with `target="_blank"` and `rel="noopener noreferrer"` on external links
+- Corrected ARIA attributes (`aria-hidden="true"` on decorative elements)
+- Standardized footer structure across entire site
 - Validated HTML5 compliance and removed duplicate attributes
 
 ---
 
 ## 📝 Changelog
 
-### [2.3.0] - 2025-12-01
-
-#### Added
-- Modern color scheme implementation across entire site
-
-#### Changed
-- Updated color palette to deep blue, vibrant orange, and neutral tones
-- Enhanced interactive element styling for consistency
-
-#### Fixed
-- Container padding and margin inconsistencies
-- Navigation menu alignment issues
-
 ### [2.2.0] - 2025-11-29
 
 #### Added
-- Custom favicon integration across all pages
+- Custom favicon integration in images directory
+- Favicon links across all HTML pages for brand consistency
 
 #### Changed
-- Updated documentation with brand identity information
+- Updated README.md with favicon documentation and version information
+
+---
 
 ### [2.1.0] - 2025-11-29
 
 #### Added
-- X/Twitter social integration with proper security attributes
-- Comprehensive ARIA labels for accessibility
+- X/Twitter social links in all page footers
+- Security attributes for external link safety
+- Comprehensive ARIA labels for social media accessibility
 
 #### Changed
-- Converted bold to strong tags for semantic HTML
-- Updated Font Awesome classes for compatibility
+- Updated X/Twitter handle to correct URL
+- Converted bold tags to strong tags for semantic HTML (6 instances)
+- Updated icon library class for Font Awesome compatibility
 
 #### Fixed
-- Icon display and styling consistency
-- Footer standardization across pages
-- Semantic HTML compliance
+- Corrected ARIA hidden attributes on decorative icons
+- Standardized footer implementation across pages
+- Resolved icon display issues
+- Enhanced semantic HTML compliance
+
+---
 
 ### [2.0.1] - 2025-11-28
 
 #### Fixed
-- Footer navigation icon styling
-- Contact page button text overflow
+- Removed Twitter/X icon from footer navigation
+- Corrected GitHub icon styling for visual consistency
+- Adjusted contact page email button text to prevent overflow
+
+---
 
 ### [2.0.0] - 2025-11-28
 
 #### Added
-- Comprehensive tools page with categorized expertise
-- Duration badges on timeline
-- Page subtitles for improved navigation
-- Enhanced card layouts and mobile animations
+- Comprehensive tools page with six expertise categories
+- Duration badges on experience timeline for context
+- Page subtitles for improved navigation clarity
+- Organized skill groups with enhanced styling
+- Improved card layouts across entire site
+- Smooth mobile navigation animations
 
 #### Changed
-- Complete tools.html redesign
-- Improved timeline structure
-- Enhanced responsive breakpoints
-- Refined button styling
+- Complete tools.html redesign with better organization
+- Enhanced education card structure and visual hierarchy
+- Improved experience timeline with clearer milestones
+- Updated CSS component library
+- Refined responsive breakpoints for all device sizes
+- Enhanced button styling with multiple variants
 
 #### Fixed
-- Footer standardization
-- Mobile menu positioning
-- Card hover effects
-- Typography hierarchy
+- Standardized footer across all pages
+- Consistent X/Twitter link implementation
+- Removed duplicate ARIA attributes
+- Corrected icon inconsistencies throughout site
+- Improved semantic HTML structure
+- Fixed mobile menu z-index and positioning issues
+- Enhanced card hover effects and transitions
+- Refined typography hierarchy and spacing
+
+---
 
 ### [1.0.0] - 2025-10-01
 
 #### Initial Release
 - Seven-page portfolio structure
 - Responsive design foundation
-- Core CSS framework
-- JavaScript navigation
+- Core CSS styling framework
+- JavaScript navigation implementation
 - Basic interactive elements
 
 ---
 
 ## 🤝 Contributing
 
-This is a personal portfolio, but suggestions and bug reports are welcome.
+While this is a personal portfolio, suggestions and bug reports are appreciated.
 
-### How to Contribute
+### Contribution Process
 
 1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/improvement-name`
-3. Implement your changes with clear, descriptive commits
-4. Push to your fork: `git push origin feature/improvement-name`
-5. Submit a pull request with detailed description
+2. Create a feature branch
+   ```bash
+   git checkout -b feature/improvement-description
+   ```
+3. Implement your changes
+4. Commit with clear messages
+   ```bash
+   git commit -m "Add: detailed change description"
+   ```
+5. Push to your fork
+   ```bash
+   git push origin feature/improvement-description
+   ```
+6. Submit a pull request with detailed description
 
-### Reporting Issues
+### Issue Reporting
 
-To report bugs or suggest improvements, please open an issue with the following information:
-
-- Clear description of the problem or enhancement
+Found a bug or have a suggestion? Please open an issue including:
+- Clear problem description or enhancement proposal
 - Steps to reproduce (for bugs)
-- Screenshots or recordings when applicable
-- Browser, device, and operating system details
+- Screenshots or recordings (if applicable)
+- Browser, device, and OS information
 
 ---
 
 ## 🎯 Future Roadmap
 
-### Planned Features
-- Blog section for technical insights and thought leadership
+### Planned Enhancements
+- Blog section for technical articles and insights
 - Dark mode toggle for user preference
-- Client testimonials and recommendations
-- Interactive skills visualization
-- Detailed project case studies
-- Multi-language support
-- Contact form with backend integration
-- Analytics dashboard
+- Client testimonials section with recommendations
+- Interactive skills visualization chart
+- Detailed case studies for major projects
+- Multi-language support for global audience
+- Analytics integration for visitor insights
+- Backend integration for contact form
 
 ### Under Consideration
 - Animation library integration (AOS or GSAP)
 - Progressive Web App capabilities
-- Advanced lazy loading optimization
+- Advanced lazy loading for performance
 - Enhanced SEO implementation
-- Video content integration
+- Expanded social media integration
 
 ---
 
 ## 📊 Project Statistics
 
 - **Total Pages:** 7
-- **Codebase:** Approximately 3,500+ lines (HTML/CSS/JS)
-- **Last Updated:** December 01, 2025
-- **Current Version:** 2.3.0
+- **Codebase:** ~3,500+ lines (HTML/CSS/JS)
+- **Last Updated:** November 29, 2025
+- **Current Version:** 2.2.0
 - **Browser Support:** Latest versions of Chrome, Firefox, Safari, Edge
 - **Mobile Support:** iOS and Android platforms
 - **Accessibility:** WCAG 2.1 Level AA Compliant
@@ -360,7 +387,7 @@ To report bugs or suggest improvements, please open an issue with the following 
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for complete details.
 
 ---
 
@@ -380,12 +407,12 @@ Healthcare QA Leader | AI/ML Enthusiast | Digital Health Expert
 
 ## 🙏 Acknowledgments
 
-This portfolio was built with support from excellent open-source tools and communities:
+Special thanks to the open-source community and tools that made this portfolio possible:
 
-- Font Awesome for the comprehensive icon library
-- Google Fonts for professional typography
-- GitHub Pages for reliable hosting
-- Anthropic (Claude AI) and Google Labs Jules for code optimization
+- **Font Awesome** for the comprehensive icon library
+- **Google Fonts** for the professional Montserrat typeface
+- **GitHub Pages** for reliable hosting and deployment
+- **Anthropic (Claude AI), Google Labs Jules** for code optimization and quality improvements
 
 ---
 
