@@ -48,7 +48,7 @@ This portfolio demonstrates a decade of professional excellence in Healthcare QA
 ## Site Structure
 
 - **Home** - Hero section with achievements and highlights
-- **Experience** - Professional timeline (2011-2024) with downloadable resume
+- **Experience** - Professional timeline (2011-2025).
 - **Projects** - Detailed showcase of signature work
 - **Tools & Tech** - Technical expertise across 6 domains
 - **Certifications** - 15+ credentials with interactive filtering
