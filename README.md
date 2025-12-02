@@ -1,6 +1,6 @@
 # Darshil Shah - Professional Portfolio
 
-[![Version](https://img.shields.io/badge/version-2.2.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
+[![Version](https://img.shields.io/badge/version-2.3.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
@@ -209,6 +209,18 @@ darshil-portfolio/
 - Added custom `favicon.ico` for improved brand recognition
 - Integrated favicon across all seven pages for consistent identity
 - Updated documentation to reflect branding improvements
+
+### Version 2.3.0 (December 01, 2025)
+
+#### Added
+- Implemented a new, professional color scheme inspired by modern design trends.
+
+#### Changed
+- Overhauled the entire `style.css` file with a new, professional design system, including a new color scheme, improved typography, refined spacing, and enhanced accessibility features.
+
+#### Fixed
+- Resolved margin and padding inconsistencies by removing fixed padding on the main container.
+- Corrected navigation menu alignment by adding consistent padding to menu items.
 
 ### Version 2.1.0 (November 29, 2025)
 
