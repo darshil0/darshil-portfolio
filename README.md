@@ -1,6 +1,6 @@
 # Darshil Shah - Professional Portfolio
 
-[![Version](https://img.shields.io/badge/version-2.3.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
+[![Version](https://img.shields.io/badge/version-2.5.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
@@ -98,6 +98,36 @@ git push origin main
 
 ## Recent Updates
 
+### v2.5.0 (December 2025)
+- **Certifications Expansion:** Added 7 new certifications with downloadable certificates
+  - AWS AI/ML Essentials (PDF)
+  - Prompt Engineering For Everyone (PDF)
+  - Essentials of Prompt Engineering (PDF)
+  - AWS Responsible AI Practices (Image)
+  - Microsoft AI Skills Fest (Image)
+  - Accenture Developer Simulation (Image)
+  - LinkedIn AI Agents Learning Path (Image)
+- **Total Certifications:** Now showcasing 17 professional certifications
+- **Interactive Certificates:** Added "View Certificate" buttons for 9 certifications with PDF/image downloads
+- **Resume Update:** Updated resume.pdf with latest professional experience and certifications
+- **Resume Fixes:** Fixed LinkedIn/GitHub links, standardized date formatting, added missing punctuation
+- **X/Twitter URL:** Updated social media link to https://x.com/soulsurfer300
+- **Verified:** All certification links tested and working correctly
+
+### v2.4.0 (December 2025)
+- **Major UI Overhaul:** Added 980+ lines of CSS to fix all missing component styles
+- **Light Theme Implementation:** Consistent light color scheme across all 7 pages
+- **Mobile Navigation:** Fully functional hamburger menu with smooth animations
+- **Responsive Design:** Complete mobile optimization for all components
+- **Component Styles Added:**
+  - Hero section with profile placeholder and CTA buttons
+  - Contact page grid with hover effects
+  - Projects page cards with badges and tech tags
+  - Experience, Tools, Certifications, and Education page layouts
+  - Navigation mobile styles and footer enhancements
+- **Enhanced Interactivity:** Hover effects, transitions, and animations on all cards
+- **Verified:** All pages tested on desktop and mobile devices
+
 ### v2.3.0 (December 2025)
 - Implemented new professional color scheme
 - Overhauled CSS with modern design system
@@ -156,10 +186,10 @@ For bug reports, please include browser, device, and OS information.
 **Planned:**
 - Blog section for technical articles
 - Dark mode toggle
-- Client testimonials
 - Interactive skills visualization
 - Detailed case studies
 - Multi-language support
+- Enhanced testimonials with client photos (Completed)
 
 **Under Consideration:**
 - Animation library integration
@@ -170,6 +200,12 @@ For bug reports, please include browser, device, and OS information.
 ---
 
 ## Changelog
+
+### [2.4.0] - 2025-12-02
+**Added:** 980+ lines of CSS for comprehensive component styling, mobile hamburger menu with animations, hero section with profile placeholder, contact page grid layout, projects page cards with badges and tech tags, testimonials section placeholder  
+**Changed:** Complete UI overhaul with light theme consistency across all 7 pages, responsive design for all components, enhanced hover effects and transitions  
+**Fixed:** All missing component styles, mobile navigation layout, card layouts on mobile devices, typography scaling for mobile  
+**Verified:** Desktop and mobile testing completed for all pages
 
 ### [2.3.0] - 2025-12-01
 **Added:** New professional color scheme and design system  
