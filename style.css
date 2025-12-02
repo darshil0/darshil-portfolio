@@ -4,21 +4,19 @@
   /* Branding Colors */
   --color-primary: #145DA0;      /* Deep Professional Blue (Main Brand) */
   --color-secondary: #FF6B6B;    /* Coral/Reddish Pop (Accent/CTA) */
-
+  
   /* Neutral Colors */
   --color-text: #1A1A1A;         /* Near Black for high readability */
   --color-background: #F7F7F7;   /* Very Light Gray for section breaks */
   --color-white: #ffffff;
   --color-black: #000000;
   --color-border: #dee2e6;
-  --color-card: #ffffff;
-
-  /* Utility Colors (Shades consolidated to Primary) */
+  --color-card: #ffffff;         /* Central variable for card backgrounds */
+  
+  /* Utility Colors (Simplified - Removed redundant plum/teal definitions) */
   --color-lavender: #E4EAF2;     /* Very Light Blue shade for subtle background/tags */
   --color-hover: #E4EAF2;        /* Consistent hover background */
-  --color-plum: var(--color-primary);  /* Consolidated to Primary */
-  --color-teal: var(--color-primary);  /* Consolidated to Primary */
-
+  
   /* Status Colors (Standard, high-contrast) */
   --color-success: #28a745;      /* Green for success/impact */
   --color-warning: #ffc107;      /* Yellow for warning */
@@ -52,7 +50,7 @@ a, i {
 
 /* Typography adjustment for better readability */
 p, .role-summary, .hero-description li {
-    font-size: 1.05rem;
+  font-size: 1.05rem; 
 }
 
 
@@ -154,7 +152,7 @@ nav .nav-container {
 .nav-menu a.active {
   color: var(--color-primary);
   /* Use accent color for active link underline */
-  border-bottom: 3px solid var(--color-secondary);
+  border-bottom: 3px solid var(--color-secondary); 
 }
 
 /* Hamburger Menu */
@@ -180,14 +178,14 @@ nav .nav-container {
    =================================== */
 main {
   /* Increased padding for better section separation */
-  padding: 80px 0;
+  padding: 80px 0; 
   min-height: 60vh;
 }
 
 .page-title {
   text-align: center;
   /* Slightly larger title */
-  font-size: 2.75rem;
+  font-size: 2.75rem; 
   margin-bottom: 1rem;
   color: var(--color-primary);
 }
@@ -205,9 +203,9 @@ main {
 
 .section-title {
   /* Slightly larger section heading */
-  font-size: 2.2rem;
+  font-size: 2.2rem; 
   /* Increased margin for better spacing */
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.5rem; 
   color: var(--color-primary);
   text-align: center;
 }
@@ -240,7 +238,7 @@ main {
 
 .hero-greeting {
   /* Slightly larger for impact */
-  font-size: 2.75rem;
+  font-size: 2.75rem; 
   margin-bottom: 1rem;
   line-height: 1.3;
   color: var(--color-primary);
@@ -283,19 +281,19 @@ main {
   width: 250px;
   height: 250px;
   /* Subtle gradient for polish */
-  background: linear-gradient(135deg, var(--color-lavender) 0%, #CCD9E6 100%);
+  background: linear-gradient(135deg, var(--color-lavender) 0%, #CCD9E6 100%); 
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 5px solid var(--color-primary);
   /* Added transition for the hover effect */
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease; 
 }
 
 .profile-placeholder:hover {
   /* Subtle growth on hover */
-  transform: scale(1.03);
+  transform: scale(1.03); 
 }
 
 .profile-placeholder i {
@@ -328,13 +326,13 @@ main {
 
 .btn-primary {
   /* Uses the accent color for primary CTA */
-  background: var(--color-secondary);
+  background: var(--color-secondary); 
   color: var(--color-white);
 }
 
 .btn-primary:hover {
   /* Darker shade for hover, matches accent feel */
-  background: #E65A5A;
+  background: #E65A5A; 
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
@@ -351,13 +349,13 @@ main {
 
 .btn-outline {
   background: transparent;
-  /* Now uses the consolidated primary color */
-  color: var(--color-teal);
-  border: 2px solid var(--color-teal);
+  /* Consolidated usage: used to be var(--color-teal) */
+  color: var(--color-primary); 
+  border: 2px solid var(--color-primary);
 }
 
 .btn-outline:hover {
-  background: var(--color-teal);
+  background: var(--color-primary);
   color: var(--color-white);
 }
 
@@ -368,7 +366,7 @@ main {
 }
 
 .btn-download:hover {
-  background: var(--color-success);
+  /* Removed redundant background: var(--color-success); */
   filter: brightness(0.9);
 }
 
@@ -450,7 +448,7 @@ main {
 .tool-card,
 .contact-card,
 .education-card {
-  background: var(--color-white);
+  background: var(--color-card); /* Used var(--color-card) for consistency */
   border: 1px solid var(--color-border);
   padding: 25px;
   border-radius: 12px;
@@ -472,15 +470,15 @@ main {
 .contact-card:hover,
 .education-card:hover {
   /* Increased lift/shadow for polish */
-  transform: translateY(-4px);
+  transform: translateY(-4px); 
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   /* Uses the new Primary Color for border highlight */
-  border-color: var(--color-primary);
+  border-color: var(--color-primary); 
 }
 
 .project-card:hover {
   /* Specific hover for projects to use accent color for extra pop */
-  border-color: var(--color-secondary);
+  border-color: var(--color-secondary); 
 }
 
 .stat-icon,
@@ -530,7 +528,8 @@ main {
 
 .education-card h3.degree {
   font-size: 1.4rem;
-  color: var(--color-plum);
+  /* Consolidated usage: used to be var(--color-plum) */
+  color: var(--color-primary); 
   margin-bottom: 5px;
 }
 
@@ -573,7 +572,7 @@ main {
 .timeline-item {
   padding: 25px 40px;
   position: relative;
-  background: var(--color-white);
+  background: var(--color-card); /* Used var(--color-card) for consistency */
   border-left: 3px solid var(--color-primary);
   margin-bottom: 30px;
   border-radius: 10px;
@@ -583,7 +582,7 @@ main {
 
 .timeline-item:hover {
   /* Subtle vertical shift only */
-  transform: translateY(-2px);
+  transform: translateY(-2px); 
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
@@ -597,7 +596,7 @@ main {
   top: 28px;
   border: 3px solid var(--color-white);
   /* Uses secondary color for the surrounding pop/border */
-  box-shadow: 0 0 0 3px var(--color-secondary);
+  box-shadow: 0 0 0 3px var(--color-secondary); 
 }
 
 .timeline-date {
@@ -613,7 +612,7 @@ main {
 
 .timeline-content h3 {
   /* Enhanced job title emphasis */
-  font-size: 1.75rem;
+  font-size: 1.75rem; 
   color: var(--color-primary);
   margin-bottom: 15px;
   font-weight: 700;
@@ -622,7 +621,7 @@ main {
 .duration-badge {
   font-size: 0.9rem;
   /* Uses accent color */
-  background: var(--color-secondary);
+  background: var(--color-secondary); 
   color: var(--color-white);
   padding: 5px 12px;
   border-radius: 15px;
@@ -631,7 +630,7 @@ main {
 
 .timeline-content h4.company {
   /* Changed company name to high-contrast text */
-  font-size: 1.2rem;
+  font-size: 1.2rem; 
   color: var(--color-text);
   margin-bottom: 10px;
   margin-top: 15px;
@@ -688,7 +687,7 @@ main {
   border-radius: 5px;
   font-size: 0.85rem;
   /* Uses primary color for text */
-  color: var(--color-primary);
+  color: var(--color-primary); 
   font-weight: 500;
   border: 1px solid rgba(20, 93, 160, 0.2); /* Used a primary color shade */
 }
@@ -716,7 +715,7 @@ main {
 
 .project-badge {
   /* Uses accent color for high visibility */
-  background-color: var(--color-secondary);
+  background-color: var(--color-secondary); 
   color: var(--color-white);
   padding: 5px 12px;
   font-size: 0.8rem;
@@ -726,7 +725,7 @@ main {
 
 .project-title {
   /* Enhanced project title emphasis */
-  font-size: 1.7rem;
+  font-size: 1.7rem; 
   margin-bottom: 10px;
   color: var(--color-primary);
   font-weight: 700;
@@ -752,10 +751,10 @@ main {
 .project-impact h4,
 .project-tech h4 {
   /* Enhanced header emphasis */
-  font-size: 1.2rem;
+  font-size: 1.2rem; 
   margin-bottom: 12px;
   color: var(--color-primary);
-  border-bottom: none; /* Removed subtle gray line */
+  /* Removed redundant border-bottom: none; */
   font-weight: 600; /* Added weight for hierarchy */
   padding-bottom: 8px;
   display: flex;
@@ -788,7 +787,7 @@ main {
 }
 
 .projects-cta {
-  background: var(--color-white);
+  background: var(--color-card); /* Used var(--color-card) for consistency */
   padding: 40px;
   border-radius: 12px;
   text-align: center;
@@ -833,7 +832,8 @@ main {
 
 .expertise-card h3 {
   font-size: 1.5rem;
-  color: var(--color-plum);
+  /* Consolidated usage: used to be var(--color-plum) */
+  color: var(--color-primary); 
   margin-bottom: 20px;
   text-align: center;
   border-bottom: 2px solid var(--color-primary);
@@ -873,7 +873,8 @@ main {
 }
 
 .expertise-link {
-  color: var(--color-teal);
+  /* Consolidated usage: used to be var(--color-teal) */
+  color: var(--color-primary); 
   text-decoration: none;
   font-weight: 600;
   display: inline-flex;
@@ -969,7 +970,7 @@ main {
 .filter-btn.active,
 .filter-btn:hover {
   /* Uses accent color for active state */
-  background: var(--color-secondary);
+  background: var(--color-secondary); 
   color: var(--color-white);
   border-color: var(--color-secondary); /* Match border to background */
 }
@@ -1036,7 +1037,7 @@ main {
 .contact-card i {
   font-size: 3rem;
   /* Uses accent color for visual pop on contact methods */
-  color: var(--color-secondary);
+  color: var(--color-secondary); 
   margin-bottom: 15px;
 }
 
@@ -1056,7 +1057,7 @@ main {
    CONTACT FORM
    =================================== */
 .contact-form {
-  background: var(--color-white);
+  background: var(--color-card); /* Used var(--color-card) for consistency */
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
@@ -1091,9 +1092,9 @@ main {
 .form-group textarea:focus {
   outline: none;
   /* Accessibility: Thicker border to reinforce focus */
-  border: 2px solid var(--color-primary);
+  border: 2px solid var(--color-primary); 
   /* Updated box-shadow to use the new Primary Blue tint */
-  box-shadow: 0 0 0 3px rgba(20, 93, 160, 0.2);
+  box-shadow: 0 0 0 3px rgba(20, 93, 160, 0.2); 
 }
 
 .form-group textarea {
@@ -1110,7 +1111,8 @@ main {
    CALL TO ACTION SECTION
    =================================== */
 .cta-section {
-  background: var(--color-plum);
+  /* Consolidated usage: used to be var(--color-plum) */
+  background: var(--color-primary); 
   color: var(--color-white);
   padding: 60px 0;
   margin-top: 50px;
@@ -1135,7 +1137,7 @@ main {
 footer {
   background: var(--color-text);
   /* Uses pure white for high contrast text against dark background */
-  color: var(--color-white);
+  color: var(--color-white); 
   text-align: center;
   padding: 2rem 0;
   margin-top: 50px;
@@ -1162,7 +1164,7 @@ footer {
 
 .footer-links a:hover {
   /* Uses accent color for social link hover */
-  color: var(--color-secondary);
+  color: var(--color-secondary); 
   transform: translateY(-3px);
 }
 
@@ -1195,13 +1197,14 @@ footer {
     width: 70%;
     max-width: 300px;
     height: 100vh;
-    background-color: var(--color-plum);
+    /* Consolidated usage: used to be var(--color-plum) */
+    background-color: var(--color-primary); 
     transition: right 0.3s ease-in-out;
     padding: 80px 20px 20px;
     gap: 0;
     box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
   }
-
+  
   /* Ensuring mobile menu links are white */
   .nav-menu a {
       color: var(--color-white);
