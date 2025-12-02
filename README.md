@@ -143,7 +143,7 @@ Multiple communication channels including email, LinkedIn, phone, and GitHub wit
    ```bash
    # Using Python 3
    python -m http.server 8000
-   
+
    # Using Node.js http-server
    npx http-server
    ```
