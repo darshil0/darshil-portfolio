@@ -1224,11 +1224,6 @@ footer {
       color: var(--color-white);
   }
 
-  /* Ensuring mobile menu links are white */
-  .nav-menu a {
-      color: var(--color-white);
-  }
-
   .nav-menu.active {
     display: flex;
     right: 0;
