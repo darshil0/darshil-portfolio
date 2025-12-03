@@ -1,6 +1,6 @@
 # Darshil Shah - Professional Portfolio
 
-[![Version](https://img.shields.io/badge/version-2.7.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
+[![Version](https://img.shields.io/badge/version-2.8.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
@@ -88,17 +88,23 @@ git push origin main
 
 ## Tech Stack
 
-**Frontend:** HTML5, CSS3, JavaScript (ES6+)  
-**Icons:** Font Awesome 6.4.0  
-**Typography:** Google Fonts (Montserrat)  
-**Hosting:** GitHub Pages  
+**Frontend:** HTML5, CSS3, JavaScript (ES6+)
+**Icons:** Font Awesome 6.4.0
+**Typography:** Google Fonts (Montserrat)
+**Hosting:** GitHub Pages
 **Tools:** Git, VS Code
 
 ---
 
 ## Recent Updates
 
-### v2.7.0 (December 2025)
+### v2.8.0 (2025-12-03)
+- **Certification Attachments:** Added missing certificate images and linked them in the certifications page.
+- **File Structure:** Created `images` directory to store certificate files.
+- **Bug Fixes:** Corrected broken links and ensured all certificate images are properly displayed.
+- **Favicon:** Fixed missing favicon by adding `favicon.jpg` and updating all pages.
+
+### v2.7.0 (2025-12-03)
 - **Experience Page Enhancement:** Updated experience timeline with improved layout and content structure
 - **Comprehensive CSS Improvements:** Added 273+ lines of enhanced styling for better visual consistency
   - Refined card layouts and spacing
@@ -218,38 +224,42 @@ For bug reports, please include browser, device, and OS information.
 
 ## Changelog
 
+### [2.8.0] - 2025-12-03
+**Added:** Missing certificate images to the `images` directory.
+**Fixed:** Broken links on the certifications page by attaching the correct image files.
+
 ### [2.7.0] - 2025-12-03
-**Added:** 273+ lines of enhanced CSS for improved visual consistency, dedicated styling class for Quick Stats "Multiple" text display  
-**Changed:** Enhanced experience page timeline with improved layout, refined card layouts and spacing across all pages, improved typography and color contrast  
-**Fixed:** Certification issue dates updated to March 2025, responsive design optimizations for all screen sizes, hover effects and transitions polished  
+**Added:** 273+ lines of enhanced CSS for improved visual consistency, dedicated styling class for Quick Stats "Multiple" text display
+**Changed:** Enhanced experience page timeline with improved layout, refined card layouts and spacing across all pages, improved typography and color contrast
+**Fixed:** Certification issue dates updated to March 2025, responsive design optimizations for all screen sizes, hover effects and transitions polished
 **Cleanup:** Removed verification directory and temporary files, deleted verify_projects.py script, streamlined repository structure
 
 ### [2.4.0] - 2025-12-02
-**Added:** 980+ lines of CSS for comprehensive component styling, mobile hamburger menu with animations, hero section with profile placeholder, contact page grid layout, projects page cards with badges and tech tags, testimonials section placeholder  
-**Changed:** Complete UI overhaul with light theme consistency across all 7 pages, responsive design for all components, enhanced hover effects and transitions  
-**Fixed:** All missing component styles, mobile navigation layout, card layouts on mobile devices, typography scaling for mobile  
+**Added:** 980+ lines of CSS for comprehensive component styling, mobile hamburger menu with animations, hero section with profile placeholder, contact page grid layout, projects page cards with badges and tech tags, testimonials section placeholder
+**Changed:** Complete UI overhaul with light theme consistency across all 7 pages, responsive design for all components, enhanced hover effects and transitions
+**Fixed:** All missing component styles, mobile navigation layout, card layouts on mobile devices, typography scaling for mobile
 **Verified:** Desktop and mobile testing completed for all pages
 
 ### [2.3.0] - 2025-12-01
-**Added:** New professional color scheme and design system  
-**Changed:** Complete CSS overhaul with improved typography, spacing, and accessibility  
+**Added:** New professional color scheme and design system
+**Changed:** Complete CSS overhaul with improved typography, spacing, and accessibility
 **Fixed:** Navigation alignment and margin/padding inconsistencies
 
 ### [2.2.0] - 2025-11-29
-**Added:** Custom favicon integration across all pages  
+**Added:** Custom favicon integration across all pages
 **Changed:** Updated documentation with branding improvements
 
 ### [2.1.0] - 2025-11-29
-**Added:** X/Twitter integration, security attributes, ARIA labels  
-**Changed:** Semantic HTML improvements, updated icon library  
+**Added:** X/Twitter integration, security attributes, ARIA labels
+**Changed:** Semantic HTML improvements, updated icon library
 **Fixed:** Corrected ARIA attributes, standardized footer, enhanced semantic compliance
 
 ### [2.0.1] - 2025-11-28
 **Fixed:** Footer icon styling, email button text overflow
 
 ### [2.0.0] - 2025-11-28
-**Added:** Comprehensive tools page, duration badges, page subtitles, organized skill groups  
-**Changed:** Complete redesign of multiple pages, enhanced responsive design  
+**Added:** Comprehensive tools page, duration badges, page subtitles, organized skill groups
+**Changed:** Complete redesign of multiple pages, enhanced responsive design
 **Fixed:** Standardized footer, improved mobile navigation, refined typography
 
 ### [1.0.0] - 2025-10-01
@@ -265,14 +275,14 @@ Licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Contact
 
-**Darshil Shah**  
+**Darshil Shah**
 Healthcare QA Leader | AI/ML Enthusiast | Digital Health Expert
 
-📧 [darshils99@gmail.com](mailto:darshils99@gmail.com)  
-💼 [LinkedIn](https://www.linkedin.com/in/darshil-qa-lead)  
-🐙 [GitHub](https://github.com/darshil0)  
-🐦 [X (Twitter)](https://x.com/soulsurfer300)  
-📍 Irving, Texas, United States  
+📧 [darshils99@gmail.com](mailto:darshils99@gmail.com)
+💼 [LinkedIn](https://www.linkedin.com/in/darshil-qa-lead)
+🐙 [GitHub](https://github.com/darshil0)
+🐦 [X (Twitter)](https://x.com/soulsurfer300)
+📍 Irving, Texas, United States
 📱 469-987-6574
 
 ---
