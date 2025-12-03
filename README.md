@@ -65,7 +65,7 @@ This portfolio represents over a decade of professional excellence in Healthcare
 | **Experience** | Professional journey (2011-2025) | Career timeline, achievements, roles |
 | **Projects** | Showcase of signature work | Detailed project cards, impact metrics |
 | **Tools & Tech** | Technical expertise | 6 technology domains, tools mastery |
-| **Certifications** | Professional credentials | 17+ certifications, interactive filters |
+| **Certifications** | Professional credentials | 15+ certifications, interactive filters |
 | **Education** | Academic background | MBA, BE Computer Science |
 | **Contact** | Communication channels | Email, LinkedIn, GitHub, X (Twitter) |
 
