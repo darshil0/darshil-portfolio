@@ -1,6 +1,6 @@
 # Darshil Shah - Professional Portfolio
 
-[![Version](https://img.shields.io/badge/version-2.9.3-blue.svg)](https://github.com/darshil0/darshil-portfolio)
+[![Version](https://img.shields.io/badge/version-2.9.4-blue.svg)](https://github.com/darshil0/darshil-portfolio)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
@@ -97,6 +97,10 @@ git push origin main
 ---
 
 ## Recent Updates
+
+### v2.9.4 (2025-12-03)
+- **Critical Fix:** Restored corrupted `certifications.html` file to fix missing content
+- **Deployment:** Added cache busting to CSS links to ensure immediate updates for users
 
 ### v2.9.3 (2025-12-03)
 - **Bug Fix:** Fixed broken grid layout on Certifications page by correcting HTML structure
@@ -245,6 +249,10 @@ For bug reports, please include browser, device, and OS information.
 ---
 
 ## Changelog
+
+### [2.9.4] - 2025-12-03
+**Fixed:** Restored missing content in `certifications.html` caused by previous edit
+**Changed:** Added version query string to CSS links (`style.css?v=2.9.4`) to force cache refresh
 
 ### [2.9.3] - 2025-12-03
 **Fixed:** Missing grid container in `certifications.html` causing layout issues
