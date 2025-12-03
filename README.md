@@ -1,6 +1,6 @@
 # Darshil Shah - Professional Portfolio
 
-[![Version](https://img.shields.io/badge/version-2.9.2-blue.svg)](https://github.com/darshil0/darshil-portfolio)
+[![Version](https://img.shields.io/badge/version-2.9.3-blue.svg)](https://github.com/darshil0/darshil-portfolio)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
@@ -97,6 +97,10 @@ git push origin main
 ---
 
 ## Recent Updates
+
+### v2.9.3 (2025-12-03)
+- **Bug Fix:** Fixed broken grid layout on Certifications page by correcting HTML structure
+- **Grid Consistency:** Ensured Certifications page matches the grid design of other sections
 
 ### v2.9.2 (2025-12-03)
 - **Grid Layout Implementation:** Applied consistent responsive grid layouts across all major sections (Projects, Tools, Education, Experience)
@@ -241,6 +245,10 @@ For bug reports, please include browser, device, and OS information.
 ---
 
 ## Changelog
+
+### [2.9.3] - 2025-12-03
+**Fixed:** Missing grid container in `certifications.html` causing layout issues
+**Verified:** Grid layout is now correctly applied to all certification cards
 
 ### [2.9.2] - 2025-12-03
 **Changed:** Converted Experience page from timeline to grid layout, updated Projects, Tools, and Education sections to use responsive grids
