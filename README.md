@@ -1,6 +1,6 @@
 # Darshil Shah - Professional Portfolio
 
-[![Version](https://img.shields.io/badge/version-2.9.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
+[![Version](https://img.shields.io/badge/version-2.9.1-blue.svg)](https://github.com/darshil0/darshil-portfolio)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
@@ -97,6 +97,11 @@ git push origin main
 ---
 
 ## Recent Updates
+
+### v2.9.1 (2025-12-03)
+- **Certification Fixes:** Corrected swapped certificate links for "AI Fluency Framework" and "Registered Scrum Basics"
+- **Link Cleanup:** Removed incorrect certificate link for "Introduction to MCP"
+- **Verification:** Audited all 17 certifications to ensure correct mapping between names, issuers, and certificate files
 
 ### v2.9.0 (2025-12-03)
 - **Code Quality Improvements:** Removed duplicate CSS rule for `.stat-card` class, reducing CSS file size by 14 lines
@@ -231,6 +236,10 @@ For bug reports, please include browser, device, and OS information.
 ---
 
 ## Changelog
+
+### [2.9.1] - 2025-12-03
+**Fixed:** Swapped certificate links for AI Fluency Framework and Registered Scrum Basics, removed incorrect certificate link for Introduction to MCP
+**Verified:** Audited all 17 certification links to ensure 100% accuracy in mappings
 
 ### [2.9.0] - 2025-12-03
 **Added:** New professional "DS" logo favicon in PNG format
