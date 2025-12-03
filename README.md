@@ -1,6 +1,6 @@
 # Darshil Shah - Professional Portfolio
 
-[![Version](https://img.shields.io/badge/version-2.9.1-blue.svg)](https://github.com/darshil0/darshil-portfolio)
+[![Version](https://img.shields.io/badge/version-2.9.2-blue.svg)](https://github.com/darshil0/darshil-portfolio)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
@@ -97,6 +97,11 @@ git push origin main
 ---
 
 ## Recent Updates
+
+### v2.9.2 (2025-12-03)
+- **Grid Layout Implementation:** Applied consistent responsive grid layouts across all major sections (Projects, Tools, Education, Experience)
+- **Experience Page Overhaul:** Converted vertical timeline to a modern card-based grid layout for better readability and consistency
+- **CSS Enhancements:** Added new grid utility classes and updated component styles for responsive behavior
 
 ### v2.9.1 (2025-12-03)
 - **Certification Fixes:** Corrected swapped certificate links for "AI Fluency Framework" and "Registered Scrum Basics"
@@ -236,6 +241,10 @@ For bug reports, please include browser, device, and OS information.
 ---
 
 ## Changelog
+
+### [2.9.2] - 2025-12-03
+**Changed:** Converted Experience page from timeline to grid layout, updated Projects, Tools, and Education sections to use responsive grids
+**Added:** New CSS grid definitions for `.experience-grid`, `.education-grid`, `.projects-grid`, and `.tools-grid`
 
 ### [2.9.1] - 2025-12-03
 **Fixed:** Swapped certificate links for AI Fluency Framework and Registered Scrum Basics, removed incorrect certificate link for Introduction to MCP
