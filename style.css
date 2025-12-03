@@ -418,20 +418,6 @@ main {
   margin: 2rem 0;
 }
 
-.stat-card {
-  text-align: center;
-  padding: 2rem;
-  background: linear-gradient(135deg, var(--pale-blue) 0%, var(--white) 100%);
-  border-radius: 12px;
-  border: 2px solid var(--ocean-blue);
-  transition: all 0.3s ease;
-}
-
-.stat-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px var(--hover-shadow);
-}
-
 .stat-number {
   font-size: 3rem;
   font-weight: 700;

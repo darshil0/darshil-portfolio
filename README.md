@@ -1,6 +1,6 @@
 # Darshil Shah - Professional Portfolio
 
-[![Version](https://img.shields.io/badge/version-2.8.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
+[![Version](https://img.shields.io/badge/version-2.9.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
@@ -97,6 +97,14 @@ git push origin main
 ---
 
 ## Recent Updates
+
+### v2.9.0 (2025-12-03)
+- **Code Quality Improvements:** Removed duplicate CSS rule for `.stat-card` class, reducing CSS file size by 14 lines
+- **URL Consistency:** Fixed GitHub link inconsistency in contact page (removed trailing slash)
+- **Favicon Update:** Replaced favicon with new professional "DS" logo in PNG format across all 7 pages
+- **Code Optimization:** Consolidated duplicate CSS definitions for better maintainability
+- **Verification:** Comprehensive browser testing completed with screenshots confirming all fixes work correctly
+- **Documentation:** Updated implementation plan and walkthrough with detailed fix documentation
 
 ### v2.8.0 (2025-12-03)
 - **Certification Attachments:** Added missing certificate images and linked them in the certifications page.
@@ -223,6 +231,12 @@ For bug reports, please include browser, device, and OS information.
 ---
 
 ## Changelog
+
+### [2.9.0] - 2025-12-03
+**Added:** New professional "DS" logo favicon in PNG format
+**Changed:** Removed duplicate `.stat-card` CSS definition (14 lines), consolidated CSS rules for better code maintainability, updated all 7 HTML files to reference new PNG favicon
+**Fixed:** GitHub URL inconsistency in contact.html (removed trailing slash for consistency across all pages)
+**Verified:** Browser testing completed with screenshots confirming stat cards render correctly, all links work properly, and new favicon displays correctly
 
 ### [2.8.0] - 2025-12-03
 **Added:** Missing certificate images to the `images` directory.
