@@ -212,6 +212,7 @@ darshil-portfolio/
 **Fixed:**
 - Certification titles no longer truncated after 2 lines
 - Removed CSS line-clamp properties preventing full text display
+- Fixed the IBM Certification Icon Display issue
 
 **Improved:**
 - Added word-wrap and overflow-wrap for proper text wrapping
@@ -313,6 +314,7 @@ For feature suggestions, please:
 **Fixed**
 - Certification card titles now display complete text without truncation
 - Removed `-webkit-line-clamp: 2` CSS property limiting title height
+- Fix IBM Certification Icon display issue
 
 **Changed**
 - Updated word-wrap properties for better text handling on long names
