@@ -1,6 +1,6 @@
 # Darshil Shah - Professional Portfolio
 
-[![Version](https://img.shields.io/badge/version-2.6.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
+[![Version](https://img.shields.io/badge/version-2.7.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
@@ -97,6 +97,18 @@ git push origin main
 ---
 
 ## Recent Updates
+
+### v2.7.0 (December 2025)
+- **Experience Page Enhancement:** Updated experience timeline with improved layout and content structure
+- **Comprehensive CSS Improvements:** Added 273+ lines of enhanced styling for better visual consistency
+  - Refined card layouts and spacing
+  - Enhanced responsive design for all screen sizes
+  - Improved typography and color contrast
+  - Optimized hover effects and transitions
+- **Certification Updates:** Updated certification issue dates to March 2025 for accuracy
+- **Code Cleanup:** Removed verification directory and temporary files for cleaner codebase
+- **Quick Stats Display:** Improved the display of "Multiple" text in Quick Stats section with dedicated styling class
+- **Repository Maintenance:** Streamlined project structure by removing unnecessary verification assets
 
 ### v2.6.0 (December 2025)
 - **"Back to Top" Link:** Added a "Back to Top" link in the footer for easier navigation.
@@ -205,6 +217,12 @@ For bug reports, please include browser, device, and OS information.
 ---
 
 ## Changelog
+
+### [2.7.0] - 2025-12-03
+**Added:** 273+ lines of enhanced CSS for improved visual consistency, dedicated styling class for Quick Stats "Multiple" text display  
+**Changed:** Enhanced experience page timeline with improved layout, refined card layouts and spacing across all pages, improved typography and color contrast  
+**Fixed:** Certification issue dates updated to March 2025, responsive design optimizations for all screen sizes, hover effects and transitions polished  
+**Cleanup:** Removed verification directory and temporary files, deleted verify_projects.py script, streamlined repository structure
 
 ### [2.4.0] - 2025-12-02
 **Added:** 980+ lines of CSS for comprehensive component styling, mobile hamburger menu with animations, hero section with profile placeholder, contact page grid layout, projects page cards with badges and tech tags, testimonials section placeholder  
