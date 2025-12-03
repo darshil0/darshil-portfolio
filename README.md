@@ -1,6 +1,6 @@
 # Darshil Shah - Professional Portfolio
 
-[![Version](https://img.shields.io/badge/version-2.5.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
+[![Version](https://img.shields.io/badge/version-2.6.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
@@ -98,6 +98,11 @@ git push origin main
 
 ## Recent Updates
 
+### v2.6.0 (December 2025)
+- **"Back to Top" Link:** Added a "Back to Top" link in the footer for easier navigation.
+- **Certifications Page Layout:** Implemented a grid layout for the certifications page.
+- **Code Formatting:** Formatted all HTML files for consistency and readability.
+
 ### v2.5.0 (December 2025)
 - **Certifications Expansion:** Added 7 new certifications with downloadable certificates
   - AWS AI/ML Essentials (PDF)
@@ -112,11 +117,6 @@ git push origin main
 - **Resume Update:** Updated resume.pdf with latest professional experience and certifications
 - **Resume Fixes:** Fixed LinkedIn/GitHub links, standardized date formatting, added missing punctuation
 - **X/Twitter URL:** Updated social media link to https://x.com/soulsurfer300
-- **UI Fixes:**
-  - **Typography:** Added Google Fonts (Montserrat) to all pages for consistent branding
-  - **Mobile Layout:** Improved spacing in Hero section for mobile devices
-  - **Testimonials:** Fixed card height consistency across all screen sizes
-  - **Spacing:** Enhanced readability of Key Achievements list
 - **Verified:** All certification links tested and working correctly
 
 ### v2.4.0 (December 2025)
