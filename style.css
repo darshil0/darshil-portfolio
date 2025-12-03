@@ -1517,7 +1517,7 @@ footer {
   margin-top: 2rem;
 }
 
-/* Individual Certification Card */
+/* Individual Certification Card - FIXED VERSION */
 .cert-card {
   background: var(--white);
   border: 2px solid var(--pale-blue);
@@ -1527,9 +1527,10 @@ footer {
   box-shadow: 0 2px 8px var(--shadow-color);
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: auto;
+  min-height: 280px;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .cert-card::before {
@@ -1572,19 +1573,23 @@ footer {
   color: var(--white);
 }
 
-/* Certification Title */
+/* Certification Title - FIXED TO PREVENT CUTOFF */
 .cert-card h4 {
   color: var(--ocean-blue);
   font-size: 1.25rem;
   margin-bottom: 1rem;
   line-height: 1.4;
-  min-height: 2.8rem;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  min-height: auto !important;
+  max-height: none !important;
+  height: auto !important;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  overflow: visible !important;
+  text-overflow: clip !important;
+  display: block !important;
+  -webkit-line-clamp: unset !important;
+  -webkit-box-orient: unset !important;
 }
 
 /* Certification Issuer */
@@ -1603,6 +1608,12 @@ footer {
 }
 
 /* Certification Date */
+.cert-date {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
 /* Education Grid */
 .education-grid {
   display: grid;
@@ -2107,11 +2118,14 @@ footer {
 
   .cert-card {
     padding: 1.5rem;
+    min-height: 250px;
   }
 
   .cert-card h4 {
     font-size: 1.1rem;
-    min-height: auto;
+    line-height: 1.5;
+    min-height: auto !important;
+    height: auto !important;
   }
 
   .authorities-grid {
