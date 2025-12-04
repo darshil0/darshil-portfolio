@@ -11,129 +11,93 @@ A modern, fully responsive portfolio website showcasing expertise in Healthcare 
 
 ---
 
-## 🎯 Overview
+## Overview
 
-This portfolio represents over a decade of professional excellence in Healthcare Quality Assurance, demonstrating measurable impact across patient care optimization, operational efficiency, and engineering leadership.
+This portfolio demonstrates over a decade of professional excellence in Healthcare Quality Assurance, highlighting measurable impact across patient care optimization, operational efficiency, and engineering leadership.
 
-### Key Highlights
+### Key Achievements
 
-**Impact Metrics:**
 - 40% reduction in patient care costs through strategic shift-left testing
 - 30% decrease in patient wait times via enhanced QA methodologies
 - 25% expansion of test coverage across healthcare applications
 - 100% quality delivery with zero production defects
 - Leadership of 15+ engineers across distributed global teams
 
-**Professional Focus:**
-- Healthcare QA & Test Automation
-- AI/ML Integration & Prompt Engineering
-- Digital Health Innovation
-- Agile & DevOps Practices
-- Team Leadership & Mentorship
+### Areas of Expertise
+
+Healthcare QA and Test Automation, AI/ML Integration and Prompt Engineering, Digital Health Innovation, Agile and DevOps Practices, and Team Leadership and Mentorship.
 
 ---
 
-## ✨ Features
+## Features
 
 ### Design & User Experience
-- **Fully Responsive:** Seamless experience across desktop, tablet, and mobile devices
-- **Accessibility:** WCAG 2.1 Level AA compliant with semantic HTML and ARIA labels
-- **Modern Aesthetic:** Clean, professional design with intuitive navigation
-- **Performance Optimized:** Fast load times with minimal dependencies
+
+The site offers a fully responsive experience across desktop, tablet, and mobile devices, with WCAG 2.1 Level AA accessibility compliance. The design prioritizes clean aesthetics with intuitive navigation and optimized performance for fast load times.
 
 ### Interactive Elements
-- **Mobile Navigation:** Smooth hamburger menu with elegant animations
-- **Dynamic Filtering:** Interactive certification categories (AI/ML, Cloud, Project Management)
-- **Professional Timeline:** Visual representation of career progression
-- **Smooth Transitions:** Engaging hover effects and animations throughout
+
+Mobile users benefit from a smooth hamburger menu with elegant animations. The certifications page includes dynamic filtering by category such as AI/ML, Cloud, and Project Management. A professional timeline visually represents career progression, while smooth transitions and hover effects create an engaging experience throughout.
 
 ### Technical Implementation
-- **Semantic HTML5:** Proper document structure for SEO and accessibility
-- **Modern CSS3:** Custom properties, flexbox, grid, and animations
-- **Vanilla JavaScript:** Zero external dependencies for core functionality
-- **SEO Optimized:** Meta tags, structured data, and descriptive content
+
+Built with semantic HTML5 for proper document structure and SEO optimization, the site uses modern CSS3 features including custom properties, flexbox, grid, and animations. Core functionality relies on vanilla JavaScript with zero external dependencies, ensuring clean, maintainable code.
 
 ---
 
-## 📂 Site Structure
+## Site Structure
 
-### Pages
-
-| Page | Description | Key Features |
-|------|-------------|--------------|
-| **Home** | Landing page with hero section | Quick stats, key skills, highlights, CTA |
-| **Experience** | Professional journey (2011-2025) | Career timeline, achievements, roles |
-| **Projects** | Showcase of signature work | Detailed project cards, impact metrics |
-| **Tools & Tech** | Technical expertise | 6 technology domains, tools mastery |
-| **Certifications** | Professional credentials | 15+ certifications, interactive filters |
-| **Education** | Academic background | MBA, BE Computer Science |
-| **Contact** | Communication channels | Email, LinkedIn, GitHub, X (Twitter) |
+The portfolio consists of seven interconnected pages. The Home page features a hero section with quick stats, key skills, and highlights. Experience showcases a professional timeline from 2011 to 2025 with career achievements and roles. Projects presents detailed cards demonstrating impact metrics from signature work. Tools and Tech displays expertise across six technology domains. Certifications hosts 15+ professional credentials with interactive filters. Education outlines academic credentials including MBA and BE Computer Science degrees. Contact provides communication channels including email, LinkedIn, GitHub, and X.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
-### View Locally
+### Local Development
+
+Clone the repository and navigate to the project directory:
 
 ```bash
-# Clone the repository
 git clone https://github.com/darshil0/darshil-portfolio.git
 cd darshil-portfolio
+```
 
-# Option 1: Open directly in browser
-# Simply double-click index.html
+You can open the site directly by double-clicking index.html, or use Python's built-in server for a better experience:
 
-# Option 2: Use Python's built-in server (recommended)
+```bash
 python -m http.server 8000
-# Visit http://localhost:8000 in your browser
+```
 
-# Option 3: Use Node.js http-server
+Then visit http://localhost:8000 in your browser. Alternatively, use Node.js http-server:
+
+```bash
 npx http-server -p 8000
 ```
 
-### Deploy to GitHub Pages
+### GitHub Pages Deployment
+
+After making changes, commit and push to your repository:
 
 ```bash
-# Commit and push your changes
 git add .
 git commit -m "Update portfolio content"
 git push origin main
-
-# Enable GitHub Pages
-# Navigate to: Settings > Pages > Source: Deploy from main branch
-# Your site will be live at: https://[username].github.io/[repository-name]
 ```
 
----
-
-## 🛠️ Tech Stack
-
-**Frontend Technologies**
-- HTML5 (Semantic markup)
-- CSS3 (Custom properties, Grid, Flexbox)
-- JavaScript ES6+ (Vanilla, no frameworks)
-
-**Design Resources**
-- Font Awesome 6.4.0 (Icons)
-- Google Fonts - Montserrat (Typography)
-
-**Development Tools**
-- Git & GitHub (Version control)
-- VS Code (Code editor)
-- GitHub Pages (Hosting)
-
-**Build Process**
-- No build tools required
-- Pure static site
-- Cache busting via version query strings
+Enable GitHub Pages by navigating to Settings, then Pages, and selecting Deploy from main branch as your source. Your site will be live at https://[username].github.io/[repository-name].
 
 ---
 
-## 📁 Project Structure
+## Technology Stack
+
+The frontend uses HTML5 for semantic markup, CSS3 with custom properties, Grid, and Flexbox, and vanilla JavaScript ES6+ without frameworks. Design resources include Font Awesome 6.4.0 for icons and Google Fonts Montserrat for typography. Development tools comprise Git and GitHub for version control, VS Code as the code editor, and GitHub Pages for hosting. No build tools are required as this is a pure static site with cache busting via version query strings.
+
+---
+
+## Project Structure
 
 ```
 darshil-portfolio/
-│
 ├── index.html              # Home page with hero and highlights
 ├── experience.html         # Professional timeline and roles
 ├── projects.html           # Project showcase with metrics
@@ -141,32 +105,28 @@ darshil-portfolio/
 ├── certifications.html    # Professional certifications
 ├── education.html         # Academic credentials
 ├── contact.html           # Contact information
-│
 ├── style.css              # Global styles and components
 ├── script.js              # Interactive features
-│
 ├── images/                # Visual assets
 │   ├── favicon.png        # Site favicon
 │   └── [certificates]     # Certification images/PDFs
-│
 ├── README.md              # Project documentation
 └── LICENSE                # MIT License
 ```
 
 ---
 
-## 🎨 Customization Guide
+## Customization Guide
 
-### Update Personal Information
+### Updating Personal Information
 
-1. **Header & Footer:** Edit name and credentials in all HTML files
-2. **Contact Details:** Update email, phone, and social links in `contact.html` and footer
-3. **Hero Section:** Modify intro text and tagline in `index.html`
+Edit your name and credentials in the header and footer sections across all HTML files. Update contact details including email, phone, and social links in contact.html and the footer. Modify the hero section intro text and tagline in index.html to reflect your personal brand.
 
-### Modify Styling
+### Styling Modifications
+
+Edit CSS custom properties in style.css to change the color scheme:
 
 ```css
-/* Edit CSS custom properties in style.css */
 :root {
   --ocean-blue: #0076BE;     /* Primary color */
   --magenta: #E91E8C;        /* Accent color */
@@ -175,9 +135,10 @@ darshil-portfolio/
 }
 ```
 
-### Add New Content
+### Adding Content
 
-**Adding a Project:**
+To add a project, insert a new article element with the project-card class in projects.html:
+
 ```html
 <article class="project-card">
   <div class="project-header">
@@ -186,11 +147,11 @@ darshil-portfolio/
   </div>
   <h3>Project Title</h3>
   <p>Project description...</p>
-  <!-- Add tech tags and impact metrics -->
 </article>
 ```
 
-**Adding a Certification:**
+To add a certification, insert a new article element in certifications.html:
+
 ```html
 <article class="cert-card" data-category="ai-ml">
   <div class="cert-badge">
@@ -206,358 +167,73 @@ darshil-portfolio/
 
 ---
 
-## 📋 Recent Updates
+## Recent Updates
 
-### v3.0.0 (2025-12-04)
-**Critical Fix:**
-- Fixed severely broken HTML structure in `certifications.html` that was preventing 15 of 17 certification cards from displaying
-- Complete rewrite of certifications page with all 17 cards properly structured
+### Version 3.0.0 (2025-12-04)
 
-**Added:**
-- Missing `.cert-date` CSS style definition for proper date styling
+Fixed severely broken HTML structure in certifications.html that prevented 15 of 17 certification cards from displaying. Complete rewrite of the certifications page now properly structures all 17 cards. Added missing cert-date CSS style definition for proper date styling. Updated CSS version to 3.0.0 across all seven HTML pages for cache busting.
 
-**Changed:**
-- Updated CSS version to 3.0.0 across all 7 HTML pages (cache busting)
+### Version 2.9.5 (2025-12-03)
 
-### v2.9.5 (2025-12-03)
-**Fixed:**
-- Certification titles no longer truncated after 2 lines
-- Removed CSS line-clamp properties preventing full text display
-- Fixed the IBM Certification Icon Display issue
+Fixed certification titles that were truncated after two lines by removing CSS line-clamp properties. Resolved IBM Certification Icon display issue. Improved text wrapping with enhanced word-wrap and overflow-wrap properties for better readability of long certification names.
 
-**Improved:**
-- Added word-wrap and overflow-wrap for proper text wrapping
-- Enhanced readability of long certification names
+### Version 2.9.4 (2025-12-03)
 
-### v2.9.4 (2025-12-03)
-**Critical Fixes:**
-- Restored corrupted `certifications.html` with complete content
-- Added cache busting to CSS links for immediate user updates
-- Version bump to `style.css?v=2.9.4`
+Restored corrupted certifications.html with complete content. Added cache busting to CSS links with version bump to style.css?v=2.9.4 for immediate user updates.
 
-### v2.9.3 (2025-12-03)
-**Layout Fixes:**
-- Fixed broken grid layout on Certifications page
-- Corrected HTML structure for proper card rendering
-- Ensured consistency with other section layouts
+### Version 2.9.3 (2025-12-03)
 
-### v2.9.2 (2025-12-03)
-**Grid Implementation:**
-- Converted Experience page from timeline to modern card grid
-- Applied responsive grid layouts across all major sections
-- Added CSS grid utilities for Projects, Tools, Education
-
-### v2.9.1 (2025-12-03)
-**Data Accuracy:**
-- Corrected swapped certificate links (AI Fluency Framework & Scrum Basics)
-- Removed incorrect certificate link for Introduction to MCP
-- Audited all 17 certifications for accurate name-issuer-file mapping
-
-### v2.9.0 (2025-12-03)
-**Quality Improvements:**
-- New professional "DS" logo favicon in PNG format
-- Removed duplicate CSS `.stat-card` definition (14 lines)
-- Fixed GitHub URL inconsistency in contact page
-- Comprehensive browser testing with verification screenshots
-
-[View Full Changelog](#changelog)
+Fixed broken grid layout on Certifications page by correcting HTML structure for proper card rendering and ensuring consistency with other section layouts.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
-Contributions, issues, and feature requests are welcome! To contribute:
+Contributions, issues, and feature requests are welcome. To contribute, fork the repository, create a feature branch with git checkout -b feature/amazing-feature, commit your changes with descriptive messages, push to the branch, and open a Pull Request.
 
-1. **Fork** the repository
-2. **Create** a feature branch: `git checkout -b feature/amazing-feature`
-3. **Commit** your changes: `git commit -m "Add: amazing feature"`
-4. **Push** to the branch: `git push origin feature/amazing-feature`
-5. **Open** a Pull Request
-
-### Bug Reports
-
-When reporting bugs, please include:
-- Browser name and version
-- Device type (desktop/mobile/tablet)
-- Operating system
-- Steps to reproduce the issue
-- Expected vs actual behavior
-- Screenshots (if applicable)
-
-### Feature Requests
-
-For feature suggestions, please:
-- Describe the feature clearly
-- Explain the use case
-- Provide examples or mockups if possible
+When reporting bugs, include browser name and version, device type, operating system, steps to reproduce the issue, expected versus actual behavior, and screenshots if applicable. For feature requests, describe the feature clearly, explain the use case, and provide examples or mockups if possible.
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
-### Planned Features
-- [ ] Blog section for technical articles and insights
-- [ ] Dark mode toggle with theme persistence
-- [ ] Interactive skills visualization with proficiency levels
-- [ ] Detailed case studies for major projects
-- [ ] Multi-language support (English, Spanish, Hindi)
+Planned features include a blog section for technical articles and insights, dark mode toggle with theme persistence, interactive skills visualization with proficiency levels, detailed case studies for major projects, and multi-language support for English, Spanish, and Hindi.
 
-### Under Consideration
-- [ ] Animation library integration (GSAP or Framer Motion)
-- [ ] Progressive Web App (PWA) features
-- [ ] Backend contact form with email notifications
-- [ ] Google Analytics or privacy-focused analytics
-- [ ] Content Management System (CMS) integration
-- [ ] Downloadable resume builder
+Under consideration are animation library integration with GSAP or Framer Motion, Progressive Web App features, backend contact form with email notifications, Google Analytics or privacy-focused analytics alternatives, Content Management System integration, and downloadable resume builder functionality.
 
-### Future Enhancements
-- [ ] Video testimonials
-- [ ] Interactive project demos
-- [ ] Skills assessment quiz
-- [ ] Newsletter subscription
-- [ ] RSS feed for blog
+Future enhancements may include video testimonials, interactive project demos, skills assessment quiz, newsletter subscription, and RSS feed for blog content.
 
 ---
 
-## 📊 Changelog
+## License
 
-### [2.9.5] - 2025-12-03
-**Fixed**
-- Certification card titles now display complete text without truncation
-- Removed `-webkit-line-clamp: 2` CSS property limiting title height
-- Fix IBM Certification Icon display issue
-
-**Changed**
-- Updated word-wrap properties for better text handling on long names
-- Improved mobile responsiveness for certification cards
-
-### [2.9.4] - 2025-12-03
-**Fixed**
-- Restored missing certification content in HTML file
-- Added version query string to CSS for cache invalidation
-
-**Deployment**
-- CSS now loads as `style.css?v=2.9.4` to force browser refresh
-
-### [2.9.3] - 2025-12-03
-**Fixed**
-- Certification page grid layout properly renders all cards
-- Corrected HTML structure with proper container nesting
-
-**Verified**
-- Grid consistency across all major pages confirmed
-
-### [2.9.2] - 2025-12-03
-**Changed**
-- Experience page converted from vertical timeline to card grid layout
-- All major sections now use consistent responsive grid system
-- Enhanced mobile viewing experience
-
-**Added**
-- CSS grid definitions for `.experience-grid`, `.education-grid`
-- Responsive breakpoints for optimal viewing on all devices
-
-### [2.9.1] - 2025-12-03
-**Fixed**
-- Swapped certificate links now point to correct files
-- Removed broken link for Introduction to MCP certificate
-
-**Verified**
-- Complete audit of 17 certifications confirms 100% accuracy
-
-### [2.9.0] - 2025-12-03
-**Added**
-- Professional "DS" logo favicon across all 7 pages
-- Comprehensive browser testing suite
-
-**Changed**
-- Consolidated duplicate CSS rules for cleaner codebase
-- Improved code maintainability
-
-**Fixed**
-- GitHub URL trailing slash inconsistency resolved
-- Removed 14 lines of duplicate CSS
-
-### [2.8.0] - 2025-12-03
-**Added**
-- Certificate images to `/images` directory
-- Proper file attachments for all certifications
-
-**Fixed**
-- All broken certificate links now functional
-- Image display issues on certifications page
-
-### [2.7.0] - 2025-12-03
-**Added**
-- 273+ lines of enhanced CSS styling
-- Dedicated styling class for Quick Stats display
-
-**Changed**
-- Experience timeline with improved layout
-- Enhanced card spacing and typography
-- Optimized responsive design for all breakpoints
-
-**Cleanup**
-- Removed verification directory and temporary files
-- Streamlined repository structure
-
-### [2.6.0] - 2025-12-02
-**Added**
-- "Back to Top" link in footer for easier navigation
-- Grid layout implementation for certifications page
-
-**Changed**
-- Formatted all HTML files for consistency
-
-### [2.5.0] - 2025-12-02
-**Added**
-- 7 new professional certifications with downloadable certificates
-- Interactive "View Certificate" buttons
-- Total: 17 certifications showcased
-
-**Updated**
-- Resume PDF with latest experience and credentials
-- Social media links (X/Twitter URL updated)
-
-### [2.4.0] - 2025-12-02
-**Major Update**
-- 980+ lines of comprehensive CSS styling
-- Complete UI overhaul with light theme consistency
-- Fully functional mobile hamburger menu
-
-**Added**
-- Hero section with profile placeholder
-- Contact page grid layout
-- Project cards with badges and tech tags
-- Testimonials section structure
-
-**Verified**
-- Desktop and mobile testing completed for all 7 pages
-
-### [2.3.0] - 2025-12-01
-**Added**
-- New professional color scheme
-- Modern design system with CSS custom properties
-
-**Changed**
-- Complete CSS overhaul for improved consistency
-- Enhanced typography and spacing
-
-### [2.2.0] - 2025-11-29
-**Added**
-- Custom favicon integration
-- Brand identity elements
-
-### [2.1.0] - 2025-11-29
-**Added**
-- X/Twitter social integration
-- Security attributes for external links
-- Comprehensive ARIA labels
-
-**Changed**
-- Semantic HTML improvements
-- Standardized footer across all pages
-
-### [2.0.0] - 2025-11-28
-**Major Release**
-- Complete redesign of multiple pages
-- Comprehensive tools page with 6 categories
-- Enhanced responsive design
-
-**Added**
-- Duration badges for experience
-- Page subtitles for context
-- Organized skill groups
-
-### [1.0.0] - 2025-10-01
-**Initial Release**
-- Seven-page portfolio structure
-- Responsive design foundation
-- Core functionality implemented
+This project is licensed under the MIT License. See the LICENSE file for details. The MIT License allows commercial use, modification, distribution, and private use, but comes without liability or warranty.
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-**MIT License Summary:**
-- ✅ Commercial use
-- ✅ Modification
-- ✅ Distribution
-- ✅ Private use
-- ❌ Liability
-- ❌ Warranty
-
----
-
-## 👤 Contact
+## Contact
 
 **Darshil Shah**  
 Healthcare QA Leader | AI/ML Enthusiast | Digital Health Expert
 
-📧 **Email:** [darshils99@gmail.com](mailto:darshils99@gmail.com)  
-💼 **LinkedIn:** [linkedin.com/in/darshil-qa-lead](https://www.linkedin.com/in/darshil-qa-lead)  
-🐙 **GitHub:** [github.com/darshil0](https://github.com/darshil0)  
-🐦 **X (Twitter):** [x.com/soulsurfer300](https://x.com/soulsurfer300)  
-📍 **Location:** Irving, Texas, United States  
-📱 **Phone:** 469-987-6574
+- Email: darshils99@gmail.com
+- LinkedIn: linkedin.com/in/darshil-qa-lead
+- GitHub: github.com/darshil0
+- X (Twitter): x.com/soulsurfer300
+- Location: Irving, Texas, United States
+- Phone: 469-987-6574
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-This portfolio was built using exceptional open-source tools and resources:
-
-**Technology:**
-- [Font Awesome](https://fontawesome.com/) - Comprehensive icon library
-- [Google Fonts](https://fonts.google.com/) - Montserrat typeface
-- [GitHub Pages](https://pages.github.com/) - Free and reliable hosting
-
-**Development Assistance:**
-- [Anthropic Claude AI](https://www.anthropic.com/) - Code optimization and review
-- [Google Labs Jules](https://labs.google/) - Development support
-
-**Inspiration:**
-- The open-source community for countless examples and best practices
-- Fellow developers who share their knowledge freely
+This portfolio was built using exceptional open-source tools and resources. Technology includes Font Awesome for comprehensive icon library, Google Fonts for Montserrat typeface, and GitHub Pages for free and reliable hosting. Development assistance came from Anthropic Claude AI for code optimization and review, and Google Labs Jules for development support. Inspiration came from the open-source community and fellow developers who share their knowledge freely.
 
 ---
 
-## 📈 Stats & Performance
+## Performance & Browser Support
 
-**Site Metrics:**
-- **Pages:** 7 fully responsive pages
-- **Lines of Code:** 3,500+ (HTML, CSS, JS combined)
-- **Load Time:** < 2 seconds (average)
-- **Mobile Score:** 100% responsive
-- **Accessibility:** WCAG 2.1 Level AA compliant
-
-**Browser Support:**
-- ✅ Chrome (latest)
-- ✅ Firefox (latest)
-- ✅ Safari (latest)
-- ✅ Edge (latest)
-- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
-
----
-
-## 💡 Tips for Users
-
-**For Recruiters:**
-- Check the Experience page for detailed work history
-- Review Projects for technical implementation examples
-- Certifications page shows commitment to continuous learning
-
-**For Developers:**
-- Code is clean, well-commented, and follows best practices
-- Responsive design techniques can be studied in `style.css`
-- JavaScript interactions are vanilla JS (no frameworks)
-
-**For Designers:**
-- Color scheme and design system defined in CSS custom properties
-- Component-based approach for consistent UI
-- Accessibility considerations built into every element
+The site consists of seven fully responsive pages with over 3,500 lines of combined HTML, CSS, and JavaScript code. Average load time is under two seconds with 100% mobile responsiveness and WCAG 2.1 Level AA accessibility compliance. Supported browsers include the latest versions of Chrome, Firefox, Safari, Edge, and mobile browsers including iOS Safari and Chrome Mobile.
 
 ---
 
@@ -567,7 +243,7 @@ This portfolio was built using exceptional open-source tools and resources:
 
 **Made with ❤️ and ☕ by [Darshil Shah](https://github.com/darshil0)**
 
-*Last Updated: December 3, 2025*
+*Last Updated: December 4, 2025*
 
 [Report Bug](https://github.com/darshil0/darshil-portfolio/issues) · [Request Feature](https://github.com/darshil0/darshil-portfolio/issues) · [View Live Site](https://darshil0.github.io/darshil-portfolio/)
 
