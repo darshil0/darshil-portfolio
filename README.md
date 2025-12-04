@@ -1,6 +1,6 @@
 # Darshil Shah - Professional Portfolio
 
-[![Version](https://img.shields.io/badge/version-2.9.5-blue.svg)](https://github.com/darshil0/darshil-portfolio)
+[![Version](https://img.shields.io/badge/version-3.0.0-blue.svg)](https://github.com/darshil0/darshil-portfolio)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![Responsive](https://img.shields.io/badge/responsive-yes-brightgreen.svg)]()
@@ -207,6 +207,17 @@ darshil-portfolio/
 ---
 
 ## 📋 Recent Updates
+
+### v3.0.0 (2025-12-04)
+**Critical Fix:**
+- Fixed severely broken HTML structure in `certifications.html` that was preventing 15 of 17 certification cards from displaying
+- Complete rewrite of certifications page with all 17 cards properly structured
+
+**Added:**
+- Missing `.cert-date` CSS style definition for proper date styling
+
+**Changed:**
+- Updated CSS version to 3.0.0 across all 7 HTML pages (cache busting)
 
 ### v2.9.5 (2025-12-03)
 **Fixed:**
