@@ -217,7 +217,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Healthcare QA Leader | AI/ML Enthusiast | Digital Health Expert
 
 - Email: darshils99@gmail.com
-- LinkedIn: linkedin.com/in/darshil-qa-lead
+- LinkedIn: [linkedin.com/in/darshil-qa-lead](url)
 - GitHub: [github.com/darshil0](url)
 - X (Twitter): [x.com/soulsurfer300](url)
 - Location: Irving, Texas, United States
@@ -243,7 +243,7 @@ The site consists of seven fully responsive pages with over 3,500 lines of combi
 
 **Made with ❤️ and ☕ by [Darshil Shah](https://github.com/darshil0)**
 
-*Last Updated: December 4, 2025*
+*Last Updated: December 8, 2025*
 
 [Report Bug](https://github.com/darshil0/darshil-portfolio/issues) · [Request Feature](https://github.com/darshil0/darshil-portfolio/issues) · [View Live Site](https://darshil0.github.io/darshil-portfolio/)
 
