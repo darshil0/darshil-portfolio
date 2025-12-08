@@ -218,8 +218,8 @@ Healthcare QA Leader | AI/ML Enthusiast | Digital Health Expert
 
 - Email: darshils99@gmail.com
 - LinkedIn: linkedin.com/in/darshil-qa-lead
-- GitHub: github.com/darshil0
-- X (Twitter): x.com/soulsurfer300
+- GitHub: [github.com/darshil0](url)
+- X (Twitter): [x.com/soulsurfer300](url)
 - Location: Irving, Texas, United States
 - Phone: 469-987-6574
 
